@@ -50,11 +50,10 @@
               <br />
             </div>
             <div
-              class="ma-0 pa-0 d-flex d-sm-none col-12 col-sm-6"
+              class="ma-0 pa-0 d-flex d-sm-none col-12 col-sm-6 d-flex justify-content-center"
               style="height: 50vh; min-height: 287px"
             >
               <img
-                cover
                 src="https://ff95bf1581c181ae3e2b-8be01e280b8e7aa4ff8eaae97998fa2c.ssl.cf1.rackcdn.com/Warehouse-Management-System-WMS-721-min.jpg"
                 style="object-fit: cover; height: 100%; width: 100%"
               />
