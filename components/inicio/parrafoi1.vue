@@ -1,0 +1,82 @@
+<template>
+    <div>
+      <div class="container" v-scrolls>
+        <!-- cuadro izquierda-->
+        <div class="card1"
+          style="background-color: rgba(256, 256, 256, 0.35)"
+        >
+          <div class="row">
+            <div
+              class="ma-0 pa-0 d-sm-none col-12 col-sm-6"
+              style="height: 50vh; min-height: 287px"
+            >
+              <img
+                :src="p3"
+                style="height: 100%; width:100% ; object-fit: cover"
+              >
+          </div>
+            <div class="col-12 col-sm-6" style="color: black">
+              <h2 align="center" style="color: orangered; font-size: 3vw">
+                EQUIPAMIENTO WCW
+              </h2>
+              <p align="justify" style="padding-left: 3%; padding-right: 3%">
+                Ofrecemos a nuestros clientes una gran variedad de soluciones en
+                almacenamiento, como por ejemplo; Sistemas de Estantería
+                Convencional, Estantería de Media Carga, Estantería Compacta o Drive
+                In, Estantería Push back, equipos para almacenes, entre otros.
+              </p>
+              <br />
+              <b
+                align="justify"
+                style="padding-right: 3vh; padding-left: 3vh; font-size: 100%"
+              >
+                MÁS INFORMACIÓN
+              </b>
+            </div>
+            <div
+              class="ma-0 pa-0 d-none d-sm-flex  col-12 col-sm-6"
+              style="height: 55vh; min-height: 287px"
+            >
+              <img
+                cover
+                :src="p3"
+                style="height: 100%;  width:100% ; object-fit: cover"
+              >
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+  </template>
+  <script>
+  import { defineComponent } from "vue";
+  import gerencia from "../../assets/Gloria/Gloria.jpg";
+  import gerencia1 from "../../assets/Gloria/Gloria-op.jpg";
+
+  export default defineComponent( {
+    data() {
+      return {
+        p3: gerencia,
+        p4: gerencia1,
+      };
+    },
+  });
+  </script>
+  
+  <style scoped>
+  .before-enter {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1s ease-out;
+  }
+  .enter {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  .card1 {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+  </style>
