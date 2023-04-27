@@ -30,7 +30,7 @@
               <img
                 cover
                 src="https://ff95bf1581c181ae3e2b-8be01e280b8e7aa4ff8eaae97998fa2c.ssl.cf1.rackcdn.com/Warehouse-Management-System-WMS-721-min.jpg"
-                style="object-fit: cover; height: 100%"
+                style="object-fit: cover; height: 100%; width: 100%"
               />
             </div>
             <div class="col-12 col-sm-6" align="center">
@@ -56,7 +56,7 @@
               <img
                 cover
                 src="https://ff95bf1581c181ae3e2b-8be01e280b8e7aa4ff8eaae97998fa2c.ssl.cf1.rackcdn.com/Warehouse-Management-System-WMS-721-min.jpg"
-                style="object-fit: cover; height: 100%"
+                style="object-fit: cover; height: 100%; width: 100%"
               />
             </div>
           </div>
@@ -86,7 +86,7 @@
               style="height: 50vh; min-height: 287px"
             >
               <img
-                style="height: 100%; width: 100%; object-fit: cover"
+                style="height: 100%; width: 100%; object-fit: cover; width: 100%"
                 src="https://mecaluxpe.cdnwm.com/blog/img/implantacion-sistema-gestion-almacenes.1.0.jpg"
               />
             </div>
