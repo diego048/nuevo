@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow-x:hidden">
     <br />
     <br />
     <div cover id="background">
@@ -23,7 +23,7 @@
           class="ma-0 pa-0 d-none d-sm-flex align-self-center col-12 col-sm-6"
           style="height: 50vh; min-height: 287px"
         >
-          <img cover :src="p1" />
+          <img style="object-fit: cover; width: 100%; height: 100%" :src="p1" />
         </div>
         <div class="col-12 col-sm-6" align="center">
           <h1>CARACTERÍSTICAS</h1>
@@ -48,7 +48,7 @@
           class="ma-0 pa-0 d-flex d-sm-none col-12 col-sm-6"
           style="height: 50vh; min-height: 287px"
         >
-          <img cover :src="p1" />
+          <img style="object-fit: cover; width: 100%; height: 100%" :src="p1" />
         </div>
       </div>
       <br />
