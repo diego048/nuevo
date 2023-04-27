@@ -473,7 +473,7 @@
               >
                 Usuario o Contraseña Equivocado
               </div>
-              <div class="d-flex justify-end">
+              <div class="d-flex justify-content-end">
                 <button
                   type="button"
                   class="btn btn-danger"
