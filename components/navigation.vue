@@ -4,7 +4,7 @@
             <div class="container-fluid d-flex justify-content-between">
                 <div>
                     <NuxtLink class="navbar-brand" to="/">
-                        <img :src="p1" style="height: 40px; width: 100%">
+                        <img :src="p1" style="height: 40px; width: 100%; object-fit: contain">
                     </NuxtLink>
                 </div>
                 <div>
