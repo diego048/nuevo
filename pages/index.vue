@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="overflow-x:hidden">
       <br />
         <div style="position: relative">
             <video autoplay loop muted playsinline class="video">
