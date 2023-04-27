@@ -1,5 +1,5 @@
 <template>
-    <div style="background-color: rgb(246, 246, 246)">
+    <div style="background-color: rgb(246, 246, 246); overflow-x:hidden">
         <br />
         <br />
         <br />
