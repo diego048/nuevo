@@ -475,7 +475,8 @@
               </div>
               <div class="d-flex justify-end">
                 <button
-                  style="color: rgb(203, 50, 52)"
+                  type="button"
+                  class="btn btn-danger"
                   @click="card.show = false"
                 >
                   <h1>X</h1>
