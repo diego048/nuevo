@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <br />
+  <div style="overflow-x:hidden">
     <br />
     <br />
     <div cover id="background">
