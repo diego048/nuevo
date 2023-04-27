@@ -265,8 +265,8 @@
           </div>
         </div>
         <div class="d-flex d-sm-none row">
-          <br />
           <div class="col" align="center">
+            <br />
             <NuxtLink
               style="font-weight: bold"
               class="link"
