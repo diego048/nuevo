@@ -1,6 +1,7 @@
 <template>
   <div cover style="height: 100vh" id="background">
     <div class="container">
+    <p>El mensaje es: {{ username }}</p>
       <div class="alert alert-danger" role="alert" v-if="alert">
         Usuario o Contraseña Equivocado
       </div>
