@@ -13,7 +13,6 @@
             <br />
             <h2>Log in</h2>
             <br />
-                <p>El mensaje es: {{ username }}</p>
             <input type="text" placeholder="Username" v-model="username" />
             <input type="password" placeholder="password" v-model="password" />
             <button v-on:click="log1">log in</button>
