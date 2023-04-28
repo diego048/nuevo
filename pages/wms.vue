@@ -101,6 +101,9 @@
 
 <script>
 export default {
+unmounted(){
+        window.scrollTo({top: 0, behavior: "instant"});
+  },
   setup() {
     useHead({
       title: "WMS",
