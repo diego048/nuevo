@@ -103,7 +103,7 @@
             </div>
         </nav>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header" style="width: 30vw">
+                <div class="offcanvas-header">
                     <NuxtLink class="navbar-brand" align="center" to="/" style="width:100%">
                         <img :src="p2" style="width: 100%; object-fit: contain" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     </NuxtLink>
@@ -188,6 +188,18 @@
     .dropdown-toggle:after {
         display:none
     }
+    .offcanvas-size-xl {
+    --bs-offcanvas-width: min(50vw, 600px) !important;
+}
+.offcanvas-size-xxl {
+    --bs-offcanvas-width: min(50vw, 90vw) !important;
+}
+.offcanvas-size-md { /* add Responsivenes to default offcanvas */
+    --bs-offcanvas-width: min(50vw, 400px) !important;
+}
+.offcanvas-size-sm {
+    --bs-offcanvas-width: min(50vw, 250px) !important;
+}
 </style>
 <script>
 import { defineComponent } from "vue";
