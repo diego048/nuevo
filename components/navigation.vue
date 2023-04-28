@@ -102,7 +102,7 @@
                 </div>
             </div>
         </nav>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 100%">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 50vw; max-width: 360px">
                 <div class="offcanvas-header">
                      <NuxtLink class="navbar-brand" align="center" to="/" style="width: 100%">
                         <img :src="p2" style="width: 100%; object-fit: contain" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
