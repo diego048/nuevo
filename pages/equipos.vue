@@ -80,6 +80,9 @@
   import ima5 from "../assets/imagenes/oficina1.png";
   export default {
     name: "equipos",
+    unmounted(){
+        window.scrollTo({top: 0, behavior: "instant"});
+  },
     setup(){
         useHead({
           title: "Equipos",
