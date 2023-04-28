@@ -345,7 +345,7 @@
     methods: {
       async log2() {
         let result = await axios
-          .post("ttp://107.23.179.170:5000/login", {
+          .post("http://3.232.232.195:5000/login", {
             username: this.username,
             password: this.password,
           })
