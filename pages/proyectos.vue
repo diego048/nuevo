@@ -197,6 +197,9 @@ import imagen24 from "../assets/imagenes/proyecto3.jpg";
     // import required modules
     import { Pagination, Navigation } from 'swiper';
 export default {
+unmounted(){
+        window.scrollTo({top: 0, behavior: "instant"});
+  },
   setup(){
     useHead({
       title: "Proyectos",
