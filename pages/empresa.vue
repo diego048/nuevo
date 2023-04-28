@@ -393,7 +393,8 @@
 </script>
 <style scoped>
 .class1 {
-  position: relative
+  position: relative;
+  max-width: 100%;
 }
   .card1 {
   background-color: #fff;
