@@ -111,6 +111,9 @@
 import imagen1 from "../assets/imagenes/imagen30.png";
 import { defineComponent } from "vue";
 export default defineComponent ({
+    unmounted(){
+        window.scrollTo({top: 0, behavior: "instant"});
+  },
   data () {
     return {
       ima1: imagen1,
