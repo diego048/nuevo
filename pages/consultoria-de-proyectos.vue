@@ -64,6 +64,9 @@ import imagen2 from "../assets/imagenes/diseño5.png";
 import imagen3 from "../assets/imagenes/proyecto54.jpg";
 import ima1_op from "../assets/imagenes/imagen17-opti.jpg";
 export default {
+unmounted(){
+        window.scrollTo({top: 0, behavior: "instant"});
+  },
   setup(){
     useHead({
       title: "Consultoria de proyectos",
