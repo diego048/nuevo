@@ -104,7 +104,7 @@
         </nav>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
-                     <NuxtLink class="navbar-brand" align="center" to="/">
+                     <NuxtLink class="navbar-brand" align="center" to="/" style="width: 100%">
                         <img :src="p2" style="width: 100%; object-fit: contain" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     </NuxtLink>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -186,7 +186,7 @@
         left: auto
     }
     .dropdown-toggle:after {
-        display:none
+        display:none }
 </style>
 <script>
 import { defineComponent } from "vue";
