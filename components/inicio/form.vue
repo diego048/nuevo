@@ -53,7 +53,7 @@
      },
      methods: {
        async form() {
-         let result = await axios.post("ttp://107.23.179.170:500/correo", {
+         let result = await axios.post("http://3.232.232.195:5000/correo", {
            correo: this.correo,
            nombre: this.nombre,
            texto: this.texto,
