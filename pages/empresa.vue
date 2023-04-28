@@ -147,7 +147,7 @@
                             <div class="d-flex justify-center flex-row">
                               <img src="https://yt3.googleusercontent.com/ytc/AL5GRJX59cQqSf8oLdZ9hewy-n7ZgNRoKV_jz8abDPxl=s900-c-k-c0x00ffffff-no-rj" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                              <div>HERSIL</div>
+                              <div style="font-weight: bold">HERSIL</div>
                             </div>
                             <p class="mb-0">Primer almacén con trilaterales del Perú.</p>
                         </div>
@@ -160,7 +160,7 @@
                             <div class="d-flex justify-center flex-row">
                             <img src="https://mir-s3-cdn-cf.behance.net/projects/404/21085935.545af7959670b.png" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                      <div class="text-h6 pl-2">Gloria</div>
+                      <div class="text-h6 pl-2" style="font-weight: bold">Gloria</div>
                     </div>
                             <p class="mb-0">Centro de distribución más alto del país.</p>
                         </div>
@@ -173,7 +173,7 @@
                             <div class="d-flex justify-center flex-row">
                               <img src="https://logos-world.net/wp-content/uploads/2020/09/Nestle-Logo-2015-present.jpg" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                      <div class="text-h6 pl-2">NESTLE</div>
+                      <div class="text-h6 pl-2" style="font-weight: bold">NESTLE</div>
                     </div>
                             <p class="mb-0">Centro de distribución más moderno del país</p>
                         </div>
@@ -186,7 +186,7 @@
                             <div class="d-flex justify-center flex-row">
                               <img src="https://yt3.googleusercontent.com/ytc/AL5GRJUE3TXjZ37ihpKdEPKApQxwXd1utqiBTDT88V6l=s900-c-k-c0x00ffffff-no-rj" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                      <div class="text-h6 pl-2">Minera Poderosa</div>
+                      <div class="text-h6 pl-2" style="font-weight: bold">Minera Poderosa</div>
                     </div>
                             <p class="mb-0"> Primer almacén autoportante sostenible de América latina.</p>
                         </div>
@@ -199,7 +199,7 @@
                             <div class="d-flex justify-center flex-row">
                               <img src="https://www.practicas.pe/organizaciones/practicas-supermercados-peruanos-sa.png" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                      <div class="text-h6 pl-2">SPSA</div>
+                      <div class="text-h6 pl-2" style="font-weight: bold">SPSA</div>
                     </div>
                             <p class="mb-0">Primer centro de distribución E-comerce.</p>
                         </div>
