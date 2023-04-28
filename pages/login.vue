@@ -1,7 +1,6 @@
 <template>
   <div cover style="height: 100vh" id="background">
     <div class="container">
-    <p>El mensaje es: {{ username }}</p>
       <div class="alert alert-danger" role="alert" v-if="alert">
         Usuario o Contraseña Equivocado
       </div>
@@ -14,6 +13,7 @@
             <br />
             <h2>Log in</h2>
             <br />
+                <p>El mensaje es: {{ username }}</p>
             <input type="text" placeholder="Username" v-model="username" />
             <input type="password" placeholder="password" v-model="password" />
             <button v-on:click="log1">log in</button>
