@@ -6,8 +6,9 @@
           <source src="../assets/imagenes/logicorp1.mp4" type="video/mp4" />
         </video>
       </div>
+      <div class="class1">
       <div class="container">
-        <div class="class1">
+        <div>
         <br />
         <br />
         <br />
@@ -257,6 +258,7 @@
           </dibox>
       </div>
     </div>
+    </div>
 </template>
 <script>
   import { defineComponent } from "vue";
@@ -375,7 +377,8 @@
         this.isFixed = false;
         const element = document.querySelector('.class1');
         element.style.position = "fixed";
-        element.style.top = `-${this.scrollPosition}px`;  
+        element.style.top = `-${this.scrollPosition}px`;
+        element.style.width = "100%";
         document.body.style.overflowY = 'scroll';
     },
     hideDialog() {
