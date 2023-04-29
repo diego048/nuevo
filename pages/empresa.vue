@@ -43,7 +43,7 @@
         <br id="mision" />
         <br />
         <div style="position: relative">
-          <div class="row" style="position: static" v-scrolls>
+          <div class="row" style="position: static; height: 100%" v-scrolls>
             <div
               align="center"
               class="align-self-center d-none d-sm-flex col-12 col-sm-6"
@@ -55,7 +55,7 @@
                 <i class="bi bi-arrow-down" style="color:white; font-size: 70px"></i>
               </div>
             </div>
-            <div class="col-12 col-sm-6">
+            <div class="col-12 col-sm-6" >
               <div align="center" class="ma-0 pa-0">
                 <div class="container card1" style="background-color: aliceblue">
                   <br />
@@ -81,7 +81,7 @@
         </div>
         <br />
         <div style="position: relative" id="vision">
-          <div class="row" style="position: static" v-scrolls>
+          <div class="row" style="position: static; height; 100%" v-scrolls>
             <div
               align="center"
               class="align-self-center d-sm-none col-12 col-sm-6"
@@ -380,7 +380,7 @@
         const element = document.querySelector('.class1');
         element.style.position = "fixed";
         element.style.width = "100%";
-        element.style.top = "0";
+        element.style.bottom = "0";
         document.body.style.overflowY = 'scroll';
 
     },
