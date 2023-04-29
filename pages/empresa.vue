@@ -20,14 +20,14 @@
             <div>
               <h1 align="center">NOSOTROS</h1>
               <br />
-              <h5 style="text-align: justify">
+              <h5 style="text-align: justify; width: 100%; height: 100%">
                   Somos un grupo de profesionales especializados en diseño, construcción y equipamiento de almacenes. Contamos
                   con más de 30 años de experiencia en el mercado como los mejores
                   Asesores para el Equipamiento de Almacenes de Clase Mundial el cual te
                   permitirá obtener el mejor ahorro en costo operativo.
               </h5>
               <br />
-              <h5 style="text-align: justify">
+              <h5 style="text-align: justify; width: 100%; height: 100%">
                   Tenemos el objetivo de crecer con nuestro cliente a la medida que sus
                   necesidades lo requieran y brindarle la mejor asesoría para cada etapa
                   de su negocio distribuyendo su almacén de la manera óptima.
