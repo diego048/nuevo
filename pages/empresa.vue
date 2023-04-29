@@ -66,7 +66,7 @@
                   >
                   <br />
                   <br />
-                  <h6 align="justify">
+                  <h6 align="justify" style="height: 100%; width: 100%">
                     Somos una empresa dedicada al diseño y equipamiento de
                     almacenes WCW, destinada a brindar la solución al problema del
                     cliente de acuerdo a su posibilidad económica, cuyas
