@@ -7,7 +7,7 @@
         </video>
       </div>
       <div class="class1">
-      <div class="container">
+      <div class="container" style="position: relative">
         <div>
         <br />
         <br />
@@ -148,7 +148,7 @@
                             <div class="d-flex justify-center flex-row">
                               <img src="https://yt3.googleusercontent.com/ytc/AL5GRJX59cQqSf8oLdZ9hewy-n7ZgNRoKV_jz8abDPxl=s900-c-k-c0x00ffffff-no-rj" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                              <div style="font-weight: bold">HERSIL</div>
+                              <div>HERSIL</div>
                             </div>
                             <p class="mb-0">Primer almacén con trilaterales del Perú.</p>
                         </div>
@@ -161,7 +161,7 @@
                             <div class="d-flex justify-center flex-row">
                             <img src="https://mir-s3-cdn-cf.behance.net/projects/404/21085935.545af7959670b.png" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                      <div class="text-h6 pl-2" style="font-weight: bold">Gloria</div>
+                      <div class="text-h6 pl-2">Gloria</div>
                     </div>
                             <p class="mb-0">Centro de distribución más alto del país.</p>
                         </div>
@@ -174,7 +174,7 @@
                             <div class="d-flex justify-center flex-row">
                               <img src="https://logos-world.net/wp-content/uploads/2020/09/Nestle-Logo-2015-present.jpg" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                      <div class="text-h6 pl-2" style="font-weight: bold">NESTLE</div>
+                      <div class="text-h6 pl-2">NESTLE</div>
                     </div>
                             <p class="mb-0">Centro de distribución más moderno del país</p>
                         </div>
@@ -187,7 +187,7 @@
                             <div class="d-flex justify-center flex-row">
                               <img src="https://yt3.googleusercontent.com/ytc/AL5GRJUE3TXjZ37ihpKdEPKApQxwXd1utqiBTDT88V6l=s900-c-k-c0x00ffffff-no-rj" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                      <div class="text-h6 pl-2" style="font-weight: bold">Minera Poderosa</div>
+                      <div class="text-h6 pl-2">Minera Poderosa</div>
                     </div>
                             <p class="mb-0"> Primer almacén autoportante sostenible de América latina.</p>
                         </div>
@@ -200,7 +200,7 @@
                             <div class="d-flex justify-center flex-row">
                               <img src="https://www.practicas.pe/organizaciones/practicas-supermercados-peruanos-sa.png" class="rounded-circle" style="width: 50px;"
                               alt="Avatar" />
-                      <div class="text-h6 pl-2" style="font-weight: bold">SPSA</div>
+                      <div class="text-h6 pl-2">SPSA</div>
                     </div>
                             <p class="mb-0">Primer centro de distribución E-comerce.</p>
                         </div>
@@ -220,6 +220,7 @@
           </div>
         </div>
         </div>
+      </div>
       </div>
       <div v-if="!activador1">
             <dibox v-show="show1" @close="hideDialog()">
@@ -257,7 +258,6 @@
               </div>
           </dibox>
       </div>
-    </div>
     </div>
 </template>
 <script>
@@ -347,7 +347,7 @@
     methods: {
       async log2() {
         let result = await axios
-          .post("http://3.232.232.195:5000/login", {
+          .post("ttp://107.23.179.170:5000/login", {
             username: this.username,
             password: this.password,
           })
@@ -377,10 +377,10 @@
         this.isFixed = false;
         const element = document.querySelector('.class1');
         element.style.position = "fixed";
-        element.style.bottom = "0";
-        element:style.height = "100%"
         element.style.width = "100%";
+        element.style.bottom = "0";
         document.body.style.overflowY = 'scroll';
+
     },
     hideDialog() {
         this.show1 = false;
@@ -398,7 +398,6 @@
 <style scoped>
 .class1 {
   position: relative;
-  max-width: 100%;
 }
   .card1 {
   background-color: #fff;
