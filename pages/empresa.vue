@@ -108,7 +108,7 @@
                   >
                   <br />
                   <br />
-                  <h6>
+                  <h6 style="height: 100%; width: 100%">
                     Convertirnos en el líder latinoamericano de Diseño y
                     Equipamiento de Almacenes de Clase Mundial.
                   </h6>
