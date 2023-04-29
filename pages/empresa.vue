@@ -380,7 +380,7 @@
         const element = document.querySelector('.class1');
         element.style.position = "fixed";
         element.style.width = "100%";
-        element.style.bottom = "0";
+        element.style.top = "0";
         document.body.style.overflowY = 'scroll';
 
     },
