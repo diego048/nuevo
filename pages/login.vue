@@ -1,12 +1,12 @@
 <template>
   <div cover style="height: 100vh" id="background">
     <div class="container">
-      <div class="alert alert-danger" role="alert" v-if="alert">
-        Usuario o Contraseña Equivocado
-      </div>
       <div class="row" align="center">
         <div class="col-0 col-md-2"></div>
         <div cols="12" md="8" align="center" class="register col-12 col-md-8">
+           <div class="alert alert-danger" role="alert" v-if="alert">
+            Usuario o Contraseña Equivocado
+          </div>
           <br />
           <br />
           <div class="card1 mx-auto" style="margin-top: 10vh" elevation="20">
