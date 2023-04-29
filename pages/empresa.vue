@@ -377,7 +377,7 @@
         this.isFixed = false;
         const element = document.querySelector('.class1');
         element.style.position = "fixed";
-        element.style.top = `-${this.scrollPosition}px`;
+        element.style.bottom = "0";
         element.style.width = "100%";
         document.body.style.overflowY = 'scroll';
     },
