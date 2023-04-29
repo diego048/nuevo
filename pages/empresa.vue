@@ -58,6 +58,7 @@
             <div class="col-12 col-sm-6">
               <div align="center" class="ma-0 pa-0">
                 <div class="container card1" style="background-color: aliceblue">
+                  <br />
                   <h1 style="overflow-wrap: break-word">MISIÓN</h1>
                   <img
                     src="https://d1ih8jugeo2m5m.cloudfront.net/2021/12/mision-de-una-empresa.jpg"
@@ -99,6 +100,7 @@
                 style="background-color: aliceblue"
               >
                 <div class="container">
+                  <br />
                   <h1 style="overflow-wrap: break-word">VISIÓN</h1>
                   <img
                     src="https://concepto.de/wp-content/uploads/2016/03/vision.jpg"
