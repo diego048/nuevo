@@ -362,7 +362,7 @@
           <div class="container" style="overflow-x: hidden; width: 80vw">
             <div style="overflow-x: hidden">
               <div class="d-flex justify-content-between">
-                <div class="d-flex justify-end">TIENDAS EFE</div>
+                <h2 class="d-flex justify-end">TIENDAS EFE</h2>
                 <div class="d-flex justify-start">
                   <button
                     type="button"
