@@ -17,7 +17,7 @@
   nuxtApp.hook("page:start", () => {
     loading.value = true;
   });
-  nuxtApp.hook("page:mounted", () => {
+  nuxtApp.hook("page:finish", () => {
     loading.value = false;
   });
 useHead({
