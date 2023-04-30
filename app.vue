@@ -16,9 +16,6 @@
   nuxtApp.hook("page:finish", () => {
     loading.value = false;
   });
-</script>
-
-<script setup>
 useHead({
   link: [
     {
