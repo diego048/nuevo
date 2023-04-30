@@ -5,7 +5,7 @@
         <div class="card1"
           style="background-color: rgba(256, 256, 256, 0.35)"
         >
-          <div class="row">
+          <div class="d-flex row">
             <div
               class="ma-0 pa-0 d-sm-none col-12 col-sm-6"
               style="height: 100%"
@@ -34,8 +34,7 @@
               </b>
             </div>
             <div
-              class="ma-0 pa-0 d-none d-sm-flex  col-12 col-sm-6"
-              style="height: 55vh; min-height: 287px"
+              class="ma-0 pa-0 d-none d-sm-flex  col-12 col-sm-6 flex d-flex align-self-stretch"
             >
               <img
                 cover
