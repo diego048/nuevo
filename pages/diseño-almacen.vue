@@ -6,7 +6,7 @@
       <!-- La cabecera con la info-->
       <div style="position: relative">
         <div
-          style="position: relative; width: 100%; height: 100%"
+          style="position: absolute; width: 100%; height: 100%"
         >
           <video autoplay loop muted playsinline class="video1">
             <source src="../assets/imagenes/proyect.mp4" type="video/webm" />
@@ -658,18 +658,6 @@ export default {
 .enter {
   opacity: 1;
   transform: translateX(0px);
-}
-.p1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-.video1 {
-  position: relative;
-  width: 100%;
-  height: 400px;
 }
 
 .video1 {
