@@ -35,6 +35,8 @@
       </div>
     </div>
     <div class="container" id="equipomh1">
+      <br />
+      <br />
       <h1 align="center">EQUIPOS DE MH</h1>
       <br />
       <div class="d-flex row">
@@ -72,8 +74,7 @@
               </h2>
               <div class="d-flex justify-start">
                 <button
-                  type="button" class="btn btn-white"
-                  style="color: rgb(203, 50, 52)"
+                  type="button" class="btn btn-danger"
                   @click="hideDialog(card)"
                 >
                   <h2>X</h2>
