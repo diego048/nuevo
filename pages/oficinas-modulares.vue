@@ -121,7 +121,7 @@
                 <div style="position: relative">
                   <div style="position: relative">
                     <img
-                      style="height: 80vh; width: 100%; object-fit: contain;"
+                      style="height: 100%; width: 100%; object-fit: contain;"
                       :src="card.src"
                     />
                   </div>
