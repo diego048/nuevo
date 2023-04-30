@@ -10,7 +10,7 @@
           </video>
         </div>
         <div class="container" align="center">
-          <br class="d-none d-sm-block" />
+          <br />
           <br class="d-none d-sm-none d-md-block" />
           <div class="row">
             <div class="col-12 col-sm-5 col-md-4 align-self-center">
