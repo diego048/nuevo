@@ -13,7 +13,7 @@
             <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
           </video>
         </div>
-        <div class="p1 container" align="center">
+        <div class="container" align="center">
           <div class="row">
             <div class="col-12 col-sm-5 col-md-4 align-self-center">
               <br class="d-block d-md-none" />
