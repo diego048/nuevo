@@ -769,6 +769,9 @@ export default {
 </script>
 
 <style scoped>
+   video::-internal-media-controls-overlay-cast-button {
+    display: none;
+   }
   .boton1 {
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
