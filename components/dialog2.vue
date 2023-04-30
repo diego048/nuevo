@@ -634,27 +634,6 @@
                       </div>
                   </swiper-slide>
                   <swiper-slide>
-                    <div class="container">
-                        <div class="row">
-                          <v-col>
-                            <h2>Propuesta Final</h2>
-                          </v-col>
-                        </div>
-                        <div class="row">
-                          <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p39" style="width: 100%; padding-bottom: 30px" />
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p40" style="width: 100%; padding-bottom: 30px" />
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-12">
-                            <img :src="p41" style="width: 100%; padding-bottom: 30px" />
-                          </div>
-                        </div>
-                      </div>
-                  </swiper-slide>
                   <swiper-slide>
                     <div class="container">
                         <div class="row">
@@ -777,7 +756,7 @@
                 </ol>
               </div>
               <div class="col-12 col-sm-6 col-md-6">
-                <img :src="p13" style="height: 70vh; min-height: 287px; object-fit: contain" />
+                <img :src="p13" style="height: 100%; width: 100%; object-fit: contain" />
               </div>
             </div>
           </div>
