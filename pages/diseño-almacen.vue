@@ -13,6 +13,7 @@
             <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
           </video>
         </div>
+        <br />
         <div class="container" align="center">
           <div class="row">
             <div class="col-12 col-sm-5 col-md-4 align-self-center">
@@ -21,7 +22,7 @@
               <h1 style="color: rgb(255, 102, 26)" align="left">
                 Diseño de Almacenes WCW
               </h1>
-              <p align="justify">
+              <p align="justify" style="color: white">
                 Analizando los volúmenes, flujos de mercadería, ordenes de
                 compras recibidas, pedidos diarios despachados y los
                 procedimientos que usan.
@@ -33,7 +34,7 @@
               align="justify"
               style="height: 100%"
             >
-              <h1 align="center">Índice</h1>
+              <h1 align="center" style="color:white">Índice</h1>
               <div v-if="activador1">
                 <div class="card2">
                   <div class="overlay"></div>
@@ -155,6 +156,7 @@
               </div>
             </div>
           </div>
+          <br />
         </div>
       </div>
       <div v-for="(card, index) in cards" :key="index" v-if="!activador1">
