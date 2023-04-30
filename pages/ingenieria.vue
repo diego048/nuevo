@@ -25,6 +25,7 @@
             </div>
             <div class="col-0 col-sm-2 col-md-3"></div>
             <div align="justify" class="h-auto col-12 col-sm-5 col-md-5">
+              <br class="d-block d-sm-none" />
               <h1 align="center" style="color: white">Índice</h1>
               <div v-if="activador1">
                 <div class="card2" color="transparent">
@@ -789,14 +790,14 @@ export default {
 .card1 {
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
   position: relative;
 }
 .card2 {
   background-color: transparent;
   border-radius: 4px;
-  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
   z-index: 2;
   position: relative;
