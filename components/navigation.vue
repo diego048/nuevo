@@ -187,6 +187,9 @@
     }
     .dropdown-toggle:after {
         display:none }
+    video::-internal-media-controls-overlay-cast-button {
+    display: none;
+    }
 </style>
 <script>
 import { defineComponent } from "vue";
