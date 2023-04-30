@@ -4,11 +4,12 @@
     <br />
     <div>
       <div style="position: relative">
-        <video autoplay loop muted playsinline class="video">
-          <source src="../assets/imagenes/proyect.mp4" type="video/webm" />
-          <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
-        </video>
-        <div class="p1 container" align="center">
+        <div style="position: absolute">
+          <video autoplay loop muted playsinline class="video">
+            <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="container" align="center">
           <div class="row">
             <div class="col-12 col-sm-5 col-md-4 align-self-center">
               <h1 style="color: rgb(255, 102, 26)" align="left">
