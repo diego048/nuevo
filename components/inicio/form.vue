@@ -30,10 +30,10 @@
         </div>
          <div class="col-12 col-md-6 col-sm-6">
            <h1 align="center" style="color: orangered">Contactanos</h1>
-           <input type="text" placeholder="Nombre" v-model="nombre" />
-           <input type="email" placeholder="E-mail" aria-describedby="emailHelp" v-model="correo" />
-           <textarea type="text" rows="6" placeholder="Mensaje" v-model="texto" ></textarea>
-           <button v-on:click="form">Enviar</button>
+           <input class="input1 type="text" placeholder="Nombre" v-model="nombre" />
+           <input class="input1" type="email" placeholder="E-mail" aria-describedby="emailHelp" v-model="correo" />
+           <textarea class="textarea1" type="text" rows="6" placeholder="Mensaje" v-model="texto" ></textarea>
+           <button v-on:click="form" class="button1">Enviar</button>
          </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
      opacity: 1;
      transform: translateX(0px);
    }
-   .input {
+   .input1 {
      width: 100%;
      height: 40px;
      display: block;
@@ -95,7 +95,7 @@
      border-radius: 5px;
      padding-left: 20px;
    }
-   .textarea {
+   .textarea1 {
      width: 100%;
      display: block;
      border: 1px solid #a3a3a3;
@@ -104,7 +104,7 @@
      padding-left: 20px;
      margin-bottom: 30px;
    }
-   .button {
+   .button1 {
      width: 300px;
      height: 40px;
      padding-left: 20px;
