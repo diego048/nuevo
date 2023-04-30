@@ -418,9 +418,8 @@
         <br />
         <div v-for="card in cards3">
           <dibox v-show="card.show" @close="hideDialog(card)">
-            <div elevation="0">
-              <div style="position: relative; width: 80vw">
-                <img style="width: 100%; object-fit: contain" :src="card.src" />
+              <div style="position: relative; width: 100%; height: 100%">
+                <img style="width: 100%; height: 100% ; object-fit: contain" :src="card.src" />
                 <div style="position: absolute; top: 0; right: 0">
                   <button
                     class="btn btn-danger"
@@ -429,7 +428,6 @@
                     X
                   </button>
                 </div>
-              </div>
             </div>
           </dibox>
         </div>
