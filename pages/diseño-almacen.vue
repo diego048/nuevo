@@ -6,17 +6,7 @@
       <!-- La cabecera con la info-->
       <div style="position: relative">
         <div
-          style="position: relative; width: 100%; height: 70vh"
-          class="d-none d-sm-none d-md-block"
-        >
-          <video autoplay loop muted playsinline class="video1">
-            <source src="../assets/imagenes/proyect.mp4" type="video/webm" />
-            <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div
-          style="position: relative; width: 100%; height: 70vh"
-          class="d-block d-sm-block d-md-none"
+          style="position: relative; width: 100%; height: 100%"
         >
           <video autoplay loop muted playsinline class="video1">
             <source src="../assets/imagenes/proyect.mp4" type="video/webm" />
