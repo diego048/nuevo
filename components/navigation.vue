@@ -8,8 +8,8 @@
                     </NuxtLink>
                 </div>
                 <div>
-                    <div class="d-none d-sm-none d-md-block align-items-center">
-                        <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center">
+                    <div class="d-none d-sm-none d-md-block align-items-center" style="width: 100%">
+                        <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center" style="width: 100%">
                             <li class="nav-item">
                                 <NuxtLink class="nav-link"  :to="{ name: 'index' }">HOME</NuxtLink>
                             </li>
