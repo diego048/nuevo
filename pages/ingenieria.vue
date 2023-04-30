@@ -418,6 +418,7 @@
         <br />
         <div v-for="card in cards3">
           <dibox v-show="card.show" @close="hideDialog(card)">
+            <div>
               s
             </div>
           </dibox>
