@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-dark navbar-expand bg-black shadow fixed-top">
             <div class="container-fluid d-flex justify-content-between">
-                <div>
+                <div class="d-flex justify-content-start">
                     <NuxtLink class="navbar-brand" to="/">
                         <img :src="p1" style="max-height: 40px; width:100%; height:100%; object-fit: contain">
                     </NuxtLink>
