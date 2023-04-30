@@ -264,7 +264,7 @@
             class="card1"
           >
             <div class="overlay"></div>
-            <img :src="p26" style="height: 200px; width: 100%; object-fit: cover" />
+            <img :src="p26" style="height: 200px; width: 100%; object-fit: contain" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               SUPERMERCADOS PERUANOS
             </h5>
@@ -351,7 +351,7 @@
             @click="showDialog4()"
           >
             <div class="overlay"></div>
-            <img :src="p28" style="height: 200px; width: 100%; object-fit: cover" />
+            <img :src="p28" style="height: 200px; width: 100%; object-fit: contain" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               TIENDAS EFE
             </h5>
@@ -413,7 +413,7 @@
             @click="showDialog5()"
           >
             <div class="overlay"></div>
-            <img :src="p30" style="height: 200px; width: 100%; object-fit: cover" />
+            <img :src="p30" style="height: 200px; width: 100%; object-fit: contain" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               RIPLEY
             </h5>
