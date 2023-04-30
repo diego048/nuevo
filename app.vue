@@ -1,9 +1,12 @@
 <template>
   <div>
     <NuxtLayout>
-    <div v-if="true" style="z-index: 10000; height: 400px">
+    <div v-if="loading" style="z-index: 10000; height: 400px">
       hola as
     </div>
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
       <NuxtPage />
     </NuxtLayout>
   </div>
