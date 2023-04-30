@@ -73,8 +73,7 @@
                 </div>
                 <div class="d-flex justify-start">
                   <button
-                  class="btn btn-white"
-                    style="color: rgb(203, 50, 52)"
+                  class="btn btn-danger"
                     @click="hideDialog(card)"
                   >
                     <h1>X</h1>
@@ -150,8 +149,7 @@
               <div class="d-flex justify-start">
                 <button
                   type="button"
-                  class="btn btn-white"
-                  style="color: rgb(203, 50, 52)"
+                  class="btn btn-danger"
                   @click="hideDialog(card)"
                 >
                   <h1>X</h1>
@@ -226,8 +224,7 @@
               <h2 class="d-flex justify-end">{{ card.title }}</h2>
               <div class="d-flex justify-start">
                 <button
-                  class="btn btn-white"
-                  style="color: rgb(203, 50, 52)"
+                  class="btn btn-danger"
                   @click="hideDialog(card)"
                 >
                   <h1>X</h1>
