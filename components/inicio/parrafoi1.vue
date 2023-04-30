@@ -16,9 +16,9 @@
               >
           </div>
             <div class="col-12 col-sm-6" style="color: black">
-              <h2 align="center" style="color: orangered">
+              <h1 align="center" style="color: orangered">
                 EQUIPAMIENTO WCW
-              </h2>
+              </h1>
               <p align="justify" style="padding-left: 3%; padding-right: 3%">
                 Ofrecemos a nuestros clientes una gran variedad de soluciones en
                 almacenamiento, como por ejemplo; Sistemas de Estantería
