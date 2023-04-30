@@ -420,7 +420,7 @@
           <dibox v-show="card.show" @close="hideDialog(card)">
             <div elevation="0">
               <div style="position: relative; width: 80vw">
-                <img style="height: 100%; width: 100%; object-fit: contain" :src="card.src" />
+                <img style="width: 100%; object-fit: contain" :src="card.src" />
                 <div style="position: absolute; top: 0; right: 0">
                   <button
                     class="btn btn-danger"
@@ -437,7 +437,7 @@
       <dibox v-show="show1" @close="hideDialog1()">
         <div outlined elevation="0">
           <div style="position: relative; width: 80vw">
-            <img style="height: 100%; width: 100%; object-fit: contain" :src="p6" :lazy-src="p6" />
+            <img style="width: 100%; object-fit: contain" :src="p6" :lazy-src="p6" />
             <div style="position: absolute; top: 0; right: 0">
               <button class="btn btn-danger" @click="hideDialog1()">X</button>
             </div>
@@ -448,7 +448,7 @@
         <div>
           <div style="position: relative; width: 80vw">
             <img
-              style="height: 100%; width: 100%; object-fit: contain"
+              style="width: 100%; object-fit: contain"
               :src="p7"
             />
             <div style="position: absolute; top: 0; right: 0">
