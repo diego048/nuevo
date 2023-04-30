@@ -6,7 +6,7 @@
       <!-- La cabecera con la info-->
       <div style="position: relative">
         <div
-          style="position: absolute; width: 100%; height: 100%"
+          style="position: absolute; width: 100%; height: 100%; z-index: -1"
         >
           <video autoplay loop muted playsinline class="video1">
             <source src="../assets/imagenes/proyect.mp4" type="video/webm" />
