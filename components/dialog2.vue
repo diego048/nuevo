@@ -1017,7 +1017,7 @@ export default defineComponent({
 .card1 {
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
   position: relative;
 }
