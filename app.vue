@@ -1,9 +1,9 @@
 <template>
-  <div class="h-screen">
-    <div v-if="true" class="fixed left-0 top-0 h-0.5 w-full z-50 bg-green-500" style="z-index: 10000">
+  <div>
+    <NuxtLayout>
+    <div v-if="true" style="z-index: 10000; height: 400px">
       hola as
     </div>
-    <NuxtLayout style="z-index: -1">
       <NuxtPage />
     </NuxtLayout>
   </div>
