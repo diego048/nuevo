@@ -16,7 +16,7 @@
               >
           </div>
             <div class="col-12 col-sm-6" style="color: black">
-              <h2 align="center" style="color: orangered; font-size: 3vw">
+              <h2 align="center" style="color: orangered">
                 EQUIPAMIENTO WCW
               </h2>
               <p align="justify" style="padding-left: 3%; padding-right: 3%">
