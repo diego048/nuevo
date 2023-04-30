@@ -46,12 +46,17 @@
                     <img :src="card.src" style="height: 200px; width: 100%; object-fit: contain" v-if="!card.cover">
                     <img :src="card.src" style="height: 200px; width: 100%; object-fit: cover" v-if="card.cover">
                     <h5
-                        class="text-pre-wrap"
-                        style="word-break: break-word"
+                        class="text-pre-wrap d-none d-sm-block"
                         align="center"
                     >
                         {{ card.title }}
                     </h5>
+                    <h6
+                        class="text-pre-wrap d-block d-sm-none"
+                        align="center"
+                    >
+                        {{ card.title }}
+                    </h6>
                     <p align="center" style="color: rgba(185,185,185,0.8)"> más info </p>
                 </div>                
                 <dibox v-show="card.show" @close="hideDialog(card)">
