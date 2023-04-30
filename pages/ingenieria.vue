@@ -145,54 +145,56 @@
       <div v-if="activador1">
         <div class="container">
           <br id="in1" />
-          <br />
+          <br class="d-none d-sm-block" />
 
           <!--Estudio Mecanica de Suelos-->
           <br />
           <div v-scrolls>
-              <div class="row card1">
-                <div align="center" class="align-self-center col-12 col-sm-6 order-2 order-sm-1">
-                  <h1 align="center">Estudio Preliminares</h1>
-                  <br />
-                  <p
-                    align="justify"
-                    style="
-                      padding-right: 3vh;
-                      padding-left: 3vh;
-                      font-size: 100%;
-                    "
-                  >
-                    1. Estudio Mecanica de Suelos
+              <div class="container">
+                <div class="row card1">
+                  <div align="center" class="align-self-center col-12 col-sm-6 order-2 order-sm-1">
+                    <h1 align="center">Estudio Preliminares</h1>
                     <br />
+                    <p
+                      align="justify"
+                      style="
+                        padding-right: 3vh;
+                        padding-left: 3vh;
+                        font-size: 100%;
+                      "
+                    >
+                      1. Estudio Mecanica de Suelos
+                      <br />
+                      <br />
+                      2. Levantamiento Topografico
+                      <br />
+                      <br />
+                      3. Levantamiento Arquitectonico
+                      <br />
+                      <br />
+                      4. Sistema de Utilización en Media Tensión
+                    </p>
                     <br />
-                    2. Levantamiento Topografico
-                    <br />
-                    <br />
-                    3. Levantamiento Arquitectonico
-                    <br />
-                    <br />
-                    4. Sistema de Utilización en Media Tensión
-                  </p>
-                  <br />
-                </div>
-                <div
-                  class="col-12 col-sm-6 order-1 order-sm-2"
-                >
-                  <swiper :loop="true" style="height: 60vh; width:100%; min-height: 287px; color: black">
-                    <swiper-slide v-for="card in cards" :key="card.src">
-                      <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
-                    </swiper-slide>
-                    <div class="boton1">
-                    <boton />
                   </div>
-                  </swiper>
+                  <div
+                    class="col-12 col-sm-6 order-1 order-sm-2"
+                  >
+                    <swiper :loop="true" style="height: 60vh; width:100%; min-height: 287px; color: black">
+                      <swiper-slide v-for="card in cards" :key="card.src">
+                        <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
+                      </swiper-slide>
+                      <div class="boton1">
+                      <boton />
+                    </div>
+                    </swiper>
+                  </div>
                 </div>
               </div>
           </div>
           <br />
           <br id="in2" />
-          <br />
-          <br />
+          <br class="d-none d-sm-block" />
+          <br class="d-none d-sm-block" />
           <!--Planos de Arquitectura-->
           <br />
           <div v-scrolls>
@@ -237,8 +239,8 @@
               </div>
             </div>
           </div>
-          <br />
-          <br />
+          <br class="d-none d-sm-block" />
+          <br class="d-none d-sm-block" />
           <br id="in3" />
           <br />
           <!--Planos de Especialidades-->
@@ -291,8 +293,8 @@
               </div>
             </div>
           </div>
-          <br />
-          <br />
+          <br class="d-none d-sm-block" />
+          <br class="d-none d-sm-block" />
           <br id="in7" />
           <br />
 
