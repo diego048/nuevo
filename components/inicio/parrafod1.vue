@@ -5,7 +5,7 @@
         <div class="card1"
           style="background-color: rgba(256, 256, 256, 0.35)"
         >
-          <div class="row">
+          <div class="d-flex row">
             <div class="col-12 col-sm-6 flex d-flex align-self-stretch"
             >
               <img
