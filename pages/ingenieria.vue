@@ -449,13 +449,7 @@
         <div>
           <div style="position: relative; width: 80vw">
             <img
-              class="d-none d-sm-flex"
               style="height: 100%;; width: 100% object-fit: contain"
-              :src="p7"
-            />
-            <img
-              class="d-flex d-sm-none"
-              style="height: 100%; width: 90vw; object-fit: contain"
               :src="p7"
             />
             <div style="position: absolute; top: 0; right: 0">
@@ -806,12 +800,12 @@ export default {
 }
 .card2:hover .overlay {
   opacity: 1;
-  z-index: -1;
+  z-index: 10000;
   background-color: rgba(129, 129, 129, 0.171);
 }
 .card1:hover .overlay {
   opacity: 1;
-  z-index: -1;
+  z-index: 10000;
   background-color: rgba(129, 129, 129, 0.171);
 }
 .overlay {
@@ -822,7 +816,6 @@ export default {
   height: 100%;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  z-index: 10000;
 }
 .video {
   filter: brightness(25%);
