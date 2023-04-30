@@ -14,7 +14,7 @@
               >
           </div>
             <div class="col-12 col-sm-6" style="color:black">
-              <h1 align="center" style="color: orangered">
+              <h1 align="center" style="color: orangered; padding-top: 5px">
                 CONSULTORÍA
               </h1>
               <p
