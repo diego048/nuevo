@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div v-if="loading" class="fixed left-0 top-0 h-0.5 w-full z-50 bg-green-500" />
-    <NuxtLayout>
+    <div v-if="loading" class="fixed left-0 top-0 h-0.5 w-full z-50 bg-green-500" style="z-index: 10000" />
+    <NuxtLayout style="z-index: 999">
       <NuxtPage />
     </NuxtLayout>
   </div>
