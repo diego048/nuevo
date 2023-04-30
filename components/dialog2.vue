@@ -634,7 +634,6 @@
                       </div>
                   </swiper-slide>
                   <swiper-slide>
-                  <swiper-slide>
                     <div class="container">
                         <div class="row">
                           <div class="col">
