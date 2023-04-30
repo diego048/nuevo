@@ -416,13 +416,6 @@
         </div>
         <br />
         <br />
-        <div v-for="card in cards3">
-          <dibox v-show="card.show" @close="hideDialog(card)">
-            <div>
-              s
-            </div>
-          </dibox>
-        </div>
       </div>
       <dibox v-show="show1" @close="hideDialog1()">
         <div outlined elevation="0">
@@ -496,6 +489,21 @@
       </div>
       <!--pie de pagina -->
     </div>
+            <div v-for="card in cards3">
+          <dibox v-show="card.show" @close="hideDialog(card)">
+            <div style="position: relative">
+                <img style="width: 100%" :src="card.src" />
+                <div style="position: absolute; top: 0; right: 0">
+                  <button
+                    class="btn btn-danger"
+                    @click="hideDialog(card)"
+                  >
+                    X
+                  </button>
+                </div>
+            </div>
+          </dibox>
+        </div>
     <pie />
   </div>
 </template>
