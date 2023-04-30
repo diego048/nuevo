@@ -15,7 +15,7 @@
           </video>
         </div>
         <div
-          style="position: relative; width: 100%; height: 100vh"
+          style="position: relative; width: 100%; height: 70vh"
           class="d-block d-sm-block d-md-none"
         >
           <video autoplay loop muted playsinline class="video1">
