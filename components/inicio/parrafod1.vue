@@ -13,7 +13,7 @@
                 style="object-fit: contain; height: 100%; width: 100%;"
               >
           </div>
-            <div class="col-12 col-sm-6" style="color:black">
+            <div class="col-12 col-sm-6 flex d-flex align-self-stretch" style="color:black">
               <h1 align="center" style="color: orangered; margin-top: 8px">
                 CONSULTORÍA
               </h1>
