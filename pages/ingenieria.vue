@@ -435,7 +435,6 @@
         </div>
       </div>
       <dibox v-show="show1" @close="hideDialog1()"
-        >div
         <div outlined elevation="0">
           <div style="position: relative; width: 80vw">
             <img style="height: 100%; width: 100%; object-fit: contain" :src="p6" :lazy-src="p6" />
@@ -449,7 +448,7 @@
         <div>
           <div style="position: relative; width: 80vw">
             <img
-              style="height: 100%;; width: 100% object-fit: contain"
+              style="height: 100%; width: 100%; object-fit: contain"
               :src="p7"
             />
             <div style="position: absolute; top: 0; right: 0">
