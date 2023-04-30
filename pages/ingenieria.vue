@@ -4,7 +4,7 @@
     <br />
     <div>
       <div style="position: relative">
-        <div style="position: absolute">
+        <div style="position: absolute; z-index: -1">
           <video autoplay loop muted playsinline class="video">
             <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
           </video>
@@ -15,7 +15,7 @@
               <h1 style="color: rgb(255, 102, 26)" align="left">
                 Ingeniería de Proyectos Logísticos
               </h1>
-              <p align="justify">
+              <p align="justify" style="color: white">
                 es el conjunto de conocimientos, actitudes y herramientas de la
                 gestión, que prestan apoyo al desarrollo más conveniente o más
                 económico de la actividad empresarial, optimizando el resultado.
@@ -23,7 +23,7 @@
             </div>
             <div class="col-0 col-sm-2 col-md-3"></div>
             <div align="justify" class="h-auto col-12 col-sm-5 col-md-5">
-              <h1 align="center">Índice</h1>
+              <h1 align="center" style="color: white">Índice</h1>
               <div v-if="activador1">
                 <div class="card2" color="transparent">
                   <div class="overlay"></div>
@@ -820,18 +820,12 @@ export default {
 }
 .video {
   filter: brightness(25%);
-  height: 85vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   display: block;
 }
-.p1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
+
 .before-enter {
   opacity: 0;
   transform: translateX(100px);
