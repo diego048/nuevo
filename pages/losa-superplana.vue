@@ -104,8 +104,7 @@
                             >
                                 <button
                                 type="button"
-                                class="btn btn-white"
-                                style="color: rgb(203, 50, 52)"
+                                class="btn btn-danger"
                                 @click="hideDialog(card)"
                                 >
                                 <h2>X</h2>
