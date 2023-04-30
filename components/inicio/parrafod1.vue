@@ -15,7 +15,7 @@
               >
           </div>
             <div class="col-12 col-sm-6" style="color:black">
-              <h2 align="center" style="color: orangered; font-size: 3vw">
+              <h2 align="center" style="color: orangered">
                 CONSULTORÍA
               </h2>
               <p
