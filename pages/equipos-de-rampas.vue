@@ -104,7 +104,7 @@
                             <div class="d-flex d-sm-none"  v-if="!card.show1">
                                 <img :src="card.src" style="width: 100%; height: 100%; object-fit: contain">
                             </div>
-                            <swiper class="mySwiper" :loop="true"  v-if="card.show1" :autoHeight="true">
+                            <swiper class="mySwiper" style="height: 100%" :loop="true"  v-if="card.show1" :autoHeight="true">
                         <swiper-slide v-for="card1 in card.src1">
                           <img :src="card1" alt="..." style="width: 100%; height: 70vh; object-fit: contain">
                         </swiper-slide>
