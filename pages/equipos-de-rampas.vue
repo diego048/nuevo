@@ -39,7 +39,7 @@
                 v-for="card in cards"
                 :key="card.id"
                 align="center"
-                class="flex d-flex align-self-stretch col-sm-6 col-md-4"
+                class="flex d-flex align-self-stretch col-6 col-sm-6 col-md-4"
             >
                 <div class="card1" @click="showDialog(card)" align="center" style="width: 100%"  v-scrolls>
                     <div class="overlay" ></div>
@@ -104,7 +104,7 @@
                             <div class="d-flex d-sm-none"  v-if="!card.show1">
                                 <img :src="card.src" style="width: 100%; height: 100%; object-fit: contain">
                             </div>
-                            <swiper class="mySwiper" :loop="true"  v-if="card.show1">
+                            <swiper class="mySwiper" :loop="true"  v-if="card.show1" :autoHeight="true">
                         <swiper-slide v-for="card1 in card.src1">
                           <img :src="card1" alt="..." style="width: 100%; height: 70vh; object-fit: contain">
                         </swiper-slide>
@@ -320,7 +320,7 @@ export default {
 .card1 {
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow-x: hidden;
   position: relative;
   cursor: pointer;
