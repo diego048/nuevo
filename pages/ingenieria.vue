@@ -361,8 +361,8 @@
                   class="card1"
                 >
                   <div class="overlay"></div>
-                  <img v-if="card.cover" :src="card.src" style="height: 300px; width: 100%; object-fit: cover" />
-                  <img v-if="!card.cover" style="height: 300px; width: 100%; object-fit: contain" :src="card.src" />
+                  <img v-if="card.cover" :src="card.src" style="height: 300px; width: 100%; object-fit: cover; z-index: 999" />
+                  <img v-if="!card.cover" style="height: 300px; width: 100%; object-fit: contain; z-index: 999" :src="card.src" />
                 </div>
               </div>
             </div>
@@ -389,7 +389,7 @@
                 class="card1"
               >
                 <div class="overlay"></div>
-                <img style="height: 300px; width: 100%; object-fit: contain" :src="p6" :lazy-src="p6" />
+                <img style="height: 300px; width: 100%; object-fit: contain; z-index: 999" :src="p6" :lazy-src="p6" />
               </div>
             </div>
             <!--Simuladores para Picking-->
@@ -409,7 +409,7 @@
                 style="cursor: pointer; width: 100%"
               >
                 <div class="overlay"></div>
-                <img style="height: 300px; width: 100%; object-fit: contain" :src="p7" />
+                <img style="height: 300px; width: 100%; object-fit: contain; z-index: 999" :src="p7" />
               </div>
             </div>
           </div>
