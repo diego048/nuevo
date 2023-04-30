@@ -64,11 +64,10 @@
               <div class="row">
                 <div
                   class="col-12 col-sm-6"
-                  style="min-height: 287px"
                 >
                   <img
                     :src="p6"
-                    style="height: 100%; width: 100%; padding: 5px"
+                    style="height: 100%; width: 100%; padding: 5px;object-fit: contain"
                   >
                 </div>
                 <div class="col-12 col-sm-6" align="center">
@@ -104,10 +103,10 @@
           <div class="card1" v-scrolls>
             <div class="container">
               <div class="row">
-                <div style="min-height: 287px"  class="col-12 col-sm-6  order-1 order-sm-2">
+                <div class="col-12 col-sm-6  order-1 order-sm-2">
                   <img
                     :src="p7"
-                    style="object-fit: cover; height: 100%; width: 100%; padding: 5px"
+                    style="object-fit: cover; height: 100%; width: 100%; padding: 5px; object-fit: contain"
                   >
                 </div>
                 <div class="col-12 col-sm-6 order-2 order-sm-1" align="center">
