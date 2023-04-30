@@ -22,7 +22,6 @@
     justify-content: center;
   }
   .dialog-box {
-    min-height: 300px;
     background-color: #fff;
     border-radius: 8px;
     padding: 24px;
