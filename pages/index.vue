@@ -3,7 +3,6 @@
       <br />
         <div style="position: relative">
             <video autoplay loop muted playsinline class="video">
-                <source src="../assets/imagenes/logicorp1.mp4" type="video/webm" />
                 <source src="../assets/imagenes/logicorp1.mp4" type="video/mp4" />
             </video>
             <div class="p1 container" align="center">
