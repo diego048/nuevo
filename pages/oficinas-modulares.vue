@@ -83,7 +83,7 @@
         </div>
         <div
           class="ma-0 pa-0 align-self-center col-12 col-sm-6"
-          style="height: 60vh; min-height: 287px"
+          style="height: 60vh"
         >
           <img cover :src="p2" style="height: 100%; width: 100%; object-fit:contain" />
         </div>
