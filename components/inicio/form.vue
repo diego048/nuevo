@@ -30,7 +30,7 @@
         </div>
          <div class="col-12 col-md-6 col-sm-6">
            <h1 align="center" style="color: orangered">Contactanos</h1>
-           <input class="input1 type="text" placeholder="Nombre" v-model="nombre" />
+           <input class="input1" type="text" placeholder="Nombre" v-model="nombre" />
            <input class="input1" type="email" placeholder="E-mail" aria-describedby="emailHelp" v-model="correo" />
            <textarea class="textarea1" type="text" rows="6" placeholder="Mensaje" v-model="texto" ></textarea>
            <button v-on:click="form" class="button1">Enviar</button>
