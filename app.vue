@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtLayout>
-    <div v-if="loading" style="z-index: 10000; height: 400px">
+    <div v-if="true" style="z-index: 10000; height: 400px">
       hola as
     </div>
       <div class="spinner-border" role="status">
