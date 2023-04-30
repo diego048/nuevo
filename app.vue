@@ -1,11 +1,11 @@
 <template>
   <div>
+    <div class="spinner-wrapper">
+       <div class="spinner-border" role="status">
+         <span class="visually-hidden">Loading...</span>
+       </div>
+     </div>
     <NuxtLayout>
-      <div class="spinner-wrapper">
-        <div class="spinner-border" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-      </div>
       <NuxtPage />
     </NuxtLayout>
   </div>
@@ -68,7 +68,7 @@ width: 100%;
 height: 100%;
 z-index: 9999;
 display: flex;
-justify: content;
+justify-content: center;
 align-items: center;
 }
 .spinner-border {
