@@ -97,13 +97,7 @@
                         <div color="rgba(0,0,0,0.45)">
                             <div style="position: relative">
                             <img
-                                class="d-none d-sm-flex"
-                                style="height: 80%"
-                                :src="card.src"
-                            >
-                            <img
-                                class="d-flex d-sm-none"
-                                style="height: 80%"
+                                style="height: 100%; width: 100%; object-fit: contain"
                                 :src="card.src"
                             >
                             <div
@@ -340,7 +334,7 @@ export default {
 .card1 {
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
   position: relative;
 }
