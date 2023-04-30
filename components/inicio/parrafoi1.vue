@@ -8,7 +8,6 @@
           <div class="row">
             <div
               class="ma-0 pa-0 d-sm-none col-12 col-sm-6"
-              style="height: 50vh; min-height: 287px"
             >
               <img
                 :src="p3"
@@ -16,7 +15,7 @@
               >
           </div>
             <div class="col-12 col-sm-6" style="color: black">
-              <h1 align="center" style="color: orangered">
+              <h1 align="center" style="color: orangered; padding-top: 5px">
                 EQUIPAMIENTO WCW
               </h1>
               <p align="justify" style="padding-left: 3%; padding-right: 3%">
