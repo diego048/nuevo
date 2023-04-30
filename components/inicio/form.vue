@@ -28,7 +28,7 @@
              Teléfono: 956 754 176
            </p>
         </div>
-         <div class="register col-12 col-md-6 col-sm-6">
+         <div class="col-12 col-md-6 col-sm-6">
            <h1 align="center" style="color: orangered">Contactanos</h1>
            <input type="text" placeholder="Nombre" v-model="nombre" />
            <input type="email" placeholder="E-mail" aria-describedby="emailHelp" v-model="correo" />
@@ -83,7 +83,7 @@
      opacity: 1;
      transform: translateX(0px);
    }
-   .register input {
+   .input {
      width: 100%;
      height: 40px;
      display: block;
@@ -95,15 +95,16 @@
      border-radius: 5px;
      padding-left: 20px;
    }
-   .register textarea {
+   .textarea {
      width: 100%;
+     display: block;
      border: 1px solid #a3a3a3;
      border-radius: 5px;
      resize: none;
      padding-left: 20px;
      margin-bottom: 30px;
    }
-   .register button {
+   .button {
      width: 300px;
      height: 40px;
      padding-left: 20px;
