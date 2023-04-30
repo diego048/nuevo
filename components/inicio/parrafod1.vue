@@ -6,7 +6,7 @@
           style="background-color: rgba(256, 256, 256, 0.35)"
         >
           <div class="row">
-            <div class="col-12 col-sm-6"
+            <div class="col-12 col-sm-6 flex d-flex align-self-stretch"
             >
               <img
                 :src="p3"
