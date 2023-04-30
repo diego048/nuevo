@@ -55,9 +55,14 @@
       </div>
     </div>
     <br />
+    <div>
     <InicioForm id="formulario" />
+    </div>
     <br />
     <!-- Pie de pagina -->
+    <div>
+        <pie />
+    </div>
     </div>
 </template>
 <style scoped>
