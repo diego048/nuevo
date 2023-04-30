@@ -18,7 +18,7 @@
     loading.value = true;
   });
   nuxtApp.hook("page:finish", () => {
-    loading.value = true;
+    loading.value = false;
   });
 useHead({
   link: [
