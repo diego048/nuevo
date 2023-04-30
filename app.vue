@@ -5,7 +5,7 @@
          <span class="visually-hidden">Loading...</span>
        </div>
      </div>
-    <NuxtLayout>
+    <NuxtLayout style="z-index: -1">
       <NuxtPage />
     </NuxtLayout>
   </div>
