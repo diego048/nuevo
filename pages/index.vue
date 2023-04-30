@@ -109,6 +109,9 @@
   object-fit: cover;
   display: block;
 }
+ video::-internal-media-controls-overlay-cast-button {
+  display: none;
+}
 </style>
 <script>
 import imagen1 from "../assets/imagenes/imagen30.png";
