@@ -151,6 +151,9 @@ unmounted(){
 </script>
 
 <style scoped>
+ video::-internal-media-controls-overlay-cast-button {
+  display: none;
+ }
 .contenedor {
   position: relative;
   text-align: center;
