@@ -71,7 +71,7 @@
    import ima1 from "../../assets/Gloria/Gloria.jpg";
    import ima2 from "../../assets/imagenes/proyecto8.jpg";
    import ima3 from "../../assets/imagenes/poderosa.jpg";
-   import ima4 from "../assets/imagenes/proyecto3.jpg";
+   import ima4 from "../../assets/imagenes/proyecto3.jpg";
    export default defineComponent({
      beforeMount(){
        if(localStorage.getItem("token")){
