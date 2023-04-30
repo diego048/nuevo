@@ -5,15 +5,15 @@
         <div class="card1"
           style="background-color: rgba(256, 256, 256, 0.35)"
         >
-          <div class="d-flex row">
-            <div class="col-12 col-sm-6 flex d-flex align-self-stretch"
+          <div class="row">
+            <div class="col-12 col-sm-6"
             >
               <img
                 :src="p3"
                 style="object-fit: contain; height: 100%; width: 100%;"
               >
           </div>
-            <div class="col-12 col-sm-6 flex d-flex align-self-stretch" style="color:black">
+            <div class="col-12 col-sm-6" style="color:black">
               <h1 align="center" style="color: orangered; margin-top: 8px">
                 CONSULTORÍA
               </h1>
