@@ -4,7 +4,7 @@
     <br />
     <div>
       <div style="position: relative">
-        <div style="position: absolute; z-index: -1; object-fit:cover; width: 100%">
+        <div style="position: absolute; z-index: -1; object-fit:cover; width: 100%; height: 100%">
           <video autoplay loop muted playsinline class="video">
             <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
           </video>
