@@ -31,6 +31,35 @@
            </NuxtLink>
            </div>
         </div>
+        
+        <div class="col-6 col-md-4 col-sm-6 d-block d-sm-block d-md-none"
+           align="center"
+           v-scrolls
+         >
+         <div v-if="activador">
+           <NuxtLink to="/proyectos" style="text-decoration: none">
+             <div class="card1">
+              <div class="overlay"></div>
+               <img
+                 :src="imag1"
+                 style="height:300px; width: 100%; object-fit: cover"
+               >
+             </div>
+           </NuxtLink>
+           </div>
+           <div v-if="!activador">
+           <NuxtLink :to="{ name: 'login' }" style="text-decoration: none">
+             <div class="card1">
+              <div class="overlay"></div>
+               <img
+                 :src="imag1"
+                 style="height:300px; width: 100%; object-fit: cover"
+               >
+             </div>
+           </NuxtLink>
+           </div>
+        </div>
+        
         </div>
     </div>
     </div>
@@ -42,6 +71,7 @@
    import ima1 from "../../assets/Gloria/Gloria.jpg";
    import ima2 from "../../assets/imagenes/proyecto8.jpg";
    import ima3 from "../../assets/imagenes/poderosa.jpg";
+   import ima4 from "../assets/imagenes/proyecto3.jpg";
    export default defineComponent({
      beforeMount(){
        if(localStorage.getItem("token")){
@@ -51,6 +81,7 @@
      data() {
        return {
          activador: false,
+         imag1: ima4, 
          cards: [
            {
              id: 1,
