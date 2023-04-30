@@ -1,11 +1,10 @@
 <template>
   <div>
     <NuxtLayout>
-    <div v-if="true" style="z-index: 10000; height: 400px">
-      hola as
-    </div>
-      <div class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
+      <div class="spinner-wrapper">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
       </div>
       <NuxtPage />
     </NuxtLayout>
@@ -59,5 +58,21 @@ useHead({
 }
 html {
 overflow-x: hidden;
+}
+.spinner-wrapper {
+background-color : white;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 9999;
+display: flex:
+justify: content;
+align-items: center;
+}
+.spinner-border {
+height: 60px;
+width: 60px;
 }
 </style>
