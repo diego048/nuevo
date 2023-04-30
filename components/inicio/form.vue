@@ -31,7 +31,7 @@
          <div class="register col-12 col-md-6 col-sm-6">
            <h1 align="center" style="color: orangered">Contactanos</h1>
            <input type="text" placeholder="Nombre" v-model="nombre" />
-           <input type="text" placeholder="E-mail" v-model="correo" />
+           <input type="email" class="form-control" placeholder="E-mail" v-model="correo" />
            <textarea type="text" rows="6" placeholder="Mensaje" v-model="texto" ></textarea>
            <button v-on:click="form">Enviar</button>
          </div>
