@@ -7,7 +7,7 @@
         >
           <div class="row">
             <div class="col-12 col-sm-6"
-              style="height: 55vh; min-height: 287px;"
+              style="height: 100%"
             >
               <img
                 :src="p3"
