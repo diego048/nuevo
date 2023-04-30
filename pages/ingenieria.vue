@@ -177,7 +177,7 @@
                 <div
                   class="col-12 col-sm-6 order-1 order-sm-2"
                 >
-                  <swiper :loop="true" style="height: 60vh; width:100%; min-height: 287px; color: black">
+                  <swiper :loop="true" style="height: 100%; width:100%; min-height: 287px; color: black">
                     <swiper-slide v-for="card in cards" :key="card.src">
                       <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                     </swiper-slide>
