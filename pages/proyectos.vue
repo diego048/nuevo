@@ -293,6 +293,14 @@ unmounted(){
         { ima: imagen15 },
       ],
       cards1: [
+         {
+          titulo: "MINERA PODEROSA",
+          ima: "http://www.poderosa.com.pe/Content/img/compartir.jpg",
+        },
+        {
+          titulo: "CORPORACION BOTICAS PERU ",
+          ima: "https://www.boticasperu.com.pe/wp-content/uploads/2018/06/Logotipo-Final-Franja.png",
+        },
         {
           titulo: "SUPERMERCADOS PERUANOS S.A",
           ima: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Supermercados_Peruanos_logo.svg/2560px-Supermercados_Peruanos_logo.svg.png",
@@ -352,14 +360,6 @@ unmounted(){
         {
           titulo: "POLIMETALES S.A.C.",
           ima: "https://www.polimetales.com/img/logo_polimetales.png",
-        },
-        {
-          titulo: "CORPORACION BOTICAS PERU ",
-          ima: "https://www.boticasperu.com.pe/wp-content/uploads/2018/06/Logotipo-Final-Franja.png",
-        },
-        {
-          titulo: "MINERA PODEROSA",
-          ima: "http://www.poderosa.com.pe/Content/img/compartir.jpg",
         },
         {
           titulo: "ALDEA LOGISTICA",
