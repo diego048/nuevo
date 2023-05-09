@@ -94,7 +94,13 @@
                     to="/#formulario"
                     style="text-decoration: none; color: black; background-color: rgb(255, 102, 26)"
                   >
+                  <NuxtLink
+                      class="link"
+                      to="/#formulario"
+                      style="text-decoration: none; color: black"
+                    >
                     <span style="white-space: normal"> MÁS INFORMACIÓN </span>
+                   </NuxtLink>
                   </button>
                 </div>
                 <br />
