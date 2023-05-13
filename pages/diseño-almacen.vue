@@ -36,7 +36,6 @@
               style="height: 100%"
             >
               <br class="d-block d-sm-none" />
-              <h1 align="center" style="color:white">Índice</h1>
               <div v-if="activador1">
                 <div class="card2">
                   <div class="overlay"></div>
