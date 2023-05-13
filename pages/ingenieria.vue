@@ -377,7 +377,7 @@
               v-scrolls
             >
               <h1 align="center">
-                Simuladores para Definir Sistemas de Almacenaje
+                Simuladores para Definir Material Handling
               </h1>
               <div
                 @click="showDialog1()"
