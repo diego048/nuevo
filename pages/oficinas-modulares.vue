@@ -64,7 +64,7 @@
             método tradicional
             <br />
             <br />
-            Se pueden transportar armados los contenedores o desarmados
+            Los contenedores se pueden transportar armandos o desarmados
             <br />
             <br />
             Aislamiento acústico y térmico
@@ -73,7 +73,7 @@
             Flexibilidad para aumentar más módulos
             <br />
             <br />
-            Se pueden reubicar los módulos
+            Fácil reubicación de los modulos
             <br />
             <br />
             Los módulos se pueden personalizar para el uso y gusto de cada
