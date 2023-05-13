@@ -26,7 +26,6 @@
             <div class="col-0 col-sm-2 col-md-3"></div>
             <div align="justify" class="h-auto col-12 col-sm-5 col-md-5">
               <br class="d-block d-sm-none" />
-              <h1 align="center" style="color: white">Índice</h1>
               <div v-if="activador1">
                 <div class="card2" color="transparent">
                   <div class="overlay"></div>
@@ -36,7 +35,7 @@
                     style="text-decoration: none; color: white"
                   >
                     <span style="white-space: normal">
-                      <h4>1. Estudio Mecanica de Suelos</h4>
+                      <h4>1. Estudios preliminares de obra </h4>
                     </span>
                   </NuxtLink>
                 </div>
@@ -153,7 +152,7 @@
               <div class="container">
                 <div class="row card1">
                   <div align="center" class="align-self-center col-12 col-sm-6 order-2 order-sm-1">
-                    <h1 align="center">Estudio Preliminares</h1>
+                    <h1 align="center">Estudios preliminares de obra </h1>
                     <br />
                     <p
                       align="justify"
@@ -659,7 +658,7 @@ export default {
         { id: 2, show: false, src: ima21, cover: false },
       ],
       cards4: [
-        { nom: "1. Estudio Mecanica de Suelos", tit: "#in1", show: false },
+        { nom: "1. Estudios preliminares de obra", tit: "#in1", show: false },
         { nom: "2. Planos de Arquitectura", tit: "#in2", show: false },
         { nom: "3. Planos de especialidades", tit: "#in3", show: false },
         {
