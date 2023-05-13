@@ -66,7 +66,7 @@
                     <div class="container">
                         <div class="row">
                           <div class="col-12 col-sm-5 col-md-6 order-1 order-sm-2">
-                            <h2>Centro de distribución más alto del Perú</h2>
+                            <h2>Primer centro de distribución con estantería satelital variable autoportante</h2>
                             <ol
                               align="justify"
                               style="
