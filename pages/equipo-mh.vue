@@ -1,5 +1,5 @@
 <template>
-  <div style="overflow-x:hidden">
+  <div>
     <div class="container">
       <div class="row">
         <div class="align-self-center col-12 col-sm-12 col-md-4">
@@ -35,8 +35,6 @@
       </div>
     </div>
     <div class="container" id="equipomh1">
-      <br />
-      <br />
       <h1 align="center">EQUIPOS DE MH</h1>
       <br />
       <div class="d-flex row">
@@ -74,7 +72,8 @@
               </h2>
               <div class="d-flex justify-start">
                 <button
-                  type="button" class="btn btn-danger"
+                  type="button" class="btn btn-white"
+                  style="color: rgb(203, 50, 52)"
                   @click="hideDialog(card)"
                 >
                   <h2>X</h2>
@@ -94,13 +93,7 @@
                     to="/#formulario"
                     style="text-decoration: none; color: black; background-color: rgb(255, 102, 26)"
                   >
-                  <NuxtLink
-                      class="link"
-                      to="/#formulario"
-                      style="text-decoration: none; color: black"
-                    >
                     <span style="white-space: normal"> MÁS INFORMACIÓN </span>
-                   </NuxtLink>
                   </button>
                 </div>
                 <br />
@@ -114,7 +107,7 @@
       </div>
       <br />
       <div class="row">
-        <div class="col">
+        <div class="col-12 col-md-6">
           <div>
             <br />
             <h2 align="center">ALQUILER DE EQUIPOS DE MATERIAL HANDLING</h2>
@@ -125,7 +118,11 @@
               integral de las máquinas y la capacitación en el uso de las
               máquinas para sus operadores.
             </div>
+          
           </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <img :src="p2" style=" width: 100%; object-fit: contain" />
         </div>
       </div>
     </div>
@@ -141,6 +138,7 @@ import order from "../assets/imagenes/order.jpg";
 import retractiles from "../assets/imagenes/retractil.jpeg";
 import trilateral from "../assets/imagenes/trilateral.jpg";
 import ima1 from "../assets/imagenes/cabecera.png";
+import ima2 from "../assets/imagenes/cabecera1.png";
 export default {
   setup() {
     useHead({
@@ -208,6 +206,7 @@ export default {
   data() {
     return {
       p1: ima1,
+      p2: ima2,
       scrollPosition: 0,
       cards: [
         {
@@ -254,8 +253,8 @@ export default {
         },
         {
           id: 7,
-          p1: "Transelevadores",
-          p2: "Su estructura se compone de dos columnas verticales y, en el medio, se ubica la cuna de elevación, con la que se accede a todos los niveles de almacenaje. Es un tipo de transelevador más robusto y resistente que el monocolumna, por lo que resulta perfecto cuando hay que manipular cargas más pesadas. A su vez, también proporciona a su vez la máxima productividad de palets/hr.",
+          p1: "Transelevador",
+          p2: "Su estructura se compone de dos columnas verticales y, en el medio, se ubica la cuna de elevación, con la que se accede a todos los niveles de almacenaje. Es un tipo de transelevador más robusto y resistente que el monocolumna, por lo que resulta perfecto cuando hay que manipular cargas más pesadas. A su vez, también proporciona un elevado rendimiento en cuanto a agilidad.",
           p3: transver,
           p4: transver,
         },
@@ -286,7 +285,7 @@ export default {
 .card1 {
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
   overflow-x: hidden;
   position: relative;
 }
