@@ -21,11 +21,9 @@
               align="justify"
               style="padding-right: 3vh; padding-left: 3vh; font-size: 100%"
             >
-              LOGICORPERU compañía especializada en medición, definición y control
-              de superficies para pisos de concreto especializada en la
-              construcción de losas superplanas especiales para almacenes en donde
-              se opera a grandes alturas con equipos de pasillo angosto y tráfico
-              definido.
+              EN LOGICORPERU NOS ESPECIALIZAMOS EN EL DISEÑO, LA MEDICIÓN, EJECUCIÓN Y SUPERVISIÓN DE LOSAS PLANAS Y 
+              SUPERPLANAS PARA ALMACENES OPERADOS POR EQUIPOS DE GRAN ALTURA EN PASILLOS ANGOSTOS EN TRAFICO ALEATORIO 
+              Y/O DEFINIDO
             </p>
             <br />
           </div>
@@ -67,7 +65,7 @@
         </div>
       </div>
       <br />
-      <h1 align="center" v-scrolls>Fotos</h1>
+      <h1 align="center" v-scrolls>Proyectos</h1>
       <p align="center" v-scrolls>Algunas imagenes de nuestros proyectos</p>
       <div class="container">
         <div class="d-flex row">
