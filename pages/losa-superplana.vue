@@ -359,7 +359,7 @@ export default {
   methods: {
     async log2() {
       let result = await axios
-        .post("https://pagina1.onrender.com/login", {
+        .post("http://107.23.179.170:5000/login", {
           username: this.username,
           password: this.password,
         })
