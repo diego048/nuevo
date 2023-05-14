@@ -2,7 +2,7 @@
     <div style="overflow-x:hidden">
       <br />
         <div style="position: relative">
-            <video autoplay loop muted playsinline class="video">
+            <video autoplay loop muted playsinline class="video" poster="../assets/imagenes/plantilla.jpg">
                 <source src="../assets/imagenes/logicorp1.mp4" type="video/mp4" />
             </video>
             <div class="p1 container" align="center">
