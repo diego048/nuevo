@@ -74,7 +74,7 @@
           align="justify"
           @click="showDialog1()"
           style="cursor: pointer"
-          v-if="activador1"
+          v-if="!activador1"
         >
           <div class="overlay"></div>
           <span style="white-space: normal">
@@ -82,7 +82,7 @@
           </span>
         </div>
         <div
-          v-if="!activador1"
+          v-if="activador1"
           v-for="card in cards"
           :key="card.id"
           align="center"
@@ -133,7 +133,7 @@
         </div>
         <div
           v-for="card in cards1"
-          v-if="!activador1"
+          v-if="activador1"
           :key="card.id"
           align="center"
           v-scrolls
