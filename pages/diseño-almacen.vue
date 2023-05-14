@@ -8,7 +8,7 @@
         <div
           style="position: absolute; width: 100%; height: 100%; z-index: -1"
         >
-          <video autoplay loop muted playsinline class="video1">
+          <video autoplay loop muted playsinline class="video1" poster="../assets/imagenes/plantilla1.jpg">
             <source src="../assets/imagenes/proyect.mp4" type="video/webm" />
             <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
           </video>
