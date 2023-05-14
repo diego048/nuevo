@@ -358,7 +358,7 @@ export default defineComponent({
   methods: {
     async log2() {
       let result = await axios
-        .post("ttp://107.23.179.170:5000/login", {
+        .post("https://pagina1.onrender.com/login", {
           username: this.username,
           password: this.password,
         })
