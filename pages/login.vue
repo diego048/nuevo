@@ -91,7 +91,7 @@ export default {
   methods: {
     async log1() {
       let result = await axios
-        .post("http://3.232.232.195:5000/login", {
+        .post("https://pagina1.onrender.com/login", {
           username: this.username,
           password: this.password,
         })
