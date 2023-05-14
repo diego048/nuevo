@@ -15,7 +15,7 @@ export default defineNuxtConfig({
             meta: [
               { name: 'description', content: 'Somos un grupo de profesionales especializados en almacenes, contamos con más de 20 años' }
             ],
-            link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+            link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
           },
       },
 })
