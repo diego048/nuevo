@@ -379,6 +379,8 @@ export default defineComponent({
         this.$bus.$emit("activador", this.state);
         localStorage.setItem("token", true);
         this.show = false;
+        const element = document.querySelector('.class1');
+        element.style.position = "static";
         return navigateTo("#emp1");
       }
     },
