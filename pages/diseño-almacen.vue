@@ -664,7 +664,7 @@ export default {
 }
 
 .video1 {
-  filter: brightness(25%);
+  filter: brightness(45%);
   height: 100%;
   width: 100%;
   object-fit: cover;
