@@ -261,7 +261,7 @@
                         <br />
                         <input type="text" placeholder="Username" v-model="username" />
                         <input type="password" placeholder="password" v-model="password" />
-                        <button v-on:click="log2('#emp1')">log in</button>
+                        <button v-on:click="log2()">log in</button>
                       </div>
                     </div>
                   </div>
@@ -356,7 +356,7 @@ export default defineComponent({
     };
   },
   methods: {
-    async log2(id) {
+    async log2() {
       let result = await axios
         .post("https://pagina1.onrender.com/login", {
           username: this.username,
