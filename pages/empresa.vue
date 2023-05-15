@@ -381,8 +381,7 @@ export default defineComponent({
         this.show = false;
         const element = document.querySelector('.class1');
         element.style.position = "static";
-        const el = document.getElementById(id);
-        el.scrollIntoView();
+        return navigateTo("#emp1");
     },
     showDialog() {
       this.scrollPosition = window.pageYOffset;
