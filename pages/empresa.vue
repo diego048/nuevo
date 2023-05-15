@@ -381,9 +381,7 @@ export default defineComponent({
         this.show = false;
         const element = document.querySelector('.class1');
         element.style.position = "static";
-        const posi = document.querySelector("#emp1");
-        const eleposi = posi.getBoundingClientRect().top + window.pageYOffset;
-        window.scrollTo({top: eleposi, behavior: "instant"});
+        this.$router.push ({ path: "/empresa", hash: "#emp1", behavior: "instant" })
         return navigateTo("#emp1");
       }
     },
