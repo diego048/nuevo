@@ -381,6 +381,9 @@ export default defineComponent({
         this.show = false;
         const element = document.querySelector('.class1');
         element.style.position = "static";
+        element.style.width = '';
+        document.body.style.overflowY = '';
+        
         return navigateTo("#emp1");
     },
     showDialog() {
