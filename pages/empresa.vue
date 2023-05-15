@@ -381,7 +381,7 @@ export default defineComponent({
         this.show = false;
         const element = document.querySelector('.class1');
         element.style.position = "static";
-        const section = document.getElementById("#emp1");
+        const section = document.getElementById("emp1");
         return window.scrollTo({top: section.offsetTop, behavior: "instant"});
       }
     },
