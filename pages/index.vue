@@ -103,7 +103,7 @@
   color: white;
 }
 .video {
-  filter: brightness(25%);
+  filter: brightness(45%);
   height: 100vh;
   width: 100vw;
   object-fit: cover;
