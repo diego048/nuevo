@@ -382,10 +382,7 @@ export default defineComponent({
         const element = document.querySelector('.class1');
         element.style.position = "static";
         const el = document.getElementById(id);
-        if (el) {
-          const top = el.offsetTop;
-          window.scrollTo({ top: top, behavior: 'instant' });}
-      }
+        el.scrollIntoView();
     },
     showDialog() {
       this.scrollPosition = window.pageYOffset;
