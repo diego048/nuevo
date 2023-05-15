@@ -383,8 +383,7 @@ export default defineComponent({
         element.style.position = "static";
         element.style.width = '';
         document.body.style.overflowY = '';
-        
-        return navigateTo("#emp1");
+        return this.$router.push({ path: '/empresa', hash: '#emp1'});
     },
     showDialog() {
       this.scrollPosition = window.pageYOffset;
