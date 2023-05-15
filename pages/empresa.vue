@@ -382,7 +382,6 @@ export default defineComponent({
         const element = document.querySelector('.class1');
         element.style.position = "static";
         this.$router.push ({ path: "/empresa", hash: "#emp1", behavior: "instant" })
-        return navigateTo("#emp1");
       }
     },
     showDialog() {
