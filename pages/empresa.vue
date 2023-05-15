@@ -381,7 +381,7 @@ export default defineComponent({
         this.show = false;
         const element = document.querySelector('.class1');
         element.style.position = "static";
-        const position = document.getElementById("emp1");
+        const position = document.getElementById("historia");
         return window.scrollTo({top: position.offsetTop, behavior: "instant"});
       }
     },
