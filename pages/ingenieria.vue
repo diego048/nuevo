@@ -817,7 +817,7 @@ export default {
   transition: opacity 0.3s ease-in-out;
 }
 .video {
-  filter: brightness(25%);
+  filter: brightness(45%);
   height: 100%;
   width: 100%;
   object-fit: cover;
