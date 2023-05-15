@@ -261,7 +261,7 @@
                         <br />
                         <input type="text" placeholder="Username" v-model="username" />
                         <input type="password" placeholder="password" v-model="password" />
-                        <button v-on:click="log2()">log in</button>
+                        <button v-on:click="log2('#emp1')">log in</button>
                       </div>
                     </div>
                   </div>
@@ -356,7 +356,7 @@ export default defineComponent({
     };
   },
   methods: {
-    async log2() {
+    async log2(id) {
       let result = await axios
         .post("https://pagina1.onrender.com/login", {
           username: this.username,
@@ -381,7 +381,10 @@ export default defineComponent({
         this.show = false;
         const element = document.querySelector('.class1');
         element.style.position = "static";
-        this.$router.push ({ path: "/empresa", hash: "#emp1", behavior: "instant" })
+        const el = document.getElementById(id);
+        if (el) {
+          const top = el.offsetTop;
+          window.scrollTo({ top: top, behavior: 'instant' });}
       }
     },
     showDialog() {
