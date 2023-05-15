@@ -381,7 +381,7 @@ export default defineComponent({
         this.show = false;
         const element = document.querySelector('.class1');
         element.style.position = "static";
-        return window.scrollTo("#emp1");
+        return navigateTo("#emp1");
       }
     },
     showDialog() {
