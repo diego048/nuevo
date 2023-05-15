@@ -384,6 +384,7 @@ export default defineComponent({
         element.style.width = '';
         document.body.style.overflowY = '';
         this.$router.push({ path: '/empresa', hash: '#emp1'});
+        }
     },
     showDialog() {
       this.scrollPosition = window.pageYOffset;
