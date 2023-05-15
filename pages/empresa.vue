@@ -379,12 +379,8 @@ export default defineComponent({
         this.$bus.$emit("activador", this.state);
         localStorage.setItem("token", true);
         this.show = false;
-        const element = document.querySelector('.class1');
-        element.style.position = "static";
-        element.style.width = '';
-        document.body.style.overflowY = '';
-        this.$router.push({ path: '/empresa', hash: '#emp1'});
-        }
+        return navigateTo("#emp1");
+      }
     },
     showDialog() {
       this.scrollPosition = window.pageYOffset;
