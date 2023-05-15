@@ -381,7 +381,7 @@ export default defineComponent({
         this.show = false;
         const element = document.querySelector('.class1');
         element.style.position = "static";
-        return this.$router.push({ path: '/empresa', query: { id: '#emp1' } });
+        return navigateTo("#emp1");
       }
     },
     showDialog() {
