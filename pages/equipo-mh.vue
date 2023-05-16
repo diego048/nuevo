@@ -135,10 +135,12 @@
 import transver from "../assets/imagenes/transelevador.jpg";
 import montacarga from "../assets/imagenes/carro.jpeg";
 import order from "../assets/imagenes/order.jpg";
-import retractiles from "../assets/imagenes/retractil.jpeg";
+import retractiles from "../assets/imagenes/Multidireccional.png";
 import trilateral from "../assets/imagenes/trilateral.jpg";
 import ima1 from "../assets/imagenes/cabecera.png";
 import ima2 from "../assets/imagenes/cabecera1.png";
+import traspaleta from "../assets/imagenes/Transpaleta.png";
+import montacargas from "../assets/imagenes/Montacarga.png";
 export default {
   setup() {
     useHead({
@@ -213,15 +215,15 @@ export default {
           id: 1,
           p1: "Transpaleta",
           p2: "No montan ningún dispositivo eléctrico, por lo que los movimientos de desplazamiento se realizan arrastrándolas manualmente. Sus patines (las plataformas paralelas que sostienen la carga) se pueden elevar ligeramente para levantar el palet del suelo y facilitar así su desplazamiento. Son de uso muy generalizado en la mayoría de los almacenes, sobre todo en trabajos auxiliares.",
-          p3: "https://mecaluxes.cdnwm.com/manual-de-almacenaje/transpaletas/image-1.1.0.jpg",
-          p4: "https://mecaluxes.cdnwm.com/manual-de-almacenaje/transpaletas/image-1.1.0.jpg",
+          p3: traspaleta,
+          p4: traspaleta,
         },
         {
           id: 2,
           p1: "Montacargas CB",
           p2: "Estos son uno de los tipos más populares de montacargas elevadores industriales, pueden ser eléctricos o de combustión interna (duales o Diesel). Estos pueden llegar desde 3 a 6 metros y pueden manejar cargas a a partir de 1 a 10 toneladas",
-          p3: "https://consitecperu.com/wp-content/uploads/2021/02/montacargas-contrabalanceado.jpg",
-          p4: "https://consitecperu.com/wp-content/uploads/2021/02/montacargas-contrabalanceado.jpg",
+          p3: montacargas,
+          p4: montacargas,
         },
         {
           id: 5,
