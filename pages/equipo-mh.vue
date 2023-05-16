@@ -134,7 +134,7 @@
 <script>
 import transver from "../assets/imagenes/transelevador.jpg";
 import montacarga from "../assets/imagenes/carro.jpeg";
-import order from "../assets/imagenes/order.jpg";
+import order from "../assets/imagenes/order1.png";
 import retractiles from "../assets/imagenes/Multidireccional.png";
 import trilateral from "../assets/imagenes/trilateral.jpg";
 import ima1 from "../assets/imagenes/cabecera.png";
