@@ -9,6 +9,9 @@ export default defineNuxtConfig({
     app: {
         pageTransition: { name: 'page', mode: 'out-in' },
         head: {
+            htmlAttrs: {
+              lang: 'es'
+            },
             charset: 'utf-16',
             viewport: 'width=device-width, initial-scale=1',
             title: 'LogicorPeru',
