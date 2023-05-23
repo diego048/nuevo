@@ -13,10 +13,14 @@
               <img
                 :src="p3"
                 style="height: 100%; width:100% ; object-fit: cover"
+                alt="equipamiento"
               >
           </div>
             <div class="col-12 col-sm-6" style="color: black">
-              <h1 align="center" style="color: orangered; margin-top: 8px">
+              <h1 align="center" style="color: orangered; margin-top: 8px" class="d-none d-sm-block">
+                EQUIPAMIENTO WCW
+              </h1>
+              <h1 align="center" style="color: orangered; margin-top: 8px;font-size: 40px;" class="d-block d-sm-none">
                 EQUIPAMIENTO WCW
               </h1>
               <p align="justify" style="padding-left: 3%; padding-right: 3%">
