@@ -39,7 +39,7 @@
                 <img
                   :src="card.src"
                   v-if="card.ok"
-                  style="height: 200px; width: 100%; object-fit: contain; border-style: solid; border-color: rgba(0,0,0,0.15)"
+                  style="height: 200px; width: 100%; object-fit: contain; border-bottom: solid rgba(0,0,0,0.15);"
                 >
                 <img
                   :src="card.src"
@@ -49,7 +49,7 @@
                 <img
                   :src="card.src"
                   v-if="card.ok1"
-                  style="background-color: rgb(246, 246, 246); height: 200px; width: 100%; object-fit: contain;border-style: solid; border-color: rgba(0,0,0,0.15)"
+                  style="background-color: rgb(246, 246, 246); height: 200px; width: 100%; object-fit: contain;border-bottom: solid rgba(0,0,0,0.15);"
                 >
                 <h5
                   class="text-pre-wrap"
