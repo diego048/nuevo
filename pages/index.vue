@@ -119,10 +119,3 @@ export default defineComponent ({
   }
 })
 </script>
-<script setup>
-useHead({
-  htmlAttrs: {
-    lang: 'es',
-  }
-})
-</script>
