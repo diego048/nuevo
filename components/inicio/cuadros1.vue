@@ -15,6 +15,7 @@
                <img
                  :src="card.src"
                  style="height:300px; width: 100%; object-fit: cover"
+                 :alt="card.alt"
                >
              </div>
            </NuxtLink>
@@ -26,6 +27,7 @@
                <img
                  :src="card.src"
                  style="height:300px; width: 100%; object-fit: cover"
+                 :alt="card.alt"
                >
              </div>
            </NuxtLink>
@@ -43,6 +45,7 @@
                <img
                  :src="imag1"
                  style="height:300px; width: 100%; object-fit: cover"
+                 alt="imagen de proyecto"
                >
              </div>
            </NuxtLink>
@@ -54,6 +57,7 @@
                <img
                  :src="imag1"
                  style="height:300px; width: 100%; object-fit: cover"
+                 alt="imagen de proyecto"
                >
              </div>
            </NuxtLink>
@@ -85,30 +89,28 @@
          cards: [
            {
              id: 1,
-             title: "ESTANTERÍA CONVENCIONAL",
-             info: "La Paletización Convencional constituye la solución más adecuada para aquellos almacenes en los que es necesario almacenar productos paletizados con gran variedad de referencias. Esta estantería permite un acceso directo a cada paleta almacenada, así como la posibilidad de retirar cualquier mercancía sin necesidad de mover o desplazar las restantes. Fácil control de stocks, ya que cada hueco pertenece a una paleta, y es adaptable a cualquier tipo de carga, tanto por peso como por volumen.",
              src: ima1,
              flex: 6,
              flex1: 4,
              show: false,
+             alt: "proyecto de gloria"
            },
            {
              id: 2,
-             title: "ESTANTERÍA COMPACTA (DRIVE-IN)",
-             info: "Este sistema de almacenaje está constituido por un conjunto de estantería, que forma calles interiores de carga, con carriles de apoyo para las paletas. Las carretillas ingresan en dichas calles interiores con la carga elevada por encima del nivel en el que va a ser depositada. Esta estantería requiere un mínimo de pasillos para maniobrar, además se logra una máxima utilización del espacio disponible (85%). Es ideal para almacenar productos homogéneos, cuya rotación o acceso directo no sea un factor determinante.",
              src: ima2,
              flex: 6,
              flex1: 4,
              show: false,
+             alt: "proyecto"
            },
            {
              id: 3,
-             title: "ESTANTERÍA MEDIA CARGA",
-             info: "Los Racks de Media Carga, están diseñados para aquellas bodegas donde la mercancía no será almacenada en pallets, sino que se depositará y retirará de los racks manualmente. Son idóneos cuando las referencias son muchas, las cantidades pequeñas o variables y la rotación fraccionada. El acceso se hace a pie desde el suelo o desde pasarelas elevadas colocadas entre los racks. (Pasillos elevados)",
+             alt
              src: ima3,
              flex: 6,
              flex1: 4,
              show: false,
+             alt: "proyecto de minera"
            },
          ],
        };
