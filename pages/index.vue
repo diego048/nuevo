@@ -18,14 +18,6 @@
       <InicioContador />
     </div>
     <br />
-    <div class="container">
-      <h1
-        style="color: blue; font-size: 300%; font-family: Verdana, sans-serif"
-        align="center"
-      >
-        PRODUCTOS
-      </h1>
-    </div>
     <NuxtLink :to="{ name: 'consultoria-de-proyectos' }" style="text-decoration: none">
       <InicioParrafod1 />
     </NuxtLink>
