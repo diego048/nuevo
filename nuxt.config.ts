@@ -12,7 +12,6 @@ export default defineNuxtConfig({
             charset: 'utf-16',
             viewport: 'width=device-width, initial-scale=1',
             title: 'LogicorPeru',
-            HtmlAttr: { lang: 'es'},
             meta: [
               { name: 'description', content: 'Somos un grupo de profesionales especializados en almacenes, contamos con más de 20 años' }
             ],
