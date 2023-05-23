@@ -4,7 +4,7 @@
             <div class="container-fluid d-flex justify-content-between">
                 <div class="d-flex justify-content-start">
                     <NuxtLink class="navbar-brand" to="/">
-                        <img :src="p1" style="max-height: 40px; width:100%; height:100%; object-fit: contain">
+                        <img :src="p1" alt="logo de logicorp" style="max-height: 40px; width:100%; height:100%; object-fit: contain">
                     </NuxtLink>
                 </div>
                 <div>
@@ -105,7 +105,7 @@
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 50vw; max-width: 360px">
                 <div class="offcanvas-header">
                      <NuxtLink class="navbar-brand" align="center" to="/" style="width: 100%">
-                        <img :src="p2" style="width: 100%; object-fit: contain" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <img alt="logo de logicorp" :src="p2" style="width: 100%; object-fit: contain" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     </NuxtLink>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
