@@ -105,7 +105,6 @@
            },
            {
              id: 3,
-             alt
              src: ima3,
              flex: 6,
              flex1: 4,
