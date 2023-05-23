@@ -43,7 +43,7 @@
             >
                 <div class="card1" @click="showDialog(card)" align="center" style="width: 100%"  v-scrolls>
                     <div class="overlay" ></div>
-                    <img :src="card.src" style="height: 200px; width: 100%; object-fit: contain" v-if="!card.cover">
+                    <img :src="card.src" style="height: 200px; width: 100%; object-fit: contain; border-bottom: solid rgba(0,0,0,0.15);" v-if="!card.cover">
                     <img :src="card.src" style="height: 200px; width: 100%; object-fit: cover" v-if="card.cover">
                     <h5
                         class="text-pre-wrap d-none d-sm-block"
