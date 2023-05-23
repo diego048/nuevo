@@ -96,7 +96,7 @@
                             </li>
                         </ul>
                     </div>
-                    <button class="btn btn-black d-block d-sm-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <button name="boton para el menu" class="btn btn-black d-block d-sm-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
