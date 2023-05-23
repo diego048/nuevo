@@ -11,10 +11,14 @@
               <img
                 :src="p3"
                 style="object-fit: contain; height: 100%; width: 100%;"
+                alt="proyecto gloria"
               >
           </div>
             <div class="col-12 col-sm-6" style="color:black">
-              <h1 align="center" style="color: orangered; margin-top: 8px">
+              <h1 align="center" style="color: orangered; margin-top: 8px" class="d-none d-sm-block">
+                CONSULTORÍA
+              </h1>
+              <h1 align="center" style="color: orangered; margin-top: 8px; font-size: 40px;" class="d-block d-sm-none">
                 CONSULTORÍA
               </h1>
               <p
