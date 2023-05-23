@@ -43,7 +43,7 @@
     <h1 align="center" style="color: blue">CONTACTO</h1>
     <div>
       <div class="container">
-        <img :src="ima1" style="height: 500px; width: 100%; object-fit: cover">
+        <img :src="ima1" style="height: 500px; width: 100%; object-fit: cover" alt="mapa de nuestras oficinas">
       </div>
     </div>
     <br />
