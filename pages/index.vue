@@ -1,5 +1,5 @@
 <template>
-    <div style="overflow-x:hidden">
+    <div style="overflow-x:hidden" lang="es">
       <br />
         <div style="position: relative">
             <video autoplay loop muted playsinline class="video" poster="../assets/imagenes/plantilla.jpg">
