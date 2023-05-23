@@ -13,7 +13,7 @@
               <img
                 :src="p3"
                 style="height: 100%; width:100% ; object-fit: cover"
-                alt="equipamiento"
+                alt="Proyecto Gloria"
               >
           </div>
             <div class="col-12 col-sm-6" style="color: black">
@@ -44,6 +44,7 @@
                 cover
                 :src="p3"
                 style="height: 100%;  width:100% ; object-fit: cover"
+                alt="proyecto gloria"
               >
         </div>
         </div>
