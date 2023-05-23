@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-useHead({
+useHead({ 
   htmlAttrs: {
     lang: 'es',
   }
