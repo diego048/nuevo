@@ -7,7 +7,12 @@
   </div>
 </template>
 
-<script setup lang="es">
+<script setup>
+useHead({
+  htmlAttrs: {
+    lang: 'es',
+  }
+})
 </script>
 <style>
 .page-enter-active,
