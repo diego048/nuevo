@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div lang="es">
     <NuxtLayout>
       <NuxtLoadingIndicator/>
       <NuxtPage />
