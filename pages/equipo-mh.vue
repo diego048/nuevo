@@ -55,7 +55,8 @@
             v-scrolls
           >
             <div class="overlay"></div>
-            <img :src="card.p3" style="width: 100%; height: 200px; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img v-if="!card.show" :src="card.p3" style="width: 100%; height: 200px; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img v-if="card.show" :src="card.p3" style="width: 100%; height: 200px; object-fit: contain" />
             <h5
               class="text-pre-wrap"
               style="word-break: break-word"
@@ -219,6 +220,7 @@ export default {
           p2: "No montan ningún dispositivo eléctrico, por lo que los movimientos de desplazamiento se realizan arrastrándolas manualmente. Sus patines (las plataformas paralelas que sostienen la carga) se pueden elevar ligeramente para levantar el palet del suelo y facilitar así su desplazamiento. Son de uso muy generalizado en la mayoría de los almacenes, sobre todo en trabajos auxiliares.",
           p3: traspaleta,
           p4: traspaleta,
+          show: false
         },
         {
           id: 2,
@@ -226,6 +228,7 @@ export default {
           p2: "Estos son uno de los tipos más populares de montacargas elevadores industriales, pueden ser eléctricos o de combustión interna (duales o Diesel). Estos pueden llegar desde 3 a 6 metros y pueden manejar cargas a a partir de 1 a 10 toneladas",
           p3: montacargas,
           p4: montacargas,
+          show: false
         },
         {
           id: 5,
@@ -233,6 +236,7 @@ export default {
           p2: "El retráctil es una máquina eléctrica que realiza el desplazamiento y las maniobras de giro y elevación retrayendo el mástil, con lo que lo desplazan hacia el centro de gravedad de la máquina.",
           p3: retractiles,
           p4: retractiles,
+          show: false
         },
         {
           id: 3,
@@ -240,6 +244,7 @@ export default {
           p2: "El Montacargas Articulado tiene una influencia directa sobre las soluciones de almacenaje debido que determinan la anchura mínima de los pasillos y, como consecuencia, la cantidad de estanterías que se puedan instalar y la capacidad de almacenaje. A su vez, los montacargas también inciden en la altura máxima de las estanterías, pudiendo ser mayor o menor según los casos. Los montacargas de almacén son responsables del movimiento interno de la mercancía, desde los muelles a las ubicaciones de las estanterías, o desde las áreas de producción al almacén.",
           p3: montacarga,
           p4: montacarga,
+          show: false
         },
         {
           id: 4,
@@ -247,6 +252,7 @@ export default {
           p2: "Los recolectores de pedidos se utilizan principalmente para operaciones de recolección de material de rack de almacén. alta selección de material de la repisa. con capacidad de carga de 1t, con una altura de elevación de 6 m; con el controlador usa curtis;",
           p3: order,
           p4: order,
+          show: false
         },
         {
           id: 6,
@@ -254,6 +260,7 @@ export default {
           p2: "Los trilaterales son máquinas para trabajar en pasillos estrechos (de entre 1.500 y 1.800 mm), gracias a lo cual se aumenta considerablemente la capacidad de almacenaje. Estos pueden alcanzar alturas de elevación de la carga por encima de los 14 m.",
           p3: trilateral,
           p4: trilateral,
+          show: false
         },
         {
           id: 7,
@@ -261,6 +268,7 @@ export default {
           p2: "Su estructura se compone de dos columnas verticales y, en el medio, se ubica la cuna de elevación, con la que se accede a todos los niveles de almacenaje. Es un tipo de transelevador más robusto y resistente que el monocolumna, por lo que resulta perfecto cuando hay que manipular cargas más pesadas. A su vez, también proporciona un elevado rendimiento en cuanto a agilidad.",
           p3: transver,
           p4: transver,
+          show: true
         },
       ],
     };
