@@ -264,7 +264,7 @@
             class="card1"
           >
             <div class="overlay"></div>
-            <img :src="p26" style="height: 200px; width: 100%; object-fit: contain; solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img :src="p26" style="height: 200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               SUPERMERCADOS PERUANOS
             </h5>
@@ -351,7 +351,7 @@
             @click="showDialog4()"
           >
             <div class="overlay"></div>
-            <img :src="p28" style="height: 200px; width: 100%; object-fit: contain; solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img :src="p28" style="height: 200px; width: 100%; object-fit: contain;border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               TIENDAS EFE
             </h5>
@@ -413,7 +413,7 @@
             @click="showDialog5()"
           >
             <div class="overlay"></div>
-            <img :src="p30" style="height: 200px; width: 100%; object-fit: contain; solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img :src="p30" style="height: 200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               RIPLEY
             </h5>
