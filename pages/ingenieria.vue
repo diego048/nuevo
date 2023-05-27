@@ -421,7 +421,7 @@
           <div style="position: relative">
             <img style="width: 100%; height: 100%; object-fit: contain" :src="p6" :lazy-src="p6" />
             <div style="position: absolute; top: 0; right: 0">
-              <button class="btn btn-danger" @click="hideDialog1()">X</button>
+              <button class="btn btn-danger" @click="hideDialog1()">></button>
             </div>
           </div>
         </div>
@@ -435,7 +435,7 @@
             />
             <div style="position: absolute; top: 0; right: 0">
               <button class="btn btn-danger" @click="hideDialog2()">
-                X
+                >
               </button>
             </div>
           </div>
@@ -460,7 +460,7 @@
                   class="btn btn-danger"
                   @click="card.show = false"
                 >
-                  <h1>X</h1>
+                  <h1>></h1>
                 </button>
               </div>
               <div class="container">
@@ -497,7 +497,7 @@
                     class="btn btn-danger"
                     @click="hideDialog(card)"
                   >
-                    X
+                    >
                   </button>
                 </div>
             </div>
