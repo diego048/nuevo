@@ -52,7 +52,7 @@
             class="card1"
           >
             <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover" v-if="!card.show1" />
-            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
+            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
             <h5
               class="text-pre-wrap"
             >
@@ -139,7 +139,7 @@
             class="card1"
           >
             <img :src="card.src" style="height:200px; width: 100%; object-fit: cover" v-if="!card.show1" />
-            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
+            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
             <h5
               class="text-pre-wrap"
               align="center"
