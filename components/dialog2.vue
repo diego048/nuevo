@@ -52,7 +52,7 @@
                     class="btn btn-danger"
                     @click="hideDialog1()"
                   >
-                    <h1>X</h1>
+                    <h1>></h1>
                   </button>
                 </div>
               </div>
@@ -184,7 +184,7 @@
                     variant="text"
                     @click="hideDialog2()"
                   >
-                    <h1>X</h1>
+                    <h1>></h1>
                   </button>
                 </div>
               </div>
@@ -289,7 +289,7 @@
                     class="btn btn-danger"
                     @click="hideDialog3()"
                   >
-                    <h1>X</h1>
+                    <h1>></h1>
                   </button>
                 </div>
               </div>
@@ -369,7 +369,7 @@
                     class="btn btn-danger"
                     @click="hideDialog4()"
                   >
-                    <h1>X</h1>
+                    <h1>></h1>
                   </button>
                 </div>
               </div>
@@ -431,7 +431,7 @@
                     class="btn btn-danger"
                     @click="hideDialog5()"
                   >
-                    <h1>X</h1>
+                    <h1>></h1>
                   </button>
                 </div>
               </div>
@@ -492,7 +492,7 @@
                     class="btn btn-danger"
                     @click="hideDialog6()"
                   >
-                    <h1>X</h1>
+                    <h1>></h1>
                   </button>
                 </div>
               </div>
@@ -705,7 +705,7 @@
                 class="btn btn-danger"
                 @click="hideDialog()"
               >
-                <h1>X</h1>
+                <h1>></h1>
               </button>
             </div>
           </div>
