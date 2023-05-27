@@ -101,7 +101,7 @@
                 <br />
               </div>
               <div class="col-12 col-sm-6 col-md-6">
-                <img :src="card.p3" style="height: 70vh; width: 100%; object-fit: contain" />
+                <img :src="card.p3" style="max-height: 70vh; width: 100%; height: 100%; object-fit: contain" />
               </div>
             </div>
           </dibox>
