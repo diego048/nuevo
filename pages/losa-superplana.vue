@@ -122,7 +122,7 @@
                         class="btn btn-danger"
                         @click="hideDialog(card)"
                       >
-                        <h2>></h2>
+                        <span class="mdi mdi-arrow-u-left-bottom" style="color: white"></span>
                       </button>
                     </div>
                   </div>
@@ -171,7 +171,7 @@
           </div>
           <div class="d-flex justify-content-end">
             <button type="button" class="btn btn-danger" @click="hideDialog1()">
-              <h1>></h1>
+              <span class="mdi mdi-arrow-u-left-bottom" style="color: white"></span>
             </button>
           </div>
           <div class="row" align="center">
