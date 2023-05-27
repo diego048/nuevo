@@ -180,7 +180,7 @@
                   >
                     <swiper :loop="true" style="max-height: 60vh; width:100%; color: black">
                       <swiper-slide v-for="card in cards" :key="card.src" class="d-flex align-items-center">
-                        <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
+                        <img :src="card.src" class="d-flex align-items-center" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                       </swiper-slide>
                       <div class="boton1">
                       <boton />
@@ -204,7 +204,7 @@
                 >
                   <swiper :loop="true" style="max-height: 60vh; color: black">
                     <swiper-slide v-for="card in cards1" :key="card.src" class="d-flex align-items-center">
-                      <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
+                      <img :src="card.src" class="d-flex align-items-center" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                     </swiper-slide>
                     <div class="boton1">
                     <boton />
@@ -252,7 +252,7 @@
                 >
                   <swiper :loop="true" style="height: 100%; color: black">
                     <swiper-slide v-for="card in cards5" :key="card" class="d-flex align-items-center">
-                      <img :src="card" style="width:100%; height: 100%; object-fit: contain" alt="..." />
+                      <img :src="card" class="d-flex align-items-center" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                     </swiper-slide>
                     <div class="boton1">
                     <boton />
@@ -314,7 +314,7 @@
                   <div style="height: 350px; min-height: 287px" class="col-12">
                     <swiper :loop="true" style="height: 100%; color: black">
                     <swiper-slide v-for="card in cards2" :key="card.show" class="d-flex align-items-center">
-                      <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
+                      <img :src="card.src" class="d-flex align-items-center" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                     </swiper-slide>
                     <div class="boton1">
                     <boton />
