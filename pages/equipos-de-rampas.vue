@@ -70,7 +70,7 @@
                           class="btn btn-danger"
                           @click="hideDialog(card)"
                         >
-                          <h1>></h1>
+                          <span class="mdi mdi-arrow-u-left-bottom" style="color: white"></span>
                         </button>
                       </div>
                       </div>
