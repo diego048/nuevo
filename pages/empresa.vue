@@ -251,7 +251,7 @@
                       type="button"
                       @click="hideDialog()"
                     >
-                      <h1>X</h1>
+                      <span class="mdi mdi-arrow-u-left-bottom" style="color: white"></span>
                   </button>
                   </div>
                   <div class="container">
