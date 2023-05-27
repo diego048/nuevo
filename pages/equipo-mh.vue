@@ -72,8 +72,7 @@
               </h2>
               <div class="d-flex justify-start">
                 <button
-                  type="button" class="btn btn-white"
-                  style="color: rgb(203, 50, 52)"
+                  type="button" class="btn btn-danger"
                   @click="hideDialog(card)"
                 >
                   <h2>></h2>
