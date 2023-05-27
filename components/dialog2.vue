@@ -684,10 +684,10 @@
           style="padding-bottom: 20px"
         >
           <div class="card1" style="width: 100%" align="center">
-            <video controls style="width: 100%; height: 200px">
+            <video controls style="width: 100%; height: 200px; object-fit: cover">
               <source :src="p43" type="video/mp4" />
             </video>
-            <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
+            <h5 align="center" class="text-pre-wrap">
               SIMULACIÓN PARA EMPRESA INDUSTRIAL
             </h5>
           </div>
