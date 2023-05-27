@@ -421,7 +421,9 @@
           <div style="position: relative">
             <img style="width: 100%; height: 100%; object-fit: contain" :src="p6" :lazy-src="p6" />
             <div style="position: absolute; top: 0; right: 0">
-              <button class="btn btn-danger" @click="hideDialog1()">></button>
+              <button class="btn btn-danger" @click="hideDialog1()">
+                <span class="mdi mdi-arrow-u-left-bottom" style="color: white"></span>
+              </button>
             </div>
           </div>
         </div>
@@ -435,7 +437,7 @@
             />
             <div style="position: absolute; top: 0; right: 0">
               <button class="btn btn-danger" @click="hideDialog2()">
-                >
+                <span class="mdi mdi-arrow-u-left-bottom" style="color: white"></span>
               </button>
             </div>
           </div>
@@ -460,7 +462,7 @@
                   class="btn btn-danger"
                   @click="card.show = false"
                 >
-                  <h1>></h1>
+                  <span class="mdi mdi-arrow-u-left-bottom" style="color: white"></span>
                 </button>
               </div>
               <div class="container">
@@ -497,7 +499,7 @@
                     class="btn btn-danger"
                     @click="hideDialog(card)"
                   >
-                    >
+                    <span class="mdi mdi-arrow-u-left-bottom" style="color: white"></span>
                   </button>
                 </div>
             </div>
