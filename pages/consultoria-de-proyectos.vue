@@ -30,11 +30,11 @@
             >
               <div class="card1" style="width: 100%">
                 <div class="overlay"></div>
-                <img v-if="card.ok" :src="card.src" style="height:200px; width: 100%; object-fit: contain;">
+                <img v-if="card.ok" :src="card.src" style="height:200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)">
                 <img
                   v-if="!card.ok"
                   :src="card.src"
-                  style="height:200px; width: 100%; object-fit: contain;"
+                  style="height:200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)"
                 >
 
                 <h5
