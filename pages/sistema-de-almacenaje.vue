@@ -80,7 +80,7 @@
                   class="btn btn-danger"
                     @click="hideDialog(card)"
                   >
-                    <h1>X</h1>
+                    <h1>></h1>
                   </button>
                 </div>
               </div>
@@ -167,7 +167,7 @@
                   class="btn btn-danger"
                   @click="hideDialog(card)"
                 >
-                  <h1>X</h1>
+                  <h1>></h1>
                 </button>
               </div>
             </div>
@@ -252,7 +252,7 @@
                   class="btn btn-danger"
                   @click="hideDialog(card)"
                 >
-                  <h1>X</h1>
+                  <h1>></h1>
                 </button>
               </div>
             </div>
