@@ -52,7 +52,7 @@
             v-scrolls
           >
             <div class="overlay"></div>
-            <img :src="card.p3" style="width: 100%; height: 200px; object-fit: contain" />
+            <img :src="card.p3" style="width: 100%; height: 200px; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
             <h5
               class="text-pre-wrap"
               style="word-break: break-word"
@@ -76,7 +76,7 @@
                   style="color: rgb(203, 50, 52)"
                   @click="hideDialog(card)"
                 >
-                  <h2>X</h2>
+                  <h2>></h2>
                 </button>
               </div>
             </div>
