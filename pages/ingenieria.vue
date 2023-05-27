@@ -178,7 +178,7 @@
                   <div
                     class="col-12 col-sm-6 order-1 order-sm-2"
                   >
-                    <swiper :loop="true" style="height: 60vh; width:100%; min-height: 287px; color: black">
+                    <swiper :loop="true" style="height: 60vh; width:100%; color: black">
                       <swiper-slide v-for="card in cards" :key="card.src">
                         <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                       </swiper-slide>
@@ -202,7 +202,7 @@
                 <div
                   class="col-12 col-sm-6"
                 >
-                  <swiper :loop="true" style="height: 60vh; min-height: 287px; color: black">
+                  <swiper :loop="true" style="height: 60vh; color: black">
                     <swiper-slide v-for="card in cards1" :key="card.src">
                       <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                     </swiper-slide>
@@ -250,7 +250,7 @@
                   style="height: 50vh; min-height: 287px"
                   class="col-12 col-sm-6 order-1 order-sm-2"
                 >
-                  <swiper :loop="true" style="height: 100%; min-height: 287px; color: black">
+                  <swiper :loop="true" style="height: 100%; color: black">
                     <swiper-slide v-for="card in cards5" :key="card">
                       <img :src="card" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                     </swiper-slide>
@@ -312,7 +312,7 @@
                     <br />
                   </div>
                   <div style="height: 350px; min-height: 287px" class="col-12">
-                    <swiper :loop="true" style="height: 100%; min-height: 287px; color: black">
+                    <swiper :loop="true" style="height: 100%; color: black">
                     <swiper-slide v-for="card in cards2" :key="card.show">
                       <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                     </swiper-slide>
