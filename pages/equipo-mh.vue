@@ -79,7 +79,7 @@
                   type="button" class="btn btn-danger"
                   @click="hideDialog(card)"
                 >
-                  <h2>></h2>
+                  <span class="mdi mdi-arrow-u-left-bottom"></span>
                 </button>
               </div>
             </div>
