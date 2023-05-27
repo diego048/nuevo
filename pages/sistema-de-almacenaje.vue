@@ -54,10 +54,15 @@
             <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover" v-if="!card.show1" />
             <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
             <h5
-              class="text-pre-wrap"
+              class="text-pre-wrap d-none d-sm-block justify-content-center"
             >
               {{ card.title }}
             </h5>
+            <h6
+              class="text-pre-wrap d-block d-sm-none justify-content-center"
+            >
+              {{ card.title }}
+            </h6>
             <p style="color: rgba(185,185,185,0.8)">más info</p>
           </div>
           <dibox v-show="card.show" @close="hideDialog(card)">
@@ -141,11 +146,16 @@
             <img :src="card.src" style="height:200px; width: 100%; object-fit: cover" v-if="!card.show1" />
             <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
             <h5
-              class="text-pre-wrap"
+              class="text-pre-wrap d-none d-sm-block justify-content-center"
               align="center"
             >
               {{ card.title }}
             </h5>
+            <h6
+              class="text-pre-wrap d-block d-sm-none" align="center justify-content-center"
+            >
+              {{ card.title }}
+            </h6>
             <p align="center" style="color: rgba(185,185,185,0.8)">más info</p>
           </div>
           <dibox v-show="card.show" @close="hideDialog(card)">
@@ -223,10 +233,15 @@
             <img :src="card.src" style="height: 200px; width: 100%; object-fit: cover"
              />
             <h5
-              class="text-pre-wrap"
+              class="text-pre-wrap d-none d-sm-block justify-content-center"
             >
               {{ card.title }}
             </h5>
+            <h6
+              class="text-pre-wrap d-block d-sm-none" align="center justify-content-center"
+            >
+              {{ card.title }}
+            </h6>
             <div style="color: rgba(185,185,185,0.8)">más info</div>
           </div>
           <dibox v-show="card.show" @close="hideDialog(card)">
