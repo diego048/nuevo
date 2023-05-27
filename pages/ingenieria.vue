@@ -247,7 +247,7 @@
             <div class="container">
               <div class="row card1">
                 <div
-                  style="height: 50vh; min-height: 287px"
+                  style="max-height: 50vh;"
                   class="col-12 col-sm-6 order-1 order-sm-2"
                 >
                   <swiper :loop="true" style="height: 100%; color: black">
