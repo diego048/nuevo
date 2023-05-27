@@ -799,12 +799,12 @@ export default {
 }
 .card2:hover .overlay {
   opacity: 1;
-  z-index: 10000;
+  z-index: -1;
   background-color: rgba(129, 129, 129, 0.171);
 }
 .card1:hover .overlay {
   opacity: 1;
-  z-index: 10000;
+  z-index: -1;
   background-color: rgba(129, 129, 129, 0.171);
 }
 .overlay {
