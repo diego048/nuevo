@@ -178,7 +178,7 @@
                   <div
                     class="col-12 col-sm-6 order-1 order-sm-2"
                   >
-                    <swiper :loop="true" style="height: 60vh; width:100%; color: black">
+                    <swiper :loop="true" style="max-height: 60vh; width:100%; color: black">
                       <swiper-slide v-for="card in cards" :key="card.src">
                         <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                       </swiper-slide>
@@ -202,7 +202,7 @@
                 <div
                   class="col-12 col-sm-6"
                 >
-                  <swiper :loop="true" style="height: 60vh; color: black">
+                  <swiper :loop="true" style="max-height: 60vh; color: black">
                     <swiper-slide v-for="card in cards1" :key="card.src">
                       <img :src="card.src" style="width:100%; height: 100%; object-fit: contain" alt="..." />
                     </swiper-slide>
