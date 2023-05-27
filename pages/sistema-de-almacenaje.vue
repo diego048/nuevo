@@ -51,10 +51,10 @@
             v-scrolls
             class="card1"
           >
-            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover" />
+            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover" v-if="!card.show1" />
+            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
             <h5
               class="text-pre-wrap"
-              style="word-break: break-word"
             >
               {{ card.title }}
             </h5>
@@ -66,7 +66,6 @@
                 <div>
                   <h2
                     class="d-flex justify-end text-pre-wrap"
-                    style="word-break: break-word"
                   >
                     {{ card.title }}
                   </h2>
@@ -139,10 +138,10 @@
             v-scrolls
             class="card1"
           >
-            <img :src="card.src" style="height:200px; width: 100%; object-fit: cover" />
+            <img :src="card.src" style="height:200px; width: 100%; object-fit: cover" v-if="!card.show1" />
+            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
             <h5
               class="text-pre-wrap"
-              style="word-break: break-word"
               align="center"
             >
               {{ card.title }}
@@ -225,7 +224,6 @@
              />
             <h5
               class="text-pre-wrap"
-              style="word-break: break-word"
             >
               {{ card.title }}
             </h5>
@@ -429,6 +427,7 @@ export default {
           flex: 6,
           flex1: 4,
           show: false,
+          show1: true
         },
       ],
       cards1: [
@@ -509,6 +508,7 @@ export default {
           flex: 6,
           flex1: 4,
           show: false,
+          show1: true,
         },
       ],
     };
