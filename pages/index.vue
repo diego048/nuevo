@@ -3,7 +3,7 @@
       <br />
         <div style="position: relative">
             <video autoplay loop muted playsinline class="video" poster="../assets/imagenes/plantilla.jpg">
-                <source src="https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/logicorp1.mp4" />
+                <source src="https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/logicorp1.mp4" />
             </video>
             <div class="p1 container" align="center">
                 <h2>
@@ -113,7 +113,7 @@ export default defineComponent ({
   },
   data () {
     return {
-      ima1: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/imagen30.png",
+      ima1: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/imagen30.png",
     }
   }
 })
