@@ -2,8 +2,8 @@
     <div style="overflow-x:hidden" lang="es">
       <br />
         <div style="position: relative">
-            <video autoplay loop muted playsinline class="video" poster="../assets/imagenes/plantilla.jpg">
-                <source src="https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/logicorp1.mp4" />
+            <video autoplay loop muted playsinline class="video" poster="https://ik.imagekit.io/qewkcqaku/tr:w-650/imagenes/plantilla.jpg">
+                <source src="https://ik.imagekit.io/qewkcqaku/tr:w-650/imagenes/logicorp1.mp4" />
             </video>
             <div class="p1 container" align="center">
                 <h2>
