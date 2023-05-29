@@ -79,11 +79,11 @@
      data() {
        return {
          activador: false,
-         imag1: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/proyecto3.jpg", 
+         imag1: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyecto3.jpg", 
          cards: [
            {
              id: 1,
-             src: "https://ik.imagekit.io/qewkcqaku/tr:w-900/Gloria/Gloria.jpg",
+             src: "https://ik.imagekit.io/qewkcqaku/tr:w-800/Gloria/Gloria.jpg",
              flex: 6,
              flex1: 4,
              show: false,
@@ -91,7 +91,7 @@
            },
            {
              id: 2,
-             src: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/proyecto8.jpg",
+             src: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyecto8.jpg",
              flex: 6,
              flex1: 4,
              show: false,
@@ -99,7 +99,7 @@
            },
            {
              id: 3,
-             src: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/poderosa.jpg",
+             src: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/poderosa.jpg",
              flex: 6,
              flex1: 4,
              show: false,
