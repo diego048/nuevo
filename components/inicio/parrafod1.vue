@@ -46,14 +46,12 @@
   </template>
   <script>
   import { defineComponent } from "vue";
-  import gerencia from "../../assets/imagenes/diseño1.png";
-  import gerencia1 from "../../assets/imagenes/diseño1.png";
 
   export default defineComponent( {
     data() {
       return {
-        p3: gerencia,
-        p4: gerencia1,
+        p3: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/dise%C3%B1o1.png",
+        p4: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/dise%C3%B1o1.png",
       };
     },
   });
