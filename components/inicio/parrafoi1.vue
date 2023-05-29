@@ -57,8 +57,8 @@
   export default defineComponent( {
     data() {
       return {
-        p3: "https://ik.imagekit.io/qewkcqaku/tr:w-900/Gloria/Gloria.jpg",
-        p4: "https://ik.imagekit.io/qewkcqaku/tr:w-900/Gloria/Gloria-op.jpg",
+        p3: "https://ik.imagekit.io/qewkcqaku/tr:w-800/Gloria/Gloria.jpg",
+        p4: "https://ik.imagekit.io/qewkcqaku/tr:w-800/Gloria/Gloria-op.jpg",
       };
     },
   });
