@@ -70,14 +70,6 @@
   </template>
   
   <script>
-  import imagen1 from "../assets/poderosa/Ejecucion.jpg";
-  import ima1 from "../assets/imagenes/alm.jpg";
-  import ima1_op from "../assets/imagenes/alm.jpg";
-  import ima2 from "../assets/imagenes/cabecera.png";
-  import ima2_op from "../assets/imagenes/cabecera.png";
-  import ima3 from "../assets/imagenes/losa.png";
-  import ima4 from "../assets/imagenes/rampas.png";
-  import ima5 from "../assets/imagenes/oficina1.png";
   export default {
     name: "equipos",
     unmounted(){
@@ -137,15 +129,15 @@
     data() {
       return {
         expand: false,
-        p1: imagen1,
+        p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/poderosa/Ejecucion.jpg",
         showModal: false,
         cards: [
           {
             id: 1,
             title: "SISTEMAS DE ALMACENAJE",
             ok: true,
-            src: ima1,
-            opti: ima1_op,
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/alm.jpg",
+            opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/alm.jpg",
             flex: 6,
             flex1: 4,
             show: false,
@@ -155,8 +147,8 @@
             id: 2,
             title: "EQUIPOS DE MATERIAL HANDLING",
             ok: true,
-            src: ima2,
-            opti: ima2_op,
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cabecera.png",
+            opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cabecera.png",
             flex: 6,
             flex1: 4,
             show: false,
@@ -166,8 +158,8 @@
             id: 3,
             ok1: true,
             title: "EQUIPOS DE RAMPA",
-            src: ima4,
-            opti: ima4,
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/rampas.png",
+            opti: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/rampas.png",
             flex: 6,
             flex1: 4,
             show: false,
@@ -177,8 +169,8 @@
             id: 4,
             title: "LOSAS SUPERPLANAS",
             ok2: true,
-            src: ima3,
-            opti: ima3,
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa.png",
+            opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa.png",
             flex: 6,
             flex1: 4,
             show: false,
@@ -188,8 +180,8 @@
             id: 5,
             title: "OFICINAS MODULARES",
             ok2: true,
-            src: ima5,
-            opti: ima5,
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficina1.png",
+            opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficina1.png",
             flex: 6,
             flex1: 4,
             show: false,
@@ -305,7 +297,7 @@
   }
   #background {
       background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url("../assets/poderosa/Ejecucion.jpg");
+        url("https://ik.imagekit.io/qewkcqaku/tr:w-700/poderosa/Ejecucion.jpg");
       background-position: 50% 35%;
       background-repeat: no-repeat;
       background-size: cover;
