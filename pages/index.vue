@@ -3,7 +3,7 @@
       <br />
         <div style="position: relative">
             <video autoplay loop muted playsinline class="video" poster="../assets/imagenes/plantilla.jpg">
-                <source src="../assets/imagenes/logicorp1.mp4" type="video/mp4" />
+                <source src="https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/logicorp1.mp4" />
             </video>
             <div class="p1 container" align="center">
                 <h2>
@@ -64,7 +64,7 @@
 }
 #background {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../assets/botica/render.jpg");
+    url("https://ik.imagekit.io/qewkcqaku/tr:w-800/botica/render.jpg");
   background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,7 +106,6 @@
 }
 </style>
 <script>
-import imagen1 from "../assets/imagenes/imagen30.png";
 import { defineComponent } from "vue";
 export default defineComponent ({
     unmounted(){
@@ -114,7 +113,7 @@ export default defineComponent ({
   },
   data () {
     return {
-      ima1: imagen1,
+      ima1: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/imagen30.png",
     }
   }
 })
