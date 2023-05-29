@@ -54,14 +54,11 @@
   </template>
   <script>
   import { defineComponent } from "vue";
-  import gerencia from "../../assets/Gloria/Gloria.jpg";
-  import gerencia1 from "../../assets/Gloria/Gloria-op.jpg";
-
   export default defineComponent( {
     data() {
       return {
-        p3: gerencia,
-        p4: gerencia1,
+        p3: "https://ik.imagekit.io/qewkcqaku/tr:w-900/Gloria/Gloria.jpg",
+        p4: "https://ik.imagekit.io/qewkcqaku/tr:w-900/Gloria/Gloria-op.jpg",
       };
     },
   });
