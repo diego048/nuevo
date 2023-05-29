@@ -69,13 +69,7 @@
     </div>
 </template>
 <script>
- import { defineComponent } from "vue";
- 
-   //imagenes
-   import ima1 from "../../assets/Gloria/Gloria.jpg";
-   import ima2 from "../../assets/imagenes/proyecto8.jpg";
-   import ima3 from "../../assets/imagenes/poderosa.jpg";
-   import ima4 from "../../assets/imagenes/proyecto3.jpg";
+   import { defineComponent } from "vue";
    export default defineComponent({
      beforeMount(){
        if(localStorage.getItem("token")){
@@ -85,11 +79,11 @@
      data() {
        return {
          activador: false,
-         imag1: ima4, 
+         imag1: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/proyecto3.jpg", 
          cards: [
            {
              id: 1,
-             src: ima1,
+             src: "https://ik.imagekit.io/qewkcqaku/tr:w-900/Gloria/Gloria.jpg",
              flex: 6,
              flex1: 4,
              show: false,
@@ -97,7 +91,7 @@
            },
            {
              id: 2,
-             src: ima2,
+             src: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/proyecto8.jpg",
              flex: 6,
              flex1: 4,
              show: false,
@@ -105,7 +99,7 @@
            },
            {
              id: 3,
-             src: ima3,
+             src: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/poderosa.jpg",
              flex: 6,
              flex1: 4,
              show: false,
