@@ -50,8 +50,8 @@
   export default defineComponent( {
     data() {
       return {
-        p3: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/dise%C3%B1o1.png",
-        p4: "https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/dise%C3%B1o1.png",
+        p3: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/dise%C3%B1o1.png",
+        p4: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/dise%C3%B1o1.png",
       };
     },
   });
