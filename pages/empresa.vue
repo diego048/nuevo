@@ -1,9 +1,9 @@
 <template>
   <div style="overflow-x:hidden">
     <div>
-      <video autoplay loop muted playsinline class="video">
-        <source src="../assets/imagenes/logicorp1.mp4" type="video/webm" />
-        <source src="../assets/imagenes/logicorp1.mp4" type="video/mp4" />
+      <video autoplay loop muted playsinline class="video" poster="https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/plantilla.jpg">
+        <source src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/logicorp1.mp4" type="video/webm" />
+        <source src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/logicorp1.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="class1">
