@@ -366,7 +366,7 @@
   }
   #background1 {
     background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
-      url("../assets/botica/INGRESO-A-OFICINAS.jpg");
+      url("https://ik.imagekit.io/qewkcqaku/tr:w-600/botica/INGRESO-A-OFICINAS.jpg");
     background-position: 50% 30%;
     background-repeat: no-repeat;
     background-size: cover;
