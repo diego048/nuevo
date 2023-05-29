@@ -105,7 +105,7 @@
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 50vw; max-width: 360px">
                 <div class="offcanvas-header">
                      <NuxtLink class="navbar-brand" align="center" to="/" style="width: 100%">
-                        <img alt="logo de logicorp" :src="p2" style="width: 100%; object-fit: contain" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <img alt="logo de logicorp" :src="p2" style="width: 100%; height: 100%; object-fit: contain" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     </NuxtLink>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -190,13 +190,11 @@
 </style>
 <script>
 import { defineComponent } from "vue";
-import ima1 from "../assets/imagenes/logicorpweb.png";
-import ima2 from "../assets/imagenes/logicorpweb1.png";
 export default defineComponent({
   data() {
       return {
-      p1: ima1,
-      p2: ima2,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-600/imagenes/logicorpweb.png",
+      p2: "https://ik.imagekit.io/qewkcqaku/tr:w-600/imagenes/logicorpweb1.png",
       state: false,
       links1: null,
       items: [
