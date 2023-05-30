@@ -82,7 +82,7 @@
           </span>
         </div>
         <div
-          v-if="activador1"
+          v-if="true"
           v-for="card in cards"
           :key="card.id"
           align="center"
@@ -133,7 +133,7 @@
         </div>
         <div
           v-for="card in cards1"
-          v-if="activador1"
+          v-if="true"
           :key="card.id"
           align="center"
           v-scrolls
