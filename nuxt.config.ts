@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const { __dirname } = createCommonJS(import.meta.url)
 export default defineNuxtConfig({
     hooks: {
     'pages:extend' (pages) {
