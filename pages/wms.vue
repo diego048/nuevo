@@ -28,9 +28,9 @@
               style="height: 50vh; min-height: 287px"
             >
               <img
-                cover
-                src="https://ff95bf1581c181ae3e2b-8be01e280b8e7aa4ff8eaae97998fa2c.ssl.cf1.rackcdn.com/Warehouse-Management-System-WMS-721-min.jpg"
+                src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/System.jpg"
                 style="object-fit: cover; height: 100%; width: 100%"
+                alt="sistema 1"
               />
             </div>
             <div class="col-12 col-sm-6" align="center">
@@ -54,7 +54,8 @@
               style="height: 50vh; min-height: 287px"
             >
               <img
-                src="https://ff95bf1581c181ae3e2b-8be01e280b8e7aa4ff8eaae97998fa2c.ssl.cf1.rackcdn.com/Warehouse-Management-System-WMS-721-min.jpg"
+                alt="sistema 1"
+                src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/System.jpg"
                 style="object-fit: cover; height: 100%; width: 100%"
               />
             </div>
@@ -86,7 +87,8 @@
             >
               <img
                 style="height: 100%; width: 100%; object-fit: cover; width: 100%"
-                src="https://mecaluxpe.cdnwm.com/blog/img/implantacion-sistema-gestion-almacenes.1.0.jpg"
+                alt="software de gestion"
+                src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/sistema-gestion-almacenes.jpg"
               />
             </div>
           </div>
@@ -185,7 +187,7 @@ unmounted(){
 }
 #background {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("../assets/imagenes/imagen19.jpg");
+    url("https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen19.jpg");
   background-position: 50% 35%;
   background-repeat: no-repeat;
   background-size: cover;
