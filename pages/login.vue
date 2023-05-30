@@ -150,7 +150,7 @@ export default {
   text-transform: uppercase;
 }
 #background {
-  background: url("../assets/botica/1.png");
+  background: url("https://ik.imagekit.io/qewkcqaku/tr:w-1000/botica/1.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
