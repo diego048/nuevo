@@ -1,11 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-const { __dirname } = createCommonJS(import.meta.url)
 export default defineNuxtConfig({
     hooks: {
     'pages:extend' (pages) {
       pages.push({
         name: 'diseño-de-almacen',
-        path: "/" + encodeURI("diseño-almacen"),
+        path: "/diseño-almacen",
         file: resolve(__dirname, 'pages/diseño-almacen.vue')
       })
      }
