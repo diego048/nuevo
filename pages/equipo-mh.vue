@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="d-flex d-sm-none">
-            <img alt="maquinarias" :src="p1" style="width: 100%" />
+            <img alt="maquinarias" :src="p1" style="width: 100%; height: 100%; object-fit: contain" />
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <img :src="p2" style=" width: 100%; object-fit: contain" />
+          <img :src="p2" alt="maquinaria" style=" width: 100%; height: 100%; object-fit: contain" />
         </div>
       </div>
     </div>
