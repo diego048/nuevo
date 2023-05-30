@@ -1,10 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     hooks: {
-        'pages:extend' (pages) {
-          pages.push({
-          })
-        }
       }.
     modules: ['nuxt-swiper'],
     swiper: {
