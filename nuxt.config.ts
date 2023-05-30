@@ -1,11 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { resolve } from 'path'
+import { defineNuxtConfig } from 'nuxt3'
+import { createCommonJS } from 'mlly'
+const { __dirname } = createCommonJS(import.meta.url)
+
 export default defineNuxtConfig({
     hooks: {
     'pages:extend' (pages) {
       pages.push({
          name: 'profile',
         path: '/profile',
-        file: 'pages/diseño-almacen.vue'
+        file: resolve(__dirname, 'pages/diseño-almacen.vue')
       })
      }
     },
