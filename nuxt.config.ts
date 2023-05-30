@@ -5,7 +5,7 @@ export default defineNuxtConfig({
       pages.push({
          name: 'profile',
         path: '/profile',
-        file: resolve(__dirname,'pages/diseño-almacen.vue')
+        file: 'pages/diseño-almacen.vue'
       })
      }
     },
