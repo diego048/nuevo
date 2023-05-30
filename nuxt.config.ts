@@ -1,5 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    hooks: {
+    'pages:extend' (pages) {
+      pages.push({
+        name: 'diseño-de-almacen',
+        path: "/" + encodeURI("diseño-almacen"),
+        file: resolve(__dirname, 'pages/diseño-almacen.vue')
+      })
+    }
+  }.
     modules: ['nuxt-swiper'],
     swiper: {
       prefix: 'Swiper',
