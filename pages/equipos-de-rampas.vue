@@ -111,7 +111,7 @@
                             </div>
                             <swiper class="mySwiper" style="height: 100%" :loop="true"  v-if="card.show1" :autoHeight="true">
                         <swiper-slide v-for="card1 in card.src1">
-                          <img :src="card1" :alt="card.title" :alt="card.title" style="width: 100%; height: 100%; object-fit: contain">
+                          <img :src="card1" :alt="card.title" style="width: 100%; height: 100%; object-fit: contain">
                         </swiper-slide>
                         <swiper-slide v-if="card.video1">
                           <video controls style="width:100%; height: 100%; object-fit: contain">
