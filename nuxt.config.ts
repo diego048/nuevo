@@ -4,7 +4,7 @@ export default defineNuxtConfig({
         'pages:extend' (pages) {
           pages.push({
             name: 'diseño-de-almacen',
-            path: "/" + encodeURI("diseño-almacen"),
+            path: "/diseño-almacen",
             file: 'pages/diseño-almacen.vue'
           })
         }
