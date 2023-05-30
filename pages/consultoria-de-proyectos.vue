@@ -4,6 +4,7 @@
     <br />
     <div class="contenedor">
       <img
+        alt="Estanterias"
         :src="p3"
         style="filter: brightness(25%); height: 160px; object-fit: cover; width: 100%"
       />
@@ -30,9 +31,10 @@
             >
               <div class="card1" style="width: 100%">
                 <div class="overlay"></div>
-                <img v-if="card.ok" :src="card.src" style="height:200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)">
+                <img v-if="card.ok" :alt="card.title" :src="card.src" style="height:200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)">
                 <img
                   v-if="!card.ok"
+                  :alt="card.title"
                   :src="card.src"
                   style="height:200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)"
                 >
@@ -59,10 +61,6 @@
 </template>
 
 <script>
-import imagen1 from "../assets/imagenes/imagen19.jpg";
-import imagen2 from "../assets/imagenes/diseño5.png";
-import imagen3 from "../assets/imagenes/proyecto54.jpg";
-import ima1_op from "../assets/imagenes/imagen17-opti.jpg";
 export default {
 unmounted(){
         window.scrollTo({top: 0, behavior: "instant"});
@@ -120,14 +118,13 @@ unmounted(){
   },
   data() {
     return {
-      p3: imagen1,
+      p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen19.jpg",
       cards: [
         {
           id: 1,
           ok: true,
           title: "DISEÑO DE ALMACENES WCW",
-          src: imagen2,
-          opti: ima1_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o5.png",
           flex: 6,
           flex1: 4,
           show: false,
@@ -137,8 +134,7 @@ unmounted(){
           id: 3,
           ok: true,
           title: "INGENIERÍA DE PROYECTOS LOGÍSTICOS",
-          src: imagen3,
-          opti: ima1_op,
+          src: https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto54.jpg,
           flex: 6,
           flex1: 4,
           show: false,
