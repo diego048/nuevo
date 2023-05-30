@@ -26,7 +26,7 @@
         </div>
         </div>
         <div class="algin-self-stretch col-12 col-md-8 col-sm-8">
-          <img :src="p1" style="width: 100%; height: 100%; object-fit: cover" />
+          <img :src="p1" style="width: 100%; height: 100%; object-fit: cover" alt="diseño 3d" />
         </div>
       </div>
     </div>
@@ -51,8 +51,8 @@
             v-scrolls
             class="card1"
           >
-            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover" v-if="!card.show1" />
-            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
+            <img :alt="card.title" :src="card.src" style="height: 200px; width: 100%; object-fit:cover" v-if="!card.show1" />
+            <img :alt="card.title" :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
             <h5
               class="text-pre-wrap d-none d-sm-block justify-content-center"
             >
@@ -113,11 +113,11 @@
                   <div class="d-none d-sm-flex">
                     <div style="min-height: 400px; width: 100%">
                       <br />
-                      <img :src="card.src" />
+                      <img :alt="card.title" :src="card.src" />
                     </div>
                   </div>
                   <div class="d-flex d-sm-none" style="width: 100%; height: 100%">
-                    <img :src="card.src" />
+                    <img :alt="card.title" :src="card.src" />
                   </div>
                 </div>
               </div>
@@ -143,8 +143,8 @@
             v-scrolls
             class="card1"
           >
-            <img :src="card.src" style="height:200px; width: 100%; object-fit: cover" v-if="!card.show1" />
-            <img :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
+            <img :alt="card.title" :src="card.src" style="height:200px; width: 100%; object-fit: cover" v-if="!card.show1" />
+            <img :alt="card.title" :src="card.src" style="height: 200px; width: 100%; object-fit:cover; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="card.show1" />
             <h5
               class="text-pre-wrap d-none d-sm-block justify-content-center"
               align="center"
@@ -200,11 +200,11 @@
                 <div class="d-none d-sm-flex">
                   <div style="min-height: 400px; width: 100%;">
                     <br />
-                    <img :src="card.src" style="object-fit: contain; width: 100%; height:60vh" />
+                    <img :alt="card.title" :src="card.src" style="object-fit: contain; width: 100%; height:60vh" />
                   </div>
                 </div>
                 <div class="d-flex d-sm-none">
-                  <img :src="card.src" style="width: 100%; height: 100%" />
+                  <img :alt="card.title" :src="card.src" style="width: 100%; height: 100%" />
                 </div>
               </div>
             </div>
@@ -230,7 +230,7 @@
             v-scrolls
             class="card1"
           >
-            <img :src="card.src" style="height: 200px; width: 100%; object-fit: cover"
+            <img :alt="card.title" :src="card.src" style="height: 200px; width: 100%; object-fit: cover"
              />
             <h5
               class="text-pre-wrap d-none d-sm-block justify-content-center"
@@ -285,11 +285,11 @@
                 <div class="d-none d-sm-flex">
                   <div style="min-height: 400px; width: 100%">
                     <br />
-                    <img style="object-fit: cover; width: 100%" :src="card.src" />
+                    <img :alt="card.title" style="object-fit: cover; width: 100%" :src="card.src" />
                   </div>
                 </div>
                 <div class="d-flex d-sm-none">
-                  <img :src="card.src" style="width: 100%; height: 100%" />
+                  <img :alt="card.title" :src="card.src" style="width: 100%; height: 100%" />
                 </div>
               </div>
             </div>
@@ -303,24 +303,6 @@
 </template>
 
 <script>
-import ima1 from "../assets/imagenes/almacen1.png";
-import ima1_op from "../assets/imagenes/imagen17-opti.jpg";
-import ima2 from "../assets/imagenes/almacen2.png";
-import ima2_op from "../assets/imagenes/imagen16-opti.jpg";
-import ima3 from "../assets/imagenes/almacen3.png";
-import ima3_op from "../assets/imagenes/imagen15-opti.jpg";
-import ima4 from "../assets/imagenes/imagen14.jpg";
-import ima4_op from "../assets/imagenes/imagen14-opti.jpg";
-import ima5 from "../assets/imagenes/almacen4.png";
-import ima6 from "../assets/imagenes/almacen5.png";
-import ima6_op from "../assets/imagenes/imagen13-opti.jpg";
-import ima7 from "../assets/imagenes/almacen6.png";
-import ima8 from "../assets/imagenes/imagen12.jpg";
-import ima8_op from "../assets/imagenes/imagen12-opti.jpg";
-import ima9 from "../assets/imagenes/imagen11.jpg";
-import ima11 from "../assets/imagenes/imagen10.jpg";
-import ima12 from "../assets/imagenes/almacen7.png";
-import ima13 from "../assets/imagenes/alm.jpg";
 export default {
   setup() {
     useHead({
@@ -385,7 +367,7 @@ export default {
   },
   data() {
     return {
-      p1: ima13,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/alm.jpg",
       scrollPosition: 0,
       cards: [
         {
@@ -393,8 +375,8 @@ export default {
           title: "ESTANTERÍA CONVENCIONAL",
           sub: "Apreta para mas informacion",
           info: "La estantería convencional constituye la solución más adecuada para aquellos almacenes en los que es necesario almacenar productos paletizados con gran variedad de referencias. Esta estantería permite un acceso directo a cada paleta almacenada, así como la posibilidad de retirar cualquier mercancía sin necesidad de mover o desplazar las restantes. Fácil control de stocks, debido que cada hueco pertenece a una paleta, y es adaptable a cualquier tipo de carga, tanto por peso como por volumen.",
-          src: ima1,
-          opti: ima1_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen1.png",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen1.png",
           flex: 6,
           flex1: 4,
           show: false,
@@ -404,8 +386,8 @@ export default {
           title: "ESTANTERÍA COMPACTA (DRIVE-IN)",
           sub: "Apreta para mas informacion",
           info: "Este sistema de almacenaje está constituido por un conjunto de estantería, que forma pasillos de carga, con carriles de apoyo para las paletas. Las montacarga ingresan en dichas pasillos con la carga elevada por encima del nivel en el que va a ser almacenada. Esta estantería requiere un mínimo de pasillos para maniobrar, además se logra una máxima utilización del espacio disponible (85%). Es ideal para almacenar productos homogéneos, cuya rotación o acceso directo no sea un factor determinante.",
-          src: ima2,
-          opti: ima2_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen2.png",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen2.png",
           flex: 6,
           flex1: 4,
           show: false,
@@ -415,8 +397,8 @@ export default {
           title: "ESTANTERÍA DINAMICA POR GRAVEDAD",
           sub: "Apreta para mas informacion",
           info: "La estantería para paletización dinámica por gravedad incorpora caminos de rodillos, con una ligera pendiente que permite el deslizamiento de las paletas sobre éstos. Ofrece perfecta rotación del producto gracias al desplazamiento de la carga (sistema FIFO: la primera paleta en entrar es la primera en salir); ahorro de espacio y tiempo en la manipulación de las paletas; eliminación de interferencias en la preparación de pedidos, al contar con pasillos de carga y descarga; y excelente control de stock, pues en cada pasillo de carga hay una sola referencia.",
-          src: ima4,
-          opti: ima4_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen14.jpg",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen14.jpg",
           flex: 6,
           flex1: 4,
           show: false,
@@ -426,8 +408,8 @@ export default {
           title: "ESTANTERIA SATELITAL MAXIPACKER",
           sub: "Apreta para mas informacion",
           info: "Este sistema ofrece una solución radical para el almacenamiento con aprovechamiento muy alto de espacio. El sistema está basado en una o más plataformas que transportan la carga dentro de los túneles de almacenamiento. Cada unidad es operada por control satelital y puede ser transferida a diferentes túneles por cualquier tipo de montacargas. Es adecuado tanto para disciplinas primero entra-primero sale: “FIFO” y último entra-primero sale: “LIFO”. Mientras el Radio Shuttle transporta la carga, el operario puede hacer otras tareas. Varias unidades pueden ser controladas por un mismo transmisor.",
-          src: ima12,
-          opti: ima11,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen7.png",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen7.png",
           flex: 6,
           flex1: 4,
           show: false,
@@ -437,8 +419,8 @@ export default {
           title: "ESTANTERÍA CANTILEVER",
           sub: "Apreta para mas informacion",
           info: "La estantería Cantiléver o estructura en voladizo es especialmente apta para el almacenamiento de cargas largas. Tanto en su versión pesada como ligera, este sistema ofrece la posibilidad de situar los niveles (brazos) a un solo lado o a ambos de la estructura, que es totalmente autónoma. La estantería cantiléver es ideal para el almacenaje de barras, perfiles, tubos, maderas, etc.",
-          src: ima5,
-          opti: ima4_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen4.png",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen4.png",
           flex: 6,
           flex1: 4,
           show: false,
@@ -451,8 +433,8 @@ export default {
           title: "MEZZANINE CON ENTREPLANTA",
           sub: "Apreta para mas informacion",
           info: "La Mezzanine con entreplanta es la solución ideal que permite el aprovechamiento máximo de la altura de una nave duplicando o triplicando la superficie útil de la misma. Son estructuras independientes, de fácil montaje y adaptables a cualquier espacio y necesidad de los clientes. Las entreplantas poseen varios complementos como barandillas, escaleras, puntos de descarga de paletas, etc, y los suelos que forman las mismas, pueden ser de diferentes materiales como pisos de madera, tramex, etc.",
-          src: ima7,
-          opti: ima6_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen6.png",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen6.png",
           flex: 6,
           flex1: 4,
           show: false,
@@ -462,8 +444,8 @@ export default {
           title: "ALMACENES AUTOPORTANTES",
           sub: "Apreta para mas informacion",
           info: "En este sistema es la propia estantería la que soporta todos los esfuerzos propios del edificio, ahorrándose con ello la construcción de la estructura del almacén. Diseñada y fabricada con la mejor tecnología, LOGICORPERU responde siempre a todos los condicionamientos técnicos requeridos. El almacén autoportante constituye la solución más acertada para un almacenamiento a grandes alturas, puesto que está concebido para que la estantería forme un grupo compacto junto con las cubiertas y los laterales del propio almacén, evitando así las columnas que le restan capacidad de almacenamiento.",
-          src: ima8,
-          opti: ima8_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen12.jpg",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen12.jpg",
           flex: 6,
           flex1: 4,
           show: false,
@@ -475,8 +457,8 @@ export default {
           title: "ESTANTERÍA SIN TORNILLOS",
           sub: "Apreta para mas informacion",
           info: "Esta es la estantería sin tornillos que ha revolucionado el mundo del almacenaje, proporcionando claras ventajas con respecto a la estantería convencional permitiendo una mayor capacidad de carga, un montaje cómodo y fácil, debido que se monta y se desmonta únicamente con la ayuda de un martillo de goma. Estantería de gran rigidez, debido a la perfecta unión de los largueros a los puntales. Los entrepaños son regulables en altura y se adaptan a las medidas estándar de material de oficina, productos como cajones de plástico, cajas de cartón, carga suelta pequeña pero pesada como tarros, botellas etc.",
-          src: ima9,
-          opti: ima9,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen11.jpg",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen11.jpg",
           flex: 6,
           flex1: 4,
           show: false,
@@ -485,8 +467,8 @@ export default {
           id: 2,
           title: "ESTANTERIAS MOVILES",
           sub: "Apreta para mas informacion",
-          src: ima11,
-          opti: ima11,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen10.jpg",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen10.jpg",
           info:
             "Este sistema consiste en un conjunto de estantes /armarios montados sobre bases móviles que se desplazan sobre rieles, lo que garantiza un orden y distribución óptimos en el archivo o almacén, permitiendo obtener las siguientes ventajas:" +
             "\n" +
@@ -507,8 +489,8 @@ export default {
           title: "ESTANTERÍA MEDIA CARGA",
           sub: "Apreta para mas informacion",
           info: "Los Racks de Media Carga, están diseñados para aquellas almacenes donde la mercancía no será almacenada en pallets, sino que se almacenara y retirará de los racks manualmente. Son idóneos cuando las referencias son muchas, las cantidades pequeñas o variables y la rotación fraccionada.",
-          src: ima3,
-          opti: ima3_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen3.png",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen3.png",
           flex: 6,
           flex1: 4,
           show: false,
@@ -518,8 +500,8 @@ export default {
           title: "ENTREPLANTA",
           sub: "Apreta para mas informacion",
           info: "El Sistema de Almacenaje de Entreplanta es la solución óptima para el almacenamiento manual cuando el espacio o área disponible es limitado. Se trata por tanto de un sistema de almacenaje selectivo, ya que permite el acceso inmediato a todas las unidades de carga y/o referencias almacenadas, y versátil, debido a las posibilidades que ofrece para adaptarse a cualquier tipo de unidad de carga. Con este sistema, se proporciona un excelente aprovechamiento en altura, a través de la creación de diferentes niveles de pasillos de carga en altura, a los cuales se acceden a través de escaleras.",
-          src: ima6,
-          opti: ima6_op,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen5.png",
+          opti: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/almacen5.png",
           flex: 6,
           flex1: 4,
           show: false,
