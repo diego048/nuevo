@@ -23,7 +23,7 @@
           class="ma-0 pa-0 d-none d-sm-flex align-self-center col-12 col-sm-6"
           style="height: 50vh; min-height: 287px"
         >
-          <img style="object-fit: cover; width: 100%; height: 100%" :src="p1" />
+          <img alt="oficinas modulares foto 1" style="object-fit: cover; width: 100%; height: 100%" :src="p1" />
         </div>
         <div class="col-12 col-sm-6" align="center">
           <h1>CARACTERÍSTICAS</h1>
@@ -48,7 +48,7 @@
           class="ma-0 pa-0 d-flex d-sm-none col-12 col-sm-6"
           style="height: 50vh; min-height: 287px"
         >
-          <img style="object-fit: cover; width: 100%; height: 100%" :src="p1" />
+          <img alt="oficinas modulares foto 1" style="object-fit: cover; width: 100%; height: 100%" :src="p1" />
         </div>
       </div>
       <br />
@@ -84,7 +84,7 @@
         <div
           class="ma-0 pa-0 align-self-center col-12 col-sm-6"
         >
-          <img cover :src="p2" style="height: 100%; width: 100%; object-fit:contain" />
+          <img alt="oficinas modulares 2" cover :src="p2" style="height: 100%; width: 100%; object-fit:contain" />
         </div>
       </div>
       <br />
@@ -111,8 +111,8 @@
             v-scrolls
             class="card1"
           >
-            <img v-if="card.cover" :src="card.src" style="height: 300px; width: 100%; object-fit: cover" />
-            <img v-if="!card.cover" style="height: 300px; width: 100%; object-fit: contain" :src="card.src" />
+            <img :alt="card.title" v-if="card.cover" :src="card.src" style="height: 300px; width: 100%; object-fit: cover" />
+            <img :alt="card.title" v-if="!card.cover" style="height: 300px; width: 100%; object-fit: contain" :src="card.src" />
           </div>
           <dibox v-show="card.show" @close="hideDialog(card)">
             <div class="accent pa-0 align-start container fluid" style="position: relative">
@@ -122,6 +122,7 @@
                     <img
                       style="height: 100%; width: 100%; object-fit: contain;"
                       :src="card.src"
+                      :alt="card.title"
                     />
                   </div>
                 </div>
@@ -145,11 +146,6 @@
 </template>
 
 <script>
-import imagen1 from "../assets/imagenes/oficina4.jpg";
-import imagen2 from "../assets/imagenes/oficina5.jpg";
-import imagen3 from "../assets/imagenes/oficina3.png";
-import ima1 from "../assets/imagenes/oficina2.png";
-import ima2 from "../assets/imagenes/oficina1.png";
 export default {
   setup() {
     useHead({
@@ -208,12 +204,12 @@ export default {
   data() {
     return {
       scrollPosition: 0,
-      p1: ima1,
-      p2: ima2,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficina2.png",
+      p2: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficina1.png",
       cards: [
-        { src: imagen1, cover: true },
-        { src: imagen2, cover: true },
-        { src: imagen3, cover: true },
+        { src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficina4.jpg", cover: true, title: "interior de oficinas modulares 1" },
+        { src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficina5.jpg", cover: true, title: "interior de oficinas modulares 2"  },
+        { src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficina3.png", cover: true, title: "interior de oficinas modulares 3"  },
       ],
     };
   },
