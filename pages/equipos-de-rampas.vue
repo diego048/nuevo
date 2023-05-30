@@ -19,13 +19,14 @@
             <div class="d-none d-sm-flex">
               <div style="height: 85vh; width: 100%">
                 <img
+                alt="mapa de equipos de rampa"
                 :src="p1"
-                style="height: 85vh; width: 100%"
+                style="height: 85vh; width: 100%; object-fit: contain"
               />
               </div>
              </div>
               <div class="d-flex d-sm-none">
-                <img :src="p1" style="width: 100%">
+                <img alt="mapa de equipos de rampa" :src="p1" style="width: 100%">
               </div>
             </div>
           </div>
@@ -43,8 +44,8 @@
             >
                 <div class="card1" @click="showDialog(card)" align="center" style="width: 100%"  v-scrolls>
                     <div class="overlay" ></div>
-                    <img :src="card.src" style="height: 200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="!card.cover">
-                    <img :src="card.src" style="height: 200px; width: 100%; object-fit: cover" v-if="card.cover">
+                    <img :alt="card.title" :src="card.src" style="height: 200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" v-if="!card.cover">
+                    <img :alt="card.title" :src="card.src" style="height: 200px; width: 100%; object-fit: cover" v-if="card.cover">
                     <h5
                         class="text-pre-wrap d-none d-sm-block"
                         align="center"
@@ -102,20 +103,20 @@
                             <div class="d-none d-sm-flex"  v-if="!card.show1">
                                 <div style="min-height: 400px; width:100%">
                                     <br />
-                                    <img style="min-height: 400px; width:100%; object-fit: contain" :src="card.src">
+                                    <img style="min-height: 400px; width:100%; object-fit: contain" :src="card.src" :alt="card.title">
                                 </div>
                             </div>
                             <div class="d-flex d-sm-none"  v-if="!card.show1">
-                                <img :src="card.src" style="width: 100%; height: 100%; object-fit: contain">
+                                <img :alt="card.title" :src="card.src" style="width: 100%; height: 100%; object-fit: contain">
                             </div>
                             <swiper class="mySwiper" style="height: 100%" :loop="true"  v-if="card.show1" :autoHeight="true">
                         <swiper-slide v-for="card1 in card.src1">
-                          <img :src="card1" alt="..." style="width: 100%; height: 100%; object-fit: contain">
+                          <img :src="card1" :alt="card.title" alt="..." style="width: 100%; height: 100%; object-fit: contain">
                         </swiper-slide>
                         <swiper-slide v-if="card.video1">
                           <video controls style="width:100%; height: 100%; object-fit: contain">
-                                            <source src="../assets/imagenes/logicorp1.mp4" type="video/webm" />
-                                            <source src="../assets/imagenes/logicorp1.mp4" type="video/mp4" />
+                                            <source src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/logicorp1.mp4" type="video/webm" />
+                                            <source src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/logicorp1.mp4" type="video/mp4" />
                                         </video>
                         </swiper-slide>
                         <div class="boton1">
@@ -139,13 +140,6 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
-import imagen1 from "../assets/imagenes/rampas.png";
-import imagen2 from "../assets/imagenes/rampas1.png";
-import imagen3 from "../assets/imagenes/rampas2.png";
-import imagen4 from "../assets/imagenes/rampas3.png";
-import imagen5 from "../assets/imagenes/rampas4.png";
-import imagen6 from "../assets/imagenes/rampas5.png";
-import imagen7 from "../assets/imagenes/rampas6.png";
 export default {
     components: {
       Swiper,
@@ -213,7 +207,7 @@ export default {
   },
   data() {
     return {
-      p1: imagen1,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas.png",
       scrollPosition: 0,
       cards: [
           {
@@ -254,8 +248,8 @@ export default {
             cover: true,
             title: "PUERTAS SECCIONALES",
             info: "La puerta seccional esta compuesta por elementos individuales, denominados paneles, unidos entre si por bisagras. Una ventaja de las puetas seccionales es que ante el choque de un montacarga, no es necesario cambiar toda la puerta sino solo el panel dañado.",
-            src: imagen2,
-            src1: [imagen2, imagen5, imagen6],
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas1.png",
+            src1: ["https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas1.png", "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas4.png", "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas5.png"],
             flex: 6,
             flex1: 4,
             show1: true,
@@ -266,8 +260,8 @@ export default {
             cover: true,
             title: "PUERTA DE APERTURA RÁPIDA",
             info: "Las puertas de apertura rápida se utilizan para facilitar un tráfico fluido en los zonas del almacén con mucho tránsito, ofreciendo numerosas ventajas. Una ellas es el ahorro energético, flujo de trabajo rápido, entre otras.",
-            src: imagen3,
-            src1: [imagen3],
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas2.png",
+            src1: ["https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas2.png"],
             flex: 6,
             flex1: 4,
             show1: true,
@@ -279,8 +273,8 @@ export default {
             cover: true,
             title: "PUERTA ENROLLABLE",
             info: "Las puertas enrollables son idealmente usadas para las puertas exteriores del almacén, debido a la gran seguridad que ofrecen. Se utilizan principalmente en garajes, locales comerciales, muelles de carga en almacenes, interiores y exteriores de almacenes.",
-            src: imagen4,
-            src1: [imagen4, imagen7],
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas3.png",
+            src1: ["https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas3.png", "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampas6.png"],
             flex: 6,
             flex1: 4,
             show1: true,
