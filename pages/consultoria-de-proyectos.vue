@@ -134,7 +134,7 @@ unmounted(){
           id: 3,
           ok: true,
           title: "INGENIERÍA DE PROYECTOS LOGÍSTICOS",
-          src: https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto54.jpg,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto54.jpg",
           flex: 6,
           flex1: 4,
           show: false,
