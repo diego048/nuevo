@@ -26,7 +26,7 @@
               </div>
              </div>
               <div class="d-flex d-sm-none">
-                <img alt="mapa de equipos de rampa" :src="p1" style="width: 100%">
+                <img alt="mapa de equipos de rampa" :src="p1" style="width: 100%; height: 100%">
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@
                             </div>
                             <swiper class="mySwiper" style="height: 100%" :loop="true"  v-if="card.show1" :autoHeight="true">
                         <swiper-slide v-for="card1 in card.src1">
-                          <img :src="card1" :alt="card.title" alt="..." style="width: 100%; height: 100%; object-fit: contain">
+                          <img :src="card1" :alt="card.title" :alt="card.title" style="width: 100%; height: 100%; object-fit: contain">
                         </swiper-slide>
                         <swiper-slide v-if="card.video1">
                           <video controls style="width:100%; height: 100%; object-fit: contain">
@@ -215,7 +215,7 @@ export default {
             cover: false,
             title: "NIVELADOR DE RAMPAS",
             info: "Un nivelador de rampa es un equipo que se utiliza para nivelar la diferencia de altura entre el piso de un almacén y el vehículo de entrega. Tiene una altura ajustable que se puede utilizar para varios vehículos."+ "\n" + "\n" + "Con la rampa niveladora, se garantiza una transición suave cuando las mercancías se cargan o descargan desde/hacia un camión. El nivelador se encuentra generalmente en las instalaciones del almacén y en el patio de embarque o tren.",
-            src: "https://www.ritehite.com/-/media/Widen/Photo/2020/12/01/17/05/RHH4-YTG-Glamour-jpg.ashx",
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/rampasA.jpeg",
             flex: 6,
             flex1: 4,
             show1: false,
@@ -226,7 +226,7 @@ export default {
             cover: true,
             title: " SELLO Y ABRIGOS DE MUELLES ELEVADORES",
             info: "Los sellos de muelle son almohadillas de espuma en las que se comprime el remolque cuando retrocede y se apoya contra los parachoques del muelle, formando un sello alrededor de tres lados del remolque. Por lo general, los sellos para andenes brindan un sello hermético a un precio relativamente bajo, pero pueden desgastarse fácilmente en los andenes de carga que reciben mucho tráfico. Los sellos de muelle se usan mejor cuando hay una pequeña variación en el tamaño y el estilo de los remolques que se sirven." + "\n" + "\n" + "Los abrigos de muelle son recintos que sellan el perímetro del remolque para formar un sello.",
-            src: "https://www.ritehite.com/-/media/Widen/Photo/2020/12/01/22/31/Dock-Seal-with-Head-Curtains-Classic-and-Performerjpg.ashx",
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/sellos.jpeg",
             flex: 6,
             flex1: 4,
             show1: false,
@@ -237,7 +237,7 @@ export default {
             cover: false,
             title: "PLATAFORMA NIVELADORA HORIZONTAL DE RAMPA",
             info: "Las mesas elevadoras de tijera doble son una solución segura y eficiente para el almacenamiento y la transferencia de productos en la planta. Las mismas características de construcción de alta calidad que se encuentran en los andenes de elevación estacionarios se incorporan en todos los elevadores de tijera. Cada cilindro de elevación está encerrado en una carcasa de acero resistente a la intemperie.",
-            src: "https://nordockinc.com/wp-content/uploads/2019/08/Dock-Lift-2019.jpg",
+            src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/plataforma-niveladora.jpg",
             flex: 6,
             flex1: 4,
             show1: false,
