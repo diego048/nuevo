@@ -514,7 +514,7 @@ export default {
         },
         {
           property: "og:url",
-          content: "/diseño-almacen",
+          content: "/dise%C3%B1o-almacen",
         },
         {
           name: "twitter:card",
