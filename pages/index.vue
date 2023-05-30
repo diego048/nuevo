@@ -3,7 +3,7 @@
       <br />
         <div style="position: relative">
             <video autoplay loop muted playsinline class="video" poster="https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/plantilla.jpg">
-                <source src="https://ik.imagekit.io/qewkcqaku/tr:w-650/imagenes/logicorp1.mp4" />
+                <source src="https://ik.imagekit.io/qewkcqaku/tr:w-1000/imagenes/logicorp1.mp4" />
             </video>
             <div class="p1 container" align="center">
                 <h2>
