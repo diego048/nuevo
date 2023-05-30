@@ -284,7 +284,7 @@ export default {
       password: "",
       state: false,
       alert: false,
-      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen19.jpg",
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-600/imagenes/imagen19.jpg",
       p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa4.png",
       p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto42.jpg",
       cards: [
