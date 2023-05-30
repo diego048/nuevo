@@ -5,6 +5,7 @@
     <div class="contenedor1">
       <img
         :src="p1"
+        alt="estanteria"
         style="
           filter: brightness(25%);
           height: 160px;
@@ -36,7 +37,7 @@
           class="ma-0 pa-0 col-12 col-sm-6 order-2 order-sm-1"
           style="height: 50vh; min-height: 287px"
         >
-          <img :src="p3" style="object-fit: cover; height: 100%; width: 100%" />
+          <img alt="estanteria" :src="p3" style="object-fit: cover; height: 100%; width: 100%" />
         </div>
       </div>
       <br />
@@ -59,6 +60,7 @@
         <div class="ma-0 pa-0 col-12 col-sm-6">
           <img
             :src="p4"
+            alt="plano"
             style="object-fit: contain; height: 100%; width: 100%"
           />
         </div>
@@ -82,7 +84,7 @@
           </span>
         </div>
         <div
-          v-if="true"
+          v-if="activador1"
           v-for="card in cards"
           :key="card.id"
           align="center"
@@ -99,10 +101,12 @@
             <img
               v-if="card.cover"
               :src="card.src"
+              :alt="card.titulo"
               style="height: 300px; width: 100%; object-fit: cover"
             />
             <img
               v-if="!card.cover"
+              :alt="card.titulo"
               style="height: 300px; width: 100%; object-fit: contain"
               :src="card.src"
             />
@@ -115,6 +119,7 @@
                     <img
                       style="height: 100%; width: 100%; object-fit: contain"
                       :src="card.src"
+                      :alt="card.titulo"
                     />
                     <div style="position: absolute; top: 0; right: 0">
                       <button
@@ -133,7 +138,7 @@
         </div>
         <div
           v-for="card in cards1"
-          v-if="true"
+          v-if="activador1"
           :key="card.id"
           align="center"
           v-scrolls
@@ -194,22 +199,15 @@
 </template>
 
 <script>
-import losa from "../assets/imagenes/losa4.png";
-import losa1 from "../assets/imagenes/losa1.png";
-import losa2 from "../assets/imagenes/losa2.png";
-import losa3 from "../assets/imagenes/losa3.png";
-import losa4 from "../assets/imagenes/proyecto42.jpg";
-import super1 from "../assets/imagenes/supervision3.jpg";
-import super2 from "../assets/imagenes/supervision4.jpg";
-import super3 from "../assets/imagenes/supervision5.jpg";
-import super4 from "../assets/imagenes/supervision6.jpg";
-import super5 from "../assets/imagenes/supervision7.jpg";
-import super6 from "../assets/imagenes/supervision8.jpg";
-import super7 from "../assets/imagenes/supervision9.jpg";
-import video from "../assets/imagenes/super.mp4";
+
+
+
+
+
+
+
 import video1 from "../assets/imagenes/super2.mp4";
 import video2 from "../assets/imagenes/super3.mp4";
-import ima1 from "../assets/imagenes/imagen19.jpg";
 export default {
   beforeMount() {
     if (localStorage.getItem("token")) {
@@ -244,7 +242,7 @@ export default {
         },
         {
           property: "og:image",
-          content: "../assets/imagenes/losa4.png",
+          content: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto42.jpg",
         },
         {
           property: "og:url",
@@ -265,7 +263,7 @@ export default {
         },
         {
           name: "twitter:image",
-          content: "../assets/imagenes/losa4.png",
+          content: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto42.jpg",
         },
       ],
     });
@@ -286,63 +284,63 @@ export default {
       password: "",
       state: false,
       alert: false,
-      p1: ima1,
-      p3: losa,
-      p4: losa4,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen19.jpg",
+      p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa4.png",
+      p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto42.jpg",
       cards: [
         {
-          src: losa1,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa1.png",
           titulo: "Estantería Convencional",
           info: "Esta estantería permite un acceso directo a cada paleta almacenada, así como la posibilidad de retirar cualquier mercancía sin necesidad de mover o desplazar las restantes.",
           cover: true,
         },
         {
-          src: losa2,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa2.png",
           titulo: "Estantería Convencional",
           info: "Esta estantería permite un acceso directo a cada paleta almacenada, así como la posibilidad de retirar cualquier mercancía sin necesidad de mover o desplazar las restantes.",
           cover: true,
         },
         {
-          src: losa3,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa3.png",
           titulo: "Estantería Convencional",
           info: "Esta estantería permite un acceso directo a cada paleta almacenada, así como la posibilidad de retirar cualquier mercancía sin necesidad de mover o desplazar las restantes.",
           cover: true,
         },
         {
-          src: super1,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision3.jpg",
           titulo: "Diagrama 1",
         },
         {
-          src: super2,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision4.jpg",
           titulo: "Diagrama 2",
         },
         {
-          src: super3,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision5.jpg",
           titulo: "Diagrama 3",
         },
         {
-          src: super4,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision6.jpg",
           titulo: "Diagrama 4",
         },
         {
-          src: super5,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision7.jpg",
           titulo: "Supervisión de losas superplanas 1",
           cover: true,
         },
         {
-          src: super6,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision8.jpg",
           titulo: "Supervisión de losas superplanas 2",
           cover: true,
         },
         {
-          src: super7,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision9.jpg",
           titulo: "Supervisión de losas superplanas 3",
           cover: true,
         },
       ],
       cards1: [
         {
-          src: video,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/super.mp4",
           titulo: "Video de supervisión de losas superplanas 1",
         },
         {
