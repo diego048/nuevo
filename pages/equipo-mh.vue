@@ -28,11 +28,11 @@
         <div cols="12" sm="12" md="8" class="col-12 col-sm-12 col-md-8">
           <div class="d-none d-sm-flex">
             <div>
-              <img :src="p1" :lazy-src="p1" style="height: 80vh; width: 100%; object-fit: contain" />
+              <img alt="maquinarias" :src="p1" :lazy-src="p1" style="height: 80vh; width: 100%; object-fit: contain" />
             </div>
           </div>
           <div class="d-flex d-sm-none">
-            <img :src="p1" style="width: 100%" />
+            <img alt="maquinarias" :src="p1" style="width: 100%" />
           </div>
         </div>
       </div>
@@ -55,8 +55,8 @@
             v-scrolls
           >
             <div class="overlay"></div>
-            <img v-if="!card.show1" :src="card.p3" style="width: 100%; height: 200px; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
-            <img v-if="card.show1" :src="card.p3" style="width: 100%; height: 200px; object-fit: contain" />
+            <img :alt="card.p1" v-if="!card.show1" :src="card.p3" style="width: 100%; height: 200px; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img :alt="card.p1" v-if="card.show1" :src="card.p3" style="width: 100%; height: 200px; object-fit: contain" />
             <h5
               class="text-pre-wrap"
               style="word-break: break-word"
@@ -135,15 +135,6 @@
 </template>
 
 <script>
-import transver from "../assets/imagenes/transelevador.jpg";
-import montacarga from "../assets/imagenes/carro.jpeg";
-import order from "../assets/imagenes/order1.png";
-import retractiles from "../assets/imagenes/Multidireccional.png";
-import trilateral from "../assets/imagenes/trilateral.jpg";
-import ima1 from "../assets/imagenes/cabecera.png";
-import ima2 from "../assets/imagenes/cabecera1.png";
-import traspaleta from "../assets/imagenes/Transpaleta.png";
-import montacargas from "../assets/imagenes/Montacarga.png";
 export default {
   setup() {
     useHead({
@@ -210,64 +201,64 @@ export default {
   },
   data() {
     return {
-      p1: ima1,
-      p2: ima2,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cabecera.png",
+      p2: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cabecera1.png",
       scrollPosition: 0,
       cards: [
         {
           id: 1,
           p1: "Transpaleta",
           p2: "No montan ningún dispositivo eléctrico, por lo que los movimientos de desplazamiento se realizan arrastrándolas manualmente. Sus patines (las plataformas paralelas que sostienen la carga) se pueden elevar ligeramente para levantar el palet del suelo y facilitar así su desplazamiento. Son de uso muy generalizado en la mayoría de los almacenes, sobre todo en trabajos auxiliares.",
-          p3: traspaleta,
-          p4: traspaleta,
+          p3: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/Transpaleta.png",
+          p4: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/Transpaleta.png",
           show1: false
         },
         {
           id: 2,
           p1: "Montacargas CB",
           p2: "Estos son uno de los tipos más populares de montacargas elevadores industriales, pueden ser eléctricos o de combustión interna (duales o Diesel). Estos pueden llegar desde 3 a 6 metros y pueden manejar cargas a a partir de 1 a 10 toneladas",
-          p3: montacargas,
-          p4: montacargas,
+          p3: "https://ik.imagekit.io/qewkcqaku/imagenes/carro.jpeg",
+          p4: "https://ik.imagekit.io/qewkcqaku/imagenes/carro.jpeg",
           show1: false
         },
         {
           id: 5,
           p1: "Retractiles",
           p2: "El retráctil es una máquina eléctrica que realiza el desplazamiento y las maniobras de giro y elevación retrayendo el mástil, con lo que lo desplazan hacia el centro de gravedad de la máquina.",
-          p3: retractiles,
-          p4: retractiles,
+          p3: "https://ik.imagekit.io/qewkcqaku/imagenes/Multidireccional.png",
+          p4: "https://ik.imagekit.io/qewkcqaku/imagenes/Multidireccional.png",
           show1: false
         },
         {
           id: 3,
           p1: "Montacargas Articulado",
           p2: "El Montacargas Articulado tiene una influencia directa sobre las soluciones de almacenaje debido que determinan la anchura mínima de los pasillos y, como consecuencia, la cantidad de estanterías que se puedan instalar y la capacidad de almacenaje. A su vez, los montacargas también inciden en la altura máxima de las estanterías, pudiendo ser mayor o menor según los casos. Los montacargas de almacén son responsables del movimiento interno de la mercancía, desde los muelles a las ubicaciones de las estanterías, o desde las áreas de producción al almacén.",
-          p3: montacarga,
-          p4: montacarga,
+          p3: "https://ik.imagekit.io/qewkcqaku/imagenes/Montacarga.png",
+          p4: "https://ik.imagekit.io/qewkcqaku/imagenes/Montacarga.png",
           show1: false
         },
         {
           id: 4,
           p1: "Order Pickers",
           p2: "Los recolectores de pedidos se utilizan principalmente para operaciones de recolección de material de rack de almacén. alta selección de material de la repisa. con capacidad de carga de 1t, con una altura de elevación de 6 m; con el controlador usa curtis;",
-          p3: order,
-          p4: order,
+          p3: "https://ik.imagekit.io/qewkcqaku/imagenes/order1.png",
+          p4: "https://ik.imagekit.io/qewkcqaku/imagenes/order1.png",
           show1: false
         },
         {
           id: 6,
           p1: "Trilaterales",
           p2: "Los trilaterales son máquinas para trabajar en pasillos estrechos (de entre 1.500 y 1.800 mm), gracias a lo cual se aumenta considerablemente la capacidad de almacenaje. Estos pueden alcanzar alturas de elevación de la carga por encima de los 14 m.",
-          p3: trilateral,
-          p4: trilateral,
+          p3: "https://ik.imagekit.io/qewkcqaku/imagenes/trilateral.jpg",
+          p4: "https://ik.imagekit.io/qewkcqaku/imagenes/trilateral.jpg",
           show1: false
         },
         {
           id: 7,
           p1: "Transelevador",
           p2: "Su estructura se compone de dos columnas verticales y, en el medio, se ubica la cuna de elevación, con la que se accede a todos los niveles de almacenaje. Es un tipo de transelevador más robusto y resistente que el monocolumna, por lo que resulta perfecto cuando hay que manipular cargas más pesadas. A su vez, también proporciona un elevado rendimiento en cuanto a agilidad.",
-          p3: transver,
-          p4: transver,
+          p3: "https://ik.imagekit.io/qewkcqaku/imagenes/transelevador.jpg",
+          p4: "https://ik.imagekit.io/qewkcqaku/imagenes/transelevador.jpg",
           show1: true
         },
       ],
