@@ -253,7 +253,7 @@ export default {
 }
 #background {
   background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
-    url("../assets/imagenes/oficina3.png");
+    url("https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficina3.png");
   background-position: 50% 35%;
   background-repeat: no-repeat;
   background-size: cover;
