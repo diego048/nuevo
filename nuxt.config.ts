@@ -36,10 +36,6 @@ export default defineNuxtConfig({
                rel:"stylesheet",
                href:"https://cdn.materialdesignicons.com/6.4.95/css/materialdesignicons.min.css"
              },
-             {
-               rel:"stylesheet",
-               href:"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
-             },
             ],
           },
       },
