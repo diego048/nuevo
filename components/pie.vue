@@ -273,7 +273,7 @@
               class="link"
               :to="{ name: 'index' }"
             >
-                <div style="min-height: 48px; min-width: 48px">
+                <div style="height: 100%">
                 INICIO
               </div>
             </NuxtLink>
@@ -285,7 +285,7 @@
               class="link"
               :to="{ name: 'empresa' }"
             >
-            <div style="min-height: 48px; min-width: 48px">
+            <div style="height: 100%">
               EMPRESA
               </div>
             </NuxtLink>
@@ -297,7 +297,7 @@
               class="link"
               :to="{ name: 'consultoria-de-proyectos' }"
             >
-            <div style="min-height: 48px; min-width: 48px">
+            <div style="height: 100%">
               CONSULTORÍA
               </div>
             </NuxtLink>
@@ -309,7 +309,7 @@
               class="link"
               :to="{ name: 'equipos' }"
             >
-            <div style="min-height: 48px; min-width: 48px">
+            <div style="height: 100%">
               EQUIPAMIENTO WCW
               </div>
             </NuxtLink>
@@ -322,7 +322,7 @@
               style="font-weight: bold"
               :to="{ name: 'proyectos' }"
             >
-            <div style="min-height: 48px; min-width: 48px">
+            <div style="height: 100%">
               PROYECTOS
               </div>
             </NuxtLink>
@@ -334,7 +334,7 @@
               style="font-weight: bold"
               :to="{ name: 'login' }"
             >
-            <div style="min-height: 48px; min-width: 48px">
+            <div style="height: 100%">
               PROYECTOS
               </div>
             </NuxtLink>
@@ -346,7 +346,7 @@
               style="font-weight: bold"
               :to="{ name: 'login' }"
             >
-            <div style="min-height: 48px; min-width: 48px">
+            <div style="height: 100%">
               LOGIN
               </div>
             </NuxtLink>
@@ -358,7 +358,7 @@
               style="font-weight: bold"
               to="/#formulario"
             >
-            <div style="min-height: 48px; min-width: 48px">
+            <div style="height: 100%">
               CONTACTO
               </div>
             </NuxtLink>
