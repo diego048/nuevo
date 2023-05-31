@@ -39,14 +39,14 @@
                   style="height:200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)"
                 >
 
-                <h5
+                <p
                   class="text-pre-wrap"
                   align="center"
-                  style="word-break: break-word; color: black"
+                  style="word-break: break-word; color: black;font-size: 1.2em; font-weight: bold"
                 >
                   {{ card.title }}
-                </h5>
-                <p align="center" style="color: rgba(185,185,185,0.8)"> Más info </p>
+                </p>
+                <p align="center" style="color: rgba(185,185,185,0.9)"> Más info </p>
               </div>
             </NuxtLink>
           </div>
