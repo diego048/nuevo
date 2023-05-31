@@ -268,68 +268,84 @@
           <div class="col" align="center">
             <br />
             <NuxtLink
-              style="font-weight: bold; min-height: 48px; min-width: 48px"
+              style="font-weight: bold"
               class="link"
               :to="{ name: 'index' }"
             >
-              INICIO
+                <div style="min-height: 48px; min-width: 48px">
+                INICIO
+              </div>
             </NuxtLink>
             <br />
             <NuxtLink
-              style="font-weight: bold; min-height: 48px; min-width: 48px"
+              style="font-weight: bold"
               class="link"
               :to="{ name: 'empresa' }"
             >
+            <div style="min-height: 48px; min-width: 48px">
               EMPRESA
+              </div
             </NuxtLink>
             <br />
             <NuxtLink
-              style="font-weight: bold; min-height: 48px; min-width: 48px"
+              style="font-weight: bold"
               class="link"
               :to="{ name: 'consultoria-de-proyectos' }"
             >
+            <div style="min-height: 48px; min-width: 48px">
               CONSULTORÍA
+              </div>
             </NuxtLink>
             <br />
             <NuxtLink
-              style="font-weight: bold; min-height: 48px; min-width: 48px"
+              style="font-weight: bold"
               class="link"
               :to="{ name: 'equipos' }"
             >
+            <div style="min-height: 48px; min-width: 48px">
               EQUIPAMIENTO WCW
+              </div>
             </NuxtLink>
             <br />
             <NuxtLink
               v-if="valor"
               class="link"
-              style="font-weight: bold; min-height: 48px; min-width: 48px"
+              style="font-weight: bold"
               :to="{ name: 'proyectos' }"
             >
+            <div style="min-height: 48px; min-width: 48px">
               PROYECTOS
+              </div>
             </NuxtLink>
             <NuxtLink
               v-if="!valor"
               class="link"
-              style="font-weight: bold; min-height: 48px; min-width: 48px"
+              style="font-weight: bold"
               :to="{ name: 'login' }"
             >
+            <div style="min-height: 48px; min-width: 48px">
               PROYECTOS
+              </div>
             </NuxtLink>
             <br />
             <NuxtLink
               class="link"
-              style="font-weight: bold; min-height: 48px; min-width: 48px"
+              style="font-weight: bold"
               :to="{ name: 'login' }"
             >
+            <div style="min-height: 48px; min-width: 48px">
               LOGIN
+              </div>
             </NuxtLink>
             <br />
             <NuxtLink
               class="link"
-              style="font-weight: bold; min-height: 48px; min-width: 48px"
+              style="font-weight: bold"
               to="/#formulario"
             >
+            <div style="min-height: 48px; min-width: 48px">
               CONTACTO
+              </div>
             </NuxtLink>
           </div>
         </div>
