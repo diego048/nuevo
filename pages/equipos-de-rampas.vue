@@ -136,10 +136,6 @@
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import { Navigation } from 'swiper';
 export default {
     components: {
       Swiper,
@@ -196,7 +192,7 @@ export default {
       ],
       })
       return {
-        modules: [Navigation],}
+        modules: [],}
     },
       unmounted(){
     document.body.style.position = 'static';
