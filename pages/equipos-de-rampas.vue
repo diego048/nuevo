@@ -26,7 +26,7 @@
               </div>
              </div>
               <div class="d-flex d-sm-none">
-                <img alt="mapa de equipos de rampa" :src="p1" style="width: 100%; height: 100%">
+                <img alt="mapa de equipos de rampa" :src="p1" style="width: 100%; height: 100%; object-fit: contain">
               </div>
             </div>
           </div>
