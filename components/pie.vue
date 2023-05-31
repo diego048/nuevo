@@ -268,7 +268,7 @@
           <div class="col" align="center">
             <br />
             <NuxtLink
-              style="font-weight: bold"
+              style="font-weight: bold; min-height: 48px"
               class="link"
               :to="{ name: 'index' }"
             >
@@ -276,7 +276,7 @@
             </NuxtLink>
             <br />
             <NuxtLink
-              style="font-weight: bold"
+              style="font-weight: bold; min-height: 48px"
               class="link"
               :to="{ name: 'empresa' }"
             >
@@ -284,7 +284,7 @@
             </NuxtLink>
             <br />
             <NuxtLink
-              style="font-weight: bold"
+              style="font-weight: bold; min-height: 48px"
               class="link"
               :to="{ name: 'consultoria-de-proyectos' }"
             >
@@ -292,7 +292,7 @@
             </NuxtLink>
             <br />
             <NuxtLink
-              style="font-weight: bold"
+              style="font-weight: bold; min-height: 48px"
               class="link"
               :to="{ name: 'equipos' }"
             >
@@ -302,7 +302,7 @@
             <NuxtLink
               v-if="valor"
               class="link"
-              style="font-weight: bold"
+              style="font-weight: bold; min-height: 48px"
               :to="{ name: 'proyectos' }"
             >
               PROYECTOS
@@ -310,7 +310,7 @@
             <NuxtLink
               v-if="!valor"
               class="link"
-              style="font-weight: bold"
+              style="font-weight: bold; min-height: 48px"
               :to="{ name: 'login' }"
             >
               PROYECTOS
@@ -318,7 +318,7 @@
             <br />
             <NuxtLink
               class="link"
-              style="font-weight: bold"
+              style="font-weight: bold; min-height: 48px"
               :to="{ name: 'login' }"
             >
               LOGIN
@@ -326,7 +326,7 @@
             <br />
             <NuxtLink
               class="link"
-              style="font-weight: bold"
+              style="font-weight: bold; min-height: 48px"
               to="/#formulario"
             >
               CONTACTO
