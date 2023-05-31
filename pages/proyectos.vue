@@ -167,35 +167,6 @@
 </template>
 
 <script>
-import video2 from "../assets/imagenes/proyect.mp4";
-import imagen2 from "../assets/imagenes/imagen16.jpg";
-//ima
-import imagen9 from "../assets/imagenes/proyecto41.jpg";
-import imagen11 from "../assets/imagenes/proyecto43.jpg";
-import imagen12 from "../assets/imagenes/proyecto44.jpg";
-import imagen13 from "../assets/imagenes/proyecto62.jpg";
-import imagen14 from "../assets/imagenes/proyecto46.jpg";
-import imagen15 from "../assets/Gloria/Gloria.jpg";
-import imagen16 from "../assets/imagenes/proyecto3.jpg";
-import imagen17 from "../assets/imagenes/proyecto4.jpg";
-import imagen18 from "../assets/imagenes/proyecto63.jpg";
-import imagen19 from "../assets/imagenes/proyecto64.jpg";
-import imagen20 from "../assets/imagenes/proyecto65.jpg";
-
-import imagen21 from "../assets/imagenes/proyecto70.png";
-import imagen22 from "../assets/imagenes/supervision7.jpg";
-import imagen23 from "../assets/imagenes/proyecto71.png";
-import imagen24 from "../assets/imagenes/proyecto3.jpg";
-    // Import Swiper Vue.js components
-    import { Swiper, SwiperSlide } from 'swiper/vue';
-  
-    // Import Swiper styles
-    import 'swiper/css';
-  
-    import 'swiper/css/pagination';
-  
-    // import required modules
-    import { Pagination, Navigation } from 'swiper';
 export default {
 unmounted(){
         window.scrollTo({top: 0, behavior: "instant"});
@@ -269,33 +240,32 @@ unmounted(){
       activeIndex: null,
       model: null,
       model1: false,
-      p2: video2,
-      p3: imagen2,
-      p4: imagen16,
-      p5: imagen17,
+      p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen16.jpg",
+      p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto3.jpg",
+      p5: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto4.jpg",
       cards7: [
-        {ima: imagen21},
-        {ima: imagen22},
-        {ima: imagen23},
-        {ima: imagen24},
+        {ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto70.png"},
+        {ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision7.jpg"},
+        {ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto71.png"},
+        {ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto3.jpg"},
       ],
       cards6: [
-        {ima: imagen18},
-        {ima: imagen19},
-        {ima: imagen20},
+        {ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto63.jpg"},
+        {ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto64.jpg"},
+        {ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto65.jpg"},
       ],
       cards5: [
-        { ima: imagen9 },
-        { ima: imagen11 },
-        { ima: imagen12 },
-        { ima: imagen13 },
-        { ima: imagen14 },
-        { ima: imagen15 },
+        { ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto41.jpg" },
+        { ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto43.jpg" },
+        { ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto44.jpg" },
+        { ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto62.jpg" },
+        { ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto46.jpg" },
+        { ima: "https://ik.imagekit.io/qewkcqaku/tr:w-700/Gloria/Gloria.jpg" },
       ],
       cards1: [
          {
           titulo: "MINERA PODEROSA",
-          ima: "http://www.poderosa.com.pe/Content/img/compartir.jpg",
+          ima: "https://www.poderosa.com.pe/Content/img/web/logo-poderosa-header.svg",
         },
         {
           titulo: "CORPORACION BOTICAS PERU ",
@@ -421,7 +391,7 @@ unmounted(){
 }
 #background {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("../assets/imagenes/imagen19.jpg");
+    url("https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/imagen19.jpg");
   background-position: 50% 35%;
   background-repeat: no-repeat;
   background-size: cover;
