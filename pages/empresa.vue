@@ -68,8 +68,8 @@
                 <br />
                 <h1 style="overflow-wrap: break-word">MISIÓN</h1>
                 <img
-                  src="https://d1ih8jugeo2m5m.cloudfront.net/2021/12/mision-de-una-empresa.jpg"
-                  style="width: 100%"
+                  src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/mision-de-una-empresa.jpg"
+                  style="width: 100%; height: 100%; object-fit: cover"
                   alt="mision de la empresa"
                 >
                 <br />
@@ -107,8 +107,8 @@
                 <br />
                 <h1 style="overflow-wrap: break-word">VISIÓN</h1>
                 <img
-                  src="https://concepto.de/wp-content/uploads/2016/03/vision.jpg"
-                  style="width: 100%"
+                  src="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/vision.jpg"
+                  style="width: 100%; height: 100%; object-fit: cover"
                   alt="imagen de vision"
                 >
                 <br />
