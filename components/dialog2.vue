@@ -765,100 +765,60 @@
   </div>
 </template>
 <script>
-import video1 from "../assets/imagenes/super4.mp4";
+
 import video2 from "../assets/imagenes/proyect.mp4";
-import video3 from "../assets/imagenes/losa.mp4";
-import video4 from "../assets/imagenes/autoportante.mp4";
-import video5 from "../assets/imagenes/oficinas.mp4";
-import video6 from "../assets/imagenes/fachada.mp4";
-import video7 from "../assets/imagenes/cantiller.mp4";
-import video8 from "../assets/imagenes/tijerales.mp4";
-import video9 from "../assets/imagenes/cubierta.mp4";
-import video10 from "../assets/imagenes/interiores.mp4";
-import video11 from "../assets/imagenes/patio-anexo.mp4";
 import video12 from "../assets/imagenes/proyect.mp4";
-import ima1 from "../assets/imagenes/proyecto3.jpg";
-import ima2 from "../assets/Gloria/Gloria.jpg";
-import ima3 from "../assets/imagenes/proyecto1.jpg";
-import ima4 from "../assets/imagenes/proyecto2.jpg";
-import ima5 from "../assets/imagenes/proyecto3.jpg";
-import ima6 from "../assets/imagenes/proyecto5.jpg";
-import ima7 from "../assets/imagenes/proyecto6.jpg";
-import ima8 from "../assets/imagenes/proyecto7.jpg";
-import ima9 from "../assets/imagenes/proyecto8.jpg";
-import ima10 from "../assets/imagenes/proyecto9.jpg";
-import ima11 from "../assets/imagenes/proyecto10.jpg";
-import ima12 from "../assets/imagenes/proyecto11.jpg";
-import ima13 from "../assets/imagenes/proyecto12.jpg";
-import ima14 from "../assets/imagenes/gif1.gif";
-import ima15 from "../assets/imagenes/proyecto18.jpg";
-import ima16 from "../assets/imagenes/proyecto19.jpg";
-import ima17 from "../assets/imagenes/proyecto20.jpg";
-import ima18 from "../assets/imagenes/gif2.gif";
-import ima19 from "../assets/imagenes/proyecto25.jpg";
-import ima20 from "../assets/imagenes/proyecto26.jpg";
-import ima21 from "../assets/imagenes/proyecto40.jpeg";
-import ima22 from "../assets/imagenes/proyecto27.jpg";
-import ima23 from "../assets/imagenes/proyecto28.jpg";
-import ima24 from "../assets/imagenes/proyecto29.jpg";
-import ima25 from "../assets/imagenes/proyecto37.jpg";
-import ima26 from "../assets/imagenes/proyecto38.jpg";
-import ima27 from "../assets/imagenes/proyecto39.jpg";
-import ima28 from "../assets/imagenes/proyecto30.jpg";
-import ima29 from "../assets/imagenes/proyecto31.jpg";
-import ima30 from "../assets/imagenes/proyecto32.jpg";
-import ima31 from "../assets/imagenes/gif3.gif";
-import ima32 from "../assets/imagenes/poderosa.jpg";
+
 import { defineComponent } from "vue";
 export default defineComponent({
   components: {},
   data() {
     return {
       dialog0: false,
-      p1: video1,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/super4.mp4",
       p2: video2,
-      p3: video3,
-      p4: video4,
-      p5: video5,
-      p6: video6,
-      p7: video7,
-      p8: video8,
-      p9: video9,
-      p10: video10,
-      p11: video11,
-      p12: ima1,
-      p13: ima2,
-      p14: ima3,
-      p15: ima4,
-      p16: ima5,
-      p17: ima6,
-      p18: ima7,
-      p19: ima8,
-      p20: ima9,
-      p21: ima10,
-      p22: ima11,
-      p23: ima12,
-      p24: ima13,
-      p25: ima14,
-      p26: ima15,
-      p27: ima16,
-      p28: ima17,
-      p29: ima18,
-      p30: ima19,
-      p31: ima20,
-      p32: ima21,
-      p33: ima22,
-      p34: ima23,
-      p35: ima24,
-      p36: ima25,
-      p37: ima26,
-      p38: ima27,
-      p39: ima28,
-      p40: ima29,
-      p41: ima30,
-      p42: ima31,
+      p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa.mp4",
+      p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/autoportante.mp4",
+      p5: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficinas.mp4",
+      p6: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/fachada.mp4",
+      p7: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cantiller.mp4",
+      p8: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/tijerales.mp4",
+      p9: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubierta.mp4",
+      p10: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/interiores.mp4",
+      p11: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/patio-anexo.mp4",
+      p12: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto3.jpg",
+      p13: "https://ik.imagekit.io/qewkcqaku/tr:w-700/Gloria/Gloria.jpg",
+      p14: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto1.jpg",
+      p15: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto2.jpg",
+      p16: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto3.jpg",
+      p17: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto5.jpg",
+      p18: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto6.jpg",
+      p19: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto7.jpg",
+      p20: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto8.jpg",
+      p21: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto9.jpg",
+      p22: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto10.jpg",
+      p23: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto11.jpg",
+      p24: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto12.jpg",
+      p25: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/gif1.gif",
+      p26: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto18.jpg",
+      p27: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto19.jpg",
+      p28: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto20.jpg",
+      p29: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/gif2.gif",
+      p30: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto25.jpg",
+      p31: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto26.jpg",
+      p32: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto40.jpeg",
+      p33: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto27.jpg",
+      p34: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto28.jpg",
+      p35: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto29.jpg",
+      p36: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto37.jpg",
+      p37: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyecto38.jpg",
+      p38: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto39.jpg",
+      p39: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto30.jpg",
+      p40: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto31.jpg",
+      p41: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto32.jpg",
+      p42: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/gif3.gif",
       p43: video12,
-      p44: ima32,
+      p44: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/poderosa.jpg",
       dialog: false,
       dialog1: false,
       dialog2: false,
