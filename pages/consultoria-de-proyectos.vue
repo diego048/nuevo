@@ -46,7 +46,7 @@
                 >
                   {{ card.title }}
                 </p>
-                <p align="center" style="color: rgba(185,185,185,0.9)"> Más info </p>
+                <p align="center" style="color: rgba(185,185,185,1)"> Más info </p>
               </div>
             </NuxtLink>
           </div>
@@ -147,9 +147,6 @@ unmounted(){
 </script>
 
 <style scoped>
- video::-internal-media-controls-overlay-cast-button {
-  display: none;
- }
 .contenedor {
   position: relative;
   text-align: center;
