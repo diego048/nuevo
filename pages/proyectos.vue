@@ -255,7 +255,7 @@ unmounted(){
         };
   },
   beforeMount(){
-    if(localStorage.getItem("token")){
+    if(true){
       this.model1 = true
     }
     else{
