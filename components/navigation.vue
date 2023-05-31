@@ -96,8 +96,8 @@
                             </li>
                         </ul>
                     </div>
-                    <button class="btn btn-black d-block d-sm-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                        <span class="navbar-toggler-icon">logo de boton de celular</span>
+                    <button class="btn btn-black d-block d-sm-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-label="logo de boton de celular">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
             </div>
