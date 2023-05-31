@@ -70,6 +70,7 @@
                 <img
                   src="https://d1ih8jugeo2m5m.cloudfront.net/2021/12/mision-de-una-empresa.jpg"
                   style="width: 100%"
+                  alt="mision de la empresa"
                 >
                 <br />
                 <br />
@@ -108,6 +109,7 @@
                 <img
                   src="https://concepto.de/wp-content/uploads/2016/03/vision.jpg"
                   style="width: 100%"
+                  alt="imagen de vision"
                 >
                 <br />
                 <br />
@@ -145,7 +147,7 @@
                           <h3>2001</h3>
                           <div class="d-flex justify-center flex-row">
                             <img src="https://yt3.googleusercontent.com/ytc/AL5GRJX59cQqSf8oLdZ9hewy-n7ZgNRoKV_jz8abDPxl=s900-c-k-c0x00ffffff-no-rj" class="rounded-circle" style="width: 50px;"
-                            alt="Avatar" />
+                            alt="hersil" />
                             <div>HERSIL</div>
                           </div>
                           <p class="mb-0">Primer almacén con trilaterales del Perú.</p>
@@ -158,7 +160,7 @@
                           <h3>2004</h3>
                           <div class="d-flex justify-center flex-row">
                           <img src="https://mir-s3-cdn-cf.behance.net/projects/404/21085935.545af7959670b.png" class="rounded-circle" style="width: 50px;"
-                            alt="Avatar" />
+                            alt="gloria" />
                     <div class="text-h6 pl-2">Gloria</div>
                   </div>
                           <p class="mb-0">Centro de distribución más alto del país (18 metros y medio).</p>
@@ -171,7 +173,7 @@
                           <h3>2014</h3>
                           <div class="d-flex justify-center flex-row">
                             <img src="https://logos-world.net/wp-content/uploads/2020/09/Nestle-Logo-2015-present.jpg" class="rounded-circle" style="width: 50px;"
-                            alt="Avatar" />
+                            alt="Nestle" />
                     <div class="text-h6 pl-2">NESTLE</div>
                   </div>
                           <p class="mb-0">Centro de distribución más moderno del país</p>
@@ -210,7 +212,7 @@
                           <h3>2022</h3>
                           <div class="d-flex justify-center flex-row">
                             <img src="https://uma.edu.pe/wp-content/uploads/2022/07/cuadro-boticasperu.jpg" class="rounded-circle" style="width: 50px;"
-                            alt="Avatar" />
+                            alt="Boticas Peru" />
                     <div class="text-h6 pl-2">Boticas Perú</div>
                   </div>
                           <p class="mb-0"> Nuevo centro de distribución Boticas Perú, 20.3 metros de altura.</p>
