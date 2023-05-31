@@ -51,7 +51,7 @@
               <h1 class="p1">
                 Diseño y Equipamiento de Almacenes de Clase Mundial (WCW)
               </h1>
-              <i class="bi bi-arrow-down" style="color:white; font-size: 70px"></i>
+              <span class="mdi mdi-arrow-down" style="color:white; font-size: 70px"></span>
             </div>
           </div>
         </div>
