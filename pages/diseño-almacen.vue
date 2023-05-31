@@ -9,8 +9,8 @@
           style="position: absolute; width: 100%; height: 100%; z-index: -1"
         >
           <video autoplay loop muted playsinline class="video1" poster="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/plantilla1.jpg">
-            <source src="../assets/imagenes/proyect.mp4" type="video/webm" />
-            <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
+            <source src="https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/proyect.mp4" type="video/webm" />
+            <source src="https://ik.imagekit.io/qewkcqaku/tr:w-900/imagenes/proyect.mp4" type="video/mp4" />
           </video>
         </div>
         <br class="d-none d-sm-block" />
