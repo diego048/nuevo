@@ -59,7 +59,7 @@
 </template>
 <style scoped>
 #background1 {
-  background: url("../assets/botica/GERENCIA-2.jpg");
+  background: url("https://ik.imagekit.io/qewkcqaku/tr:w-700/botica/GERENCIA-2.jpg");
   background-size: cover;
 }
 #background {
