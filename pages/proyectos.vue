@@ -222,7 +222,7 @@ unmounted(){
     ],
     });
     return {
-          modules: [Pagination, Navigation],
+          modules: [],
         };
   },
   beforeMount(){
