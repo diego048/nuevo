@@ -5,7 +5,7 @@
     <div>
       <div style="position: relative">
         <div style="position: absolute; z-index: -1; object-fit:cover; width: 100%; height: 100%">
-          <video autoplay loop muted playsinline class="video" poster="../assets/imagenes/plantilla1.jpg">
+          <video autoplay loop muted playsinline class="video" poster="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/plantilla1.jpg">
             <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
           </video>
         </div>
@@ -511,33 +511,6 @@
 
 <script>
 import { Navigation } from 'swiper';
-import ima1 from "../assets/imagenes/ingenieria1.png";
-import ima2 from "../assets/imagenes/ingenieria2.png";
-import ima3 from "../assets/imagenes/ingenieria3.png";
-import ima4 from "../assets/imagenes/proyecto48.jpg";
-import ima5 from "../assets/imagenes/proyecto49.jpg";
-import ima6 from "../assets/imagenes/proyecto50.jpg";
-import ima7 from "../assets/imagenes/proyecto51.jpg";
-import ima8 from "../assets/imagenes/proyecto52.jpg";
-import ima9 from "../assets/imagenes/proyecto53.jpg";
-import ima10 from "../assets/imagenes/proyecto54.jpg";
-import ima11 from "../assets/imagenes/proyecto55.jpg";
-import ima12 from "../assets/imagenes/proyecto56.jpg";
-import ima13 from "../assets/imagenes/losa1.png";
-import ima14 from "../assets/imagenes/losa2.png";
-import ima15 from "../assets/imagenes/supervision3.jpg";
-import ima16 from "../assets/imagenes/supervision4.jpg";
-import ima17 from "../assets/imagenes/supervision5.jpg";
-import ima18 from "../assets/imagenes/supervision6.jpg";
-import ima19 from "../assets/imagenes/proyecto57.jpg";
-import ima20 from "../assets/imagenes/proyecto58.jpg";
-import ima21 from "../assets/imagenes/proyecto59.jpg";
-import ima22 from "../assets/imagenes/proyecto60.jpg";
-import ima23 from "../assets/imagenes/proyecto61.jpg";
-import ima24 from "../assets/imagenes/planos.png";
-import ima25 from "../assets/imagenes/planos1.png";
-import ima26 from "../assets/imagenes/planos2.png";
-import ima27 from "../assets/imagenes/planos3.png";
 import video from "../assets/imagenes/Multimedia3.mp4";
 import axios from "axios";
 export default {
@@ -623,41 +596,41 @@ export default {
       activador: false,
       state: false,
       alert: false,
-      p1: ima1,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/ingenieria1.png",
       p2: video,
-      p3: ima2,
-      p4: ima3,
-      p5: ima8,
-      p6: ima22,
-      p7: ima23,
-      p8: ima10,
+      p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/ingenieria2.png",
+      p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/ingenieria3.png",
+      p5: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto52.jpg",
+      p6: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyecto60.jpg",
+      p7: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto61.jpg",
+      p8: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto54.jpg",
       username: "",
       password: "",
       slides: ["First", "Second", "Third", "Fourth", "Fifth"],
       cards: [
-        { id: 1, show: false, src: ima4, cover: true },
-        { id: 2, show: false, src: ima5, cover: true },
-        { id: 3, show: false, src: ima6, cover: true },
-        { id: 4, show: false, src: ima7, cover: false },
+        { id: 1, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto48.jpg", cover: true },
+        { id: 2, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto49.jpg", cover: true },
+        { id: 3, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto50.jpg", cover: true },
+        { id: 4, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto51.jpg", cover: false },
       ],
       cards1: [
-        { id: 1, show: false, src: ima9, cover: false },
-        { id: 2, show: false, src: ima10, cover: false },
-        { id: 3, show: false, src: ima11, cover: false },
-        { id: 4, show: false, src: ima12, cover: false },
+        { id: 1, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto53.jpg", cover: false },
+        { id: 2, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto54.jpg", cover: false },
+        { id: 3, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto55.jpg", cover: false },
+        { id: 4, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto56.jpg", cover: false },
       ],
       cards2: [
-        { id: 1, show: false, src: ima13, cover: true },
-        { id: 2, show: false, src: ima14, cover: true },
-        { id: 3, show: false, src: ima15, cover: false },
-        { id: 4, show: false, src: ima16, cover: false },
-        { id: 5, show: false, src: ima17, cover: false },
-        { id: 6, show: false, src: ima18, cover: false },
-        { id: 7, show: false, src: ima19, cover: false },
+        { id: 1, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa1.png", cover: true },
+        { id: 2, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa2.png", cover: true },
+        { id: 3, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision3.jpg", cover: false },
+        { id: 4, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision4.jpg", cover: false },
+        { id: 5, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision5.jpg", cover: false },
+        { id: 6, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/supervision6.jpg", cover: false },
+        { id: 7, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto57.jpg", cover: false },
       ],
       cards3: [
-        { id: 1, show: false, src: ima20, cover: false },
-        { id: 2, show: false, src: ima21, cover: false },
+        { id: 1, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyecto58.jpg", cover: false },
+        { id: 2, show: false, src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto59.jpg", cover: false },
       ],
       cards4: [
         { nom: "1. Estudios preliminares de obra", tit: "#in1", show: false },
@@ -680,7 +653,7 @@ export default {
         },
         { nom: "7. Simuladores para Picking", tit: "#in6", show: false },
       ],
-      cards5: [ima24, ima25, ima26, ima27],
+      cards5: ["https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/planos.png", "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/planos1.png", "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/planos2.png", "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/planos3.png"],
     };
   },
   methods: {
