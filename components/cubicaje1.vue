@@ -141,26 +141,18 @@
   </template>
   
   <script>
-
-  import ima1 from "../assets/imagenes/cubicaje-1.png";
-  import ima2 from "../assets/imagenes/cubicaje-2.png";
-  import ima3 from "../assets/imagenes/cubicaje-3.png";
-  import ima4 from "../assets/imagenes/cubicaje-4.png";
-  import ima5 from "../assets/imagenes/cubicaje-5.png";
-
-  import video from "../assets/imagenes/Multimedia1.mp4";
   import video1 from "../assets/imagenes/Multimedia2.mp4";
   export default {
     name: "CubicajeP",
     data() {
       return {
-        p1: video,
+        p1: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/Multimedia1.mp4",
         p2: video1,
-        p3: ima1,
-        p4: ima2,
-        p5: ima3,
-        p6: ima4,
-        p7: ima5,
+        p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubicaje-1.png",
+        p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubicaje-2.png",
+        p5: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubicaje-3.png",
+        p6: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubicaje-4.png",
+        p7: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubicaje-5.png",
         justify: ["start", "end", "center", "baseline", "auto", "stretch"],
       };
     },
