@@ -267,6 +267,7 @@
         <div class="d-flex d-sm-none row">
           <div class="col" align="center">
             <br />
+            <div>
             <NuxtLink
               style="font-weight: bold"
               class="link"
@@ -276,7 +277,9 @@
                 INICIO
               </div>
             </NuxtLink>
+            </div>
             <br />
+            <div>
             <NuxtLink
               style="font-weight: bold"
               class="link"
@@ -286,7 +289,9 @@
               EMPRESA
               </div>
             </NuxtLink>
+            </div>
             <br />
+            <div>
             <NuxtLink
               style="font-weight: bold"
               class="link"
@@ -296,7 +301,9 @@
               CONSULTORÍA
               </div>
             </NuxtLink>
+            </div>
             <br />
+            <div>
             <NuxtLink
               style="font-weight: bold"
               class="link"
@@ -306,7 +313,9 @@
               EQUIPAMIENTO WCW
               </div>
             </NuxtLink>
+            </div>
             <br />
+            <div>
             <NuxtLink
               v-if="valor"
               class="link"
@@ -317,6 +326,8 @@
               PROYECTOS
               </div>
             </NuxtLink>
+            </div>
+            <div>
             <NuxtLink
               v-if="!valor"
               class="link"
@@ -327,7 +338,9 @@
               PROYECTOS
               </div>
             </NuxtLink>
+            </div>
             <br />
+            <div>
             <NuxtLink
               class="link"
               style="font-weight: bold"
@@ -337,7 +350,9 @@
               LOGIN
               </div>
             </NuxtLink>
+            </div>
             <br />
+            <div>
             <NuxtLink
               class="link"
               style="font-weight: bold"
@@ -347,6 +362,7 @@
               CONTACTO
               </div>
             </NuxtLink>
+            </div>
           </div>
         </div>
         <br />
