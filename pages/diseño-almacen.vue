@@ -8,7 +8,7 @@
         <div
           style="position: absolute; width: 100%; height: 100%; z-index: -1"
         >
-          <video autoplay loop muted playsinline class="video1" poster="../assets/imagenes/plantilla1.jpg">
+          <video autoplay loop muted playsinline class="video1" poster="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/plantilla1.jpg">
             <source src="../assets/imagenes/proyect.mp4" type="video/webm" />
             <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
           </video>
@@ -458,14 +458,9 @@
 </template>
 
 <script>
-import ima1 from "../assets/imagenes/diseño1.png";
-import ima2 from "../assets/imagenes/diseño2.png";
-import ima3 from "../assets/imagenes/diseño3.png";
-import ima4 from "../assets/imagenes/diseño5.png";
-import ima5 from "../assets/imagenes/diseño6.png";
-import ima6 from "../assets/imagenes/diseño7.png";
-import ima7 from "../assets/imagenes/diseño8.png";
-import ima8 from "../assets/imagenes/diseño4.png";
+
+
+
 import axios from "axios";
 export default {
   name: "diseño-almacen",
@@ -545,14 +540,14 @@ export default {
       password: "",
       state: false,
       alert: false,
-      p1: ima1,
-      p2: ima2,
-      p3: ima3,
-      p4: ima4,
-      p5: ima5,
-      p6: ima6,
-      p7: ima7,
-      p8: ima8,
+      p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o1.png",
+      p2: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o2.png",
+      p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o3.png",
+      p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o5.png",
+      p5: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o6.png",
+      p6: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o7.png",
+      p7: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o8.png",
+      p8: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/dise%C3%B1o4.png",
       cards: [
         { nom: "1. Diseño de Almacenes Nuevos WCW", tit: "#di1", show: false },
         { nom: "2. Análisis financiero", tit: "#di8", show: false },
