@@ -284,7 +284,7 @@
             >
             <div style="min-height: 48px; min-width: 48px">
               EMPRESA
-              </div
+              </div>
             </NuxtLink>
             <br />
             <NuxtLink
