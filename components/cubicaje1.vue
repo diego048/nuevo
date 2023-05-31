@@ -147,7 +147,7 @@
     data() {
       return {
         p1: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/Multimedia1.mp4",
-        p2: video1,
+        p2: "https://ik.imagekit.io/qewkcqaku/imagenes/Multimedia2.mp4",
         p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubicaje-1.png",
         p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubicaje-2.png",
         p5: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/cubicaje-3.png",
