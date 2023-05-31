@@ -9,9 +9,7 @@
               class="link"
               :to="{ name: 'index' }"
             >
-            <p>
               INICIO
-             </p>
             </NuxtLink>
             <br />
           </div>
@@ -21,18 +19,14 @@
               class="link d-none d-sm-block d-md-none"
               :to="{ name: 'index' }"
             >
-            <p>
               INICIO
-              </p>
             </NuxtLink>
             <NuxtLink
               style="font-weight: bold"
               class="link"
               :to="{ name: 'empresa' }"
             >
-            <p>
               EMPRESA
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -40,9 +34,7 @@
               :to="{ name: 'empresa' }"
               style="font-weight: lighter"
             >
-            <p>
               NOSOTROS
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -50,9 +42,7 @@
               :to="{ name: 'empresa' }"
               style="font-weight: lighter"
             >
-            <p>
               STATS
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -60,9 +50,7 @@
               to="/empresa#mision"
               style="font-weight: lighter"
             >
-            <p>
               MISIÓN
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -70,9 +58,7 @@
               to="/empresa#vision"
               style="font-weight: lighter"
             >
-            <p>
               VISIÓN
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -81,9 +67,7 @@
               to="/empresa#historia"
               style="font-weight: lighter"
             >
-            <p>
               HISTORIA
-              </p>
             </NuxtLink>
             <NuxtLink
               v-if="!valor"
@@ -91,9 +75,7 @@
               to="/login"
               style="font-weight: lighter"
             >
-            <p>
               HISTORIA
-              </p>
             </NuxtLink>
           </div>
           <div class="col-3 col-sm-4 col-md-3">
@@ -102,9 +84,7 @@
               class="link"
               :to="{ name: 'consultoria-de-proyectos' }"
             >
-            <p>
               CONSULTORÍA
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -112,9 +92,7 @@
               style="font-weight: lighter"
               :to="{ name: 'diseño-almacen' }"
             >
-            <p>
               DISEÑO DE ALMACENES WCW
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -122,9 +100,7 @@
               style="font-weight: lighter"
               :to="{ name: 'ingenieria' }"
             >
-            <p>
               INGENIERÍA DE PROYECTOS LOGÍSTICOS
-              </p>
             </NuxtLink>
             <br />
           </div>
@@ -134,9 +110,7 @@
               class="link"
               :to="{ name: 'equipos' }"
             >
-            <p>
               EQUIPAMIENTO WCW
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -144,9 +118,7 @@
               style="font-weight: lighter"
               :to="{ name: 'sistema-de-almacenaje' }"
             >
-            <p>
               SISTEMAS DE ALMACENAJE
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -154,9 +126,7 @@
               style="font-weight: lighter"
               :to="{ name: 'equipo-mh' }"
             >
-            <p>
               EQUIPOS MH
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -164,9 +134,7 @@
               style="font-weight: lighter"
               :to="{ name: 'losa-superplana' }"
             >
-            <p>
               LOSAS SUPERPLANAS
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -174,9 +142,7 @@
               style="font-weight: lighter"
               :to="{ name: 'equipos-de-rampas' }"
             >
-            <p>
               EQUIPO DE RAMPA
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -184,9 +150,7 @@
               style="font-weight: lighter"
               :to="{ name: 'oficinas-modulares' }"
             >
-            <p>
               OFICINAS MODULARES
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -194,9 +158,7 @@
               style="font-weight: lighter"
               :to="{ name: 'wms' }"
             >
-            <p>
               SISTEMA WMS
-              </p>
             </NuxtLink>
           </div>
           <div class="d-none d-md-flex col-2 col-sm-2 col-md-2">
@@ -206,9 +168,7 @@
               style="font-weight: bold"
               :to="{ name: 'proyectos' }"
             >
-            <p>
               PROYECTOS
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -216,9 +176,7 @@
               :to="{ name: 'proyectos' }"
               style="font-weight: lighter"
             >
-            <p>
               EXPERIENCIA
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -226,9 +184,7 @@
               to="/proyectos#pr1"
               style="font-weight: lighter"
             >
-            <p>
               PROYECTOS
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -236,9 +192,7 @@
               to="/proyectos#pr2"
               style="font-weight: lighter"
             >
-            <p>
               CLIENTES
-              </p>
             </NuxtLink>
             </div>
             <div v-if="!valor">
@@ -247,9 +201,7 @@
               style="font-weight: bold"
               :to="{ name: 'login' }"
             >
-            <p>
               PROYECTOS
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -257,9 +209,7 @@
               :to="{ name: 'login' }"
               style="font-weight: lighter"
             >
-            <p>
               EXPERIENCIA
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -267,9 +217,7 @@
               :to="{ name: 'login' }"
               style="font-weight: lighter"
             >
-            <p>
               PROYECTOS
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -277,9 +225,7 @@
               :to="{ name: 'login' }"
               style="font-weight: lighter"
             >
-            <p>
               CLIENTES
-              </p>
             </NuxtLink>
             </div>
           </div>
@@ -289,9 +235,7 @@
               style="font-weight: bold"
               :to="{ name: 'login' }"
             >
-            <p>
               LOGIN
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -299,9 +243,7 @@
               style="font-weight: bold"
               to="/#formulario"
             >
-            <p>
               CONTACTO
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -310,9 +252,7 @@
               style="font-weight: bold"
               :to="{ name: 'proyectos' }"
             >
-            <p>
               PROYECTOS
-              </p>
             </NuxtLink>
             <NuxtLink
               v-if="!valor"
@@ -320,9 +260,7 @@
               style="font-weight: bold"
               :to="{ name: 'login' }"
             >
-            <p>
               PROYECTOS
-              </p>
             </NuxtLink>
           </div>
         </div>
@@ -334,9 +272,7 @@
               class="link"
               :to="{ name: 'index' }"
             >
-            <p>
               INICIO
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -344,9 +280,7 @@
               class="link"
               :to="{ name: 'empresa' }"
             >
-            <p>
               EMPRESA
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -354,9 +288,7 @@
               class="link"
               :to="{ name: 'consultoria-de-proyectos' }"
             >
-            <p>
               CONSULTORÍA
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -364,9 +296,7 @@
               class="link"
               :to="{ name: 'equipos' }"
             >
-            <p>
               EQUIPAMIENTO WCW
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -375,9 +305,7 @@
               style="font-weight: bold"
               :to="{ name: 'proyectos' }"
             >
-            <p>
               PROYECTOS
-              </p>
             </NuxtLink>
             <NuxtLink
               v-if="!valor"
@@ -385,9 +313,7 @@
               style="font-weight: bold"
               :to="{ name: 'login' }"
             >
-            <p>
               PROYECTOS
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -395,9 +321,7 @@
               style="font-weight: bold"
               :to="{ name: 'login' }"
             >
-            <p>
               LOGIN
-              </p>
             </NuxtLink>
             <br />
             <NuxtLink
@@ -405,9 +329,7 @@
               style="font-weight: bold"
               to="/#formulario"
             >
-            <p>
               CONTACTO
-             </p>
             </NuxtLink>
           </div>
         </div>
