@@ -42,7 +42,7 @@
                 <p
                   class="text-pre-wrap"
                   align="center"
-                  style="word-break: break-word; color: black;font-size: 1.2em; font-weight: bold"
+                  style="word-break: break-word; color: black;font-size: 1.2em; font-weight: 600"
                 >
                   {{ card.title }}
                 </p>
