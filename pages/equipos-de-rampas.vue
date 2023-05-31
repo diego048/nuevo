@@ -137,10 +137,6 @@
 
 <script>
 export default {
-    components: {
-      Swiper,
-      SwiperSlide,
-    },
     setup(){
       useHead({
         title: "Equipos de Rampas",
