@@ -175,7 +175,7 @@ export default {
         },
         {
           property: "og:image",
-          content: "../assets/imagenes/oficina3.png",
+          content: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/oficina3.png",
         },
         {
           property: "og:url",
@@ -196,7 +196,7 @@ export default {
         },
         {
           name: "twitter:image",
-          content: "../assets/imagenes/oficina3.png",
+          content: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/oficina3.png",
         },
       ],
     });
