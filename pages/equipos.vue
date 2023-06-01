@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div> 
       <br />
       <br />
       <div cover id="background">
