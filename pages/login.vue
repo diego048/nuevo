@@ -54,7 +54,7 @@ export default {
         },
         {
           property: "og:image",
-          content: "../assets/botica/1.png",
+          content: "https://ik.imagekit.io/qewkcqaku/tr:w-1000/botica/1.png",
         },
         {
           property: "og:url",
@@ -75,7 +75,7 @@ export default {
         },
         {
           name: "twitter:image",
-          content: "../assets/botica/1.png",
+          content: "https://ik.imagekit.io/qewkcqaku/tr:w-1000/botica/1.png",
         },
       ],
     });
