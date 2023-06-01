@@ -509,7 +509,7 @@ export default {
         },
         {
           property: "og:url",
-          content: "/dise%C3%B1o-almacen",
+          content: "/diseño-almacen",
         },
         {
           name: "twitter:card",
