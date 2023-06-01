@@ -199,15 +199,6 @@
 </template>
 
 <script>
-
-
-
-
-
-
-
-import video1 from "../assets/imagenes/super2.mp4";
-import video2 from "../assets/imagenes/super3.mp4";
 export default {
   beforeMount() {
     if (localStorage.getItem("token")) {
@@ -344,11 +335,11 @@ export default {
           titulo: "Video de supervisión de losas superplanas 1",
         },
         {
-          src: video1,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/super2.mp4",
           titulo: "Video de supervisión de losas superplanas 2",
         },
         {
-          src: video2,
+          src: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/super3.mp4",
           titulo: "Video de supervisión de losas superplanas 3",
         },
       ],
