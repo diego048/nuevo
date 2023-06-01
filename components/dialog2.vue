@@ -766,8 +766,6 @@
 </template>
 <script>
 
-import video2 from "../assets/imagenes/proyect.mp4";
-import video12 from "../assets/imagenes/proyect.mp4";
 
 import { defineComponent } from "vue";
 export default defineComponent({
@@ -776,7 +774,7 @@ export default defineComponent({
     return {
       dialog0: false,
       p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/super4.mp4",
-      p2: video2,
+      p2: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyect.mp4",
       p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/losa.mp4",
       p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/autoportante.mp4",
       p5: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/oficinas.mp4",
@@ -817,7 +815,7 @@ export default defineComponent({
       p40: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto31.jpg",
       p41: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto32.jpg",
       p42: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/gif3.gif",
-      p43: video12,
+      p43: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyect.mp4",
       p44: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/poderosa.jpg",
       dialog: false,
       dialog1: false,
