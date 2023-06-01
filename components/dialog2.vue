@@ -14,7 +14,7 @@
             @click="showDialog()"
           >
             <div class="overlay"></div>
-            <img :src="p13" style="height: 200px; width: 100%; object-fit: cover" />
+            <img :src="p13" style="height: 200px; width: 100%; object-fit: cover" alt="Gloria" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               CD GLORIA
             </h5>
@@ -34,7 +34,7 @@
             class="card1"
           >
           <div class="overlay"></div>
-            <img :src="p12" style="height: 200px; width: 100%; object-fit: cover" />
+            <img :src="p12" style="height: 200px; width: 100%; object-fit: cover" alt="nestle" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               CD NESTLE
             </h5>
@@ -112,8 +112,8 @@
                           <div
                             class="col-12 col-sm-6 col-md-6 order-2 order-sm-1"
                           >
-                            <img :src="p14" style="width: 100%; object-fit: contain" />
-                            <img :src="p15" style="width: 100%; object-fit: contain" />
+                            <img :src="p14" style="width: 100%; object-fit: contain" alt="nestle diseño 3d" />
+                            <img :src="p15" style="width: 100%; object-fit: contain" alt="nestle diseño 3d nr2" />
                           </div>
                         </div>
                       </div>
@@ -122,7 +122,7 @@
                     <div class="container">
                         <div class="row">
                           <div class="col">
-                            <img :src="p16" style="width: 100%" />
+                            <img :src="p16" style="width: 100%" alt="nestle" />
                           </div>
                         </div>
                       </div>
@@ -136,13 +136,13 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-4 col-md-4">
-                            <img :src="p17" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p17" style="width: 100%; padding-bottom: 30px" alt="interior nr 1" />
                           </div>
                           <div class="col-12 col-sm-4 col-md-4">
-                            <img :src="p18" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p18" style="width: 100%; padding-bottom: 30px" alt="interior nr 2" />
                           </div>
                           <div class="col-12 col-sm-4 col-md-4">
-                            <img :src="p19" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p19" style="width: 100%; padding-bottom: 30px" alt="interior nr 3" />
                           </div>
                         </div>
                       </div>
@@ -165,7 +165,7 @@
             @click="showDialog2()"
           >
             <div class="overlay"></div>
-            <img :src="p20" style="height: 200px; width: 100%; object-fit: cover" />
+            <img :src="p20" style="height: 200px; width: 100%; object-fit: cover" alt="medifarma" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               MEDIFARMA
             </h5>
@@ -203,10 +203,10 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p20" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p20" style="width: 100%; padding-bottom: 30px" alt="estanteria 1" />
                           </div>
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p21" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p21" style="width: 100%; padding-bottom: 30px" alt="estanteria 2" />
                           </div>
                         </div>
                       </div>
@@ -220,10 +220,10 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p22" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p22" style="width: 100%; padding-bottom: 30px" alt="estanteria 3" />
                           </div>
                           <v-col class="col-12 col-sm-6 col-md-6">
-                            <img :src="p23" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p23" style="width: 100%; padding-bottom: 30px" alt="estanteria 4" />
                           </v-col>
                         </div>
                       </div>
@@ -237,10 +237,10 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p24" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p24" style="width: 100%; padding-bottom: 30px" alt="estanteria 5" />
                           </div>
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p25" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p25" style="width: 100%; padding-bottom: 30px" alt="estanteria 6" />
                           </div>
                         </div>
                       </div>
@@ -264,7 +264,7 @@
             class="card1"
           >
             <div class="overlay"></div>
-            <img :src="p26" style="height: 200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img :src="p26" alt="Supermercados peruanos" style="height: 200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               SUPERMERCADOS PERUANOS
             </h5>
@@ -308,10 +308,10 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p26" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p26" style="width: 100%; padding-bottom: 30px" alt="img 1" />
                           </div>
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p27" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p27" style="width: 100%; padding-bottom: 30px" alt="img 2" />
                           </div>
                         </div>
                       </div>
@@ -351,7 +351,7 @@
             @click="showDialog4()"
           >
             <div class="overlay"></div>
-            <img :src="p28" style="height: 200px; width: 100%; object-fit: contain;border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img :src="p28" alt="tiendas efe" style="height: 200px; width: 100%; object-fit: contain;border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               TIENDAS EFE
             </h5>
@@ -387,6 +387,7 @@
                           <div class="col">
                             <img
                               align="center"
+                               alt="propuesta final"
                               :src="p29"
                               style="width: 100%"
                             />
@@ -413,7 +414,7 @@
             @click="showDialog5()"
           >
             <div class="overlay"></div>
-            <img :src="p30" style="height: 200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
+            <img alt="ripley" :src="p30" style="height: 200px; width: 100%; object-fit: contain; border: solid rgba(0,0,0,1); border-bottom: solid 5px rgba(0,0,0,1)" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               RIPLEY
             </h5>
@@ -447,10 +448,10 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p30" style="width: 100%" />
+                            <img :src="p30" style="width: 100%" alt="Optimización del espacio 1" />
                           </div>
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p31" style="width: 100%" />
+                            <img :src="p31" style="width: 100%" alt="Optimización del espacio 2" />
                           </div>
                         </div>
                       </div>
@@ -474,7 +475,7 @@
             class="card1"
           >
             <div class="overlay"></div>
-            <img :src="p44" style="height: 200px; width: 100%; object-fit: cover" />
+            <img alt="minera poderosa" :src="p44" style="height: 200px; width: 100%; object-fit: cover" />
             <h5 align="center" class="text-pre-wrap" style="word-break: break-word">
               MINERA PODEROSA
             </h5>
@@ -511,15 +512,15 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p33" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p33" style="width: 100%; padding-bottom: 30px" alt="imagen 1" />
                           </div>
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p34" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p34" style="width: 100%; padding-bottom: 30px" alt="imagen 2" />
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-12">
-                            <img :src="p35" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p35" style="width: 100%; padding-bottom: 30px" alt="imagen 3" />
                           </div>
                         </div>
                       </div>
@@ -530,19 +531,19 @@
                           <div class="col-12 col-sm-6 col-md-4">
                             <h2 align="center">Estado Inical</h2>
                             <br />
-                            <img :src="p36" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p36" style="width: 100%; padding-bottom: 30px" alt="imagen 4" />
                           </div>
                           <div class="col-12 col-sm-6 col-md-4">
                             <h2 align="center">
                               Estudio mecánico de suelos y topografía
                             </h2>
-                            <img :src="p37" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p37" style="width: 100%; padding-bottom: 30px" alt="imagen 5" />
                           </div>
                           <div class="col-12 col-sm-12 col-md-4">
                             <h2 align="center">
                               Trazo y replanteo para Losa SuperPlana
                             </h2>
-                            <img :src="p38" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p38" style="width: 100%; padding-bottom: 30px" alt="imagen 6" />
                           </div>
                         </div>
                       </div>
@@ -642,15 +643,15 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p39" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p39" style="width: 100%; padding-bottom: 30px" alt="imagen 7" />
                           </div>
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p40" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p40" style="width: 100%; padding-bottom: 30px" alt="imagen 8" />
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-12">
-                            <img :src="p41" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p41" style="width: 100%; padding-bottom: 30px" alt="imagen 9" />
                           </div>
                         </div>
                       </div>
@@ -664,10 +665,10 @@
                         </div>
                         <div class="row">
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p42" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p42" style="width: 100%; padding-bottom: 30px" alt="imagen 10" />
                           </div>
                           <div class="col-12 col-sm-6 col-md-6">
-                            <img :src="p32" style="width: 100%; padding-bottom: 30px" />
+                            <img :src="p32" style="width: 100%; padding-bottom: 30px" alt="imagen 11" />
                           </div>
                         </div>
                       </div>
@@ -755,7 +756,7 @@
                 </ol>
               </div>
               <div class="col-12 col-sm-6 col-md-6">
-                <img :src="p13" style="height: 100%; width: 100%; object-fit: contain" />
+                <img alt="gloria" :src="p13" style="height: 100%; width: 100%; object-fit: contain" />
               </div>
             </div>
           </div>
