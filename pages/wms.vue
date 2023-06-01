@@ -135,7 +135,7 @@ unmounted(){
         {
           property: "og:image",
           content:
-            "https://mecaluxpe.cdnwm.com/documents/20128/455199/screens.png/7d70a473-c593-d893-14d6-c375cf0de9a7?t=1529911398000&e=png",
+            "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/System.jpg",
         },
         {
           property: "og:url",
@@ -157,7 +157,7 @@ unmounted(){
         {
           name: "twitter:image",
           content:
-            "https://mecaluxpe.cdnwm.com/documents/20128/455199/screens.png/7d70a473-c593-d893-14d6-c375cf0de9a7?t=1529911398000&e=png",
+            "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/System.jpg",
         },
       ],
     });
