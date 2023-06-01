@@ -34,7 +34,7 @@
               <div class="col-12 col-sm-6">
                 <swiper :modules="modules" :loop="true" style="height: 100%; width: 100%; min-height: 287px; color: black">
                     <swiper-slide v-for="card in cards6" :key="card.ima">
-                      <img :src="card.ima" style="width:100%; height: 100%; object-fit: cover" alt="..." />
+                      <img :src="card.ima" style="width:100%; height: 100%; object-fit: cover" alt="proyectos" />
                     </swiper-slide>
                     <div class="boton1">
                     <boton />
@@ -69,7 +69,7 @@
               >
               <swiper :modules="modules" :loop="true" style="height: 350px;width:100% ; min-height: 287px">
                     <swiper-slide v-for="card in cards7" :key="card.ima">
-                      <img :src="card.ima" style="width:100%; height: 100%; object-fit: cover" alt="..." />
+                      <img :src="card.ima" style="width:100%; height: 100%; object-fit: cover" alt="proyectos" />
                     </swiper-slide>
                     <div class="boton1">
                     <boton />
@@ -136,6 +136,7 @@
                   v-if="!(activeIndex === index)"
                   :src="card.ima"
                   style="object-fit: contain; background-color: white"
+                  alt="proyectos"
                 >
                 <Transition>
                 <div  class="d-flex align-items-center justify-content-center" style=" height: 100%; background-color: #2196F3"  v-if="activeIndex === index">
@@ -197,7 +198,7 @@ unmounted(){
       },
       {
         property: "og:image",
-        content: "../assets/imagenes/proyecto41.jpg",
+        content: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyecto41.jpg",
       },
       {
         property: "og:url",
@@ -217,7 +218,7 @@ unmounted(){
       },
       {
         name: "twitter:image",
-        content: "../assets/imagenes/proyecto41.jpg"
+        content: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyecto41.jpg"
       },
     ],
     });
