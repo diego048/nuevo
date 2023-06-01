@@ -6,7 +6,7 @@
       <div style="position: relative">
         <div style="position: absolute; z-index: -1; object-fit:cover; width: 100%; height: 100%">
           <video autoplay loop muted playsinline class="video" poster="https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/plantilla1.jpg">
-            <source src="../assets/imagenes/proyect.mp4" type="video/mp4" />
+            <source src="https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/proyect.mp4" type="video/mp4" />
           </video>
         </div>
         <div class="container" align="center">
@@ -511,7 +511,6 @@
 
 <script>
 import { Navigation } from 'swiper';
-import video from "../assets/imagenes/Multimedia3.mp4";
 import axios from "axios";
 export default {
   name: "Ingenieria de proyectos logisticos",
@@ -597,7 +596,7 @@ export default {
       state: false,
       alert: false,
       p1: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/ingenieria1.png",
-      p2: video,
+      p2: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/Multimedia3.mp4",
       p3: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/ingenieria2.png",
       p4: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/ingenieria3.png",
       p5: "https://ik.imagekit.io/qewkcqaku/tr:w-700/imagenes/proyecto52.jpg",
@@ -743,9 +742,6 @@ export default {
 </script>
 
 <style scoped>
-   video::-internal-media-controls-overlay-cast-button {
-    display: none;
-   }
   .boton1 {
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
