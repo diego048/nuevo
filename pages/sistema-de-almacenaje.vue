@@ -332,7 +332,7 @@ export default {
         },
         {
           property: "og:image",
-          content: "../assets/imagenes/alm.jpg",
+          content: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/alm.jpg",
         },
         {
           property: "og:url",
@@ -353,7 +353,7 @@ export default {
         },
         {
           name: "twitter:image",
-          content: "../assets/imagenes/alm.jpg",
+          content: "https://ik.imagekit.io/qewkcqaku/tr:w-800/imagenes/alm.jpg",
         },
       ],
     });
